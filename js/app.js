@@ -59,9 +59,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Navigation event listeners
         navHome.addEventListener('click', () => switchView('home'));
-        navTech.addEventListener('click', () => switchView('tech'));
-    }
+        navTech.addEventListener('click', () => {
+            switchView('tech');
+        });
 
+        // Global scroll listener for side scrolling
+        window.addEventListener('wheel', (e) => {
+            // Only active in Tech view
+            if (state.currentView !== 'tech') return;
+
+            const isOverFeed = e.target.closest('.feed-column');
+            const isOverSidebar = e.target.closest('.sidebar-column');
+
+            // If hovering outside content columns (sides)
+            if (!isOverFeed && !isOverSidebar) {
+                // Scroll both columns
+                feedContainer.scrollTop += e.deltaY;
+                sidebarContainer.scrollTop += e.deltaY;
+            }
+        });
+    }
     function switchView(viewName) {
         state.currentView = viewName;
 
