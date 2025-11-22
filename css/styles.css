@@ -67,7 +67,7 @@ body {
 
 .header-controls {
     display: flex;
-    gap: 15px;
+    gap: 0px;
     align-items: center;
 }
 
@@ -90,12 +90,13 @@ body.ticker-visible .main-layout {
 .news-ticker {
     position: fixed;
     top: var(--header-height);
-    left: 50%;
-    transform: translateX(-50%) translateY(-100%);
-    width: calc(100% - 40px);
+    left: 0;
+    right: 0;
+    width: 100%;
     max-width: calc(var(--max-width) - 40px);
+    margin: 0 auto;
     padding: 0 20px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     background-color: var(--card-bg);
     border-bottom: 1px solid var(--border-color);
     height: 40px;
@@ -106,11 +107,11 @@ body.ticker-visible .main-layout {
 }
 
 .news-ticker.visible {
-    transform: translateX(-50%) translateY(0);
+    transform: translateY(0);
 }
 
 .news-ticker.hidden {
-    transform: translateX(-50%) translateY(-100%);
+    transform: translateY(-100%);
 }
 
 .ticker-content {
