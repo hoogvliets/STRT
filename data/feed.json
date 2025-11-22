@@ -55,6 +55,17 @@
     "id": "https://newsletter.pragmaticengineer.com/p/career-paths-for-software-engineers"
   },
   {
+    "title": "Building Production ReAct Agents From Scratch Is Simple",
+    "summary": "I read LangGraph's implementation so that you can build your own, as AI frameworks just bloat your code.",
+    "link": "https://www.decodingai.com/p/building-production-react-agents",
+    "author": "Paul Iusztin",
+    "source": "Decoding AI Magazine",
+    "published": "2025-11-18T08:01:40+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!dao1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F18fbf52c-81d7-4254-a378-ccf67970c56d_1200x1200.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/building-production-react-agents"
+  },
+  {
     "title": "The Pulse #153: Is Microsoft too early to agentic OS \u2013 like with smartphones?",
     "summary": "Also: inside Cursor&#8217;s unique engineering culture, five AI fakers caught in one month by an employer, and more. Plus: early applications for The Pragmatic Summit",
     "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-153",
@@ -88,6 +99,28 @@
     "id": "https://newsletter.pragmaticengineer.com/p/the-software-engineers-guidebook"
   },
   {
+    "title": "You're Not Building Agents: Learn the Fundamentals From Scratch",
+    "summary": "Why planning is the missing piece between tool loops and true AI agents.",
+    "link": "https://www.decodingai.com/p/ai-agents-planning",
+    "author": "Paul Iusztin",
+    "source": "Decoding AI Magazine",
+    "published": "2025-11-11T08:00:52+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!TTQ3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F76200949-3021-471f-aa0f-b4e828f2cf0b_1156x797.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/ai-agents-planning"
+  },
+  {
+    "title": "UV All the Way: Your Go-To Python Environment Manager",
+    "summary": "In 2025 the best way to manage Python projects is using uv. This tutorial helps you set up a modern Python project from scratch using uv.",
+    "link": "https://www.marvelousmlops.io/p/uv-all-the-way-your-go-to-python",
+    "author": "Boldizs\u00e1r",
+    "source": "Marvelous MLOps Substack",
+    "published": "2025-11-10T07:28:01+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!sn9C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2093a572-800c-40ab-bc4d-b07a7d7e4685_1458x1048.png",
+    "tags": [],
+    "id": "https://www.marvelousmlops.io/p/uv-all-the-way-your-go-to-python"
+  },
+  {
     "title": "The Pulse #152: Cursor and GitHub double down on agents",
     "summary": "Also: AI-assisted interviews at Meta, pay for Directors of Engineering at VC-funded startups, and is OpenAI inflating the bubble? And more",
     "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-150-cursor-and-github-double",
@@ -97,6 +130,17 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/d2a54491-50df-4672-8519-a450ced1a810_420x300.png",
     "tags": [],
     "id": "https://newsletter.pragmaticengineer.com/p/the-pulse-150-cursor-and-github-double"
+  },
+  {
+    "title": "October Highlights: Your AI Engineering Roadmap.",
+    "summary": "AI Agents Foundations series. Evals series. NEXUS panel on AI Engineering.",
+    "link": "https://www.decodingai.com/p/october-highlights-your-ai-engineering",
+    "author": "Paul Iusztin",
+    "source": "Decoding AI Magazine",
+    "published": "2025-11-06T08:01:07+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/db228115-c646-4d66-83ad-a7cae00e739e_1200x400.jpeg",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/october-highlights-your-ai-engineering"
   },
   {
     "title": "From Swift to Mojo and high-performance AI Engineering with Chris Lattner",
@@ -132,6 +176,28 @@
     "id": "https://newsletter.pragmaticengineer.com/p/tech-jobs-market-2025-part-3"
   },
   {
+    "title": "My rough story of becoming an AI Engineer",
+    "summary": "Personal, raw, unfiltered story about my life",
+    "link": "https://www.decodingai.com/p/my-rough-story-of-becoming-an-ai",
+    "author": "Paul Iusztin",
+    "source": "Decoding AI Magazine",
+    "published": "2025-11-04T08:01:35+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!G8f6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4e7e3c2-26ef-44d6-a77e-2fab5ce21793_720x496.jpeg",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/my-rough-story-of-becoming-an-ai"
+  },
+  {
+    "title": "Most AI Agents Never Ship. Here's How We Did.",
+    "summary": "Join me in SF to see how we scaled ZTRON to production with limited resources",
+    "link": "https://www.decodingai.com/p/most-ai-agents-never-ship-heres-how",
+    "author": "Paul Iusztin",
+    "source": "Decoding AI Magazine",
+    "published": "2025-11-01T21:12:27+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!d4Yr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe399db93-5e16-402d-87d2-14e15894eaf8_1178x544.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/most-ai-agents-never-ship-heres-how"
+  },
+  {
     "title": "The Pulse #151: Amazon layoffs \u2013 AI or economy to blame?",
     "summary": "Also: OpenAI becomes for-profit and takes on Chrome, NVIDIA the biggest Big Tech by a distance, Citibank annoys premium customers for weeks with disastrous product rollout, and more",
     "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-151",
@@ -141,6 +207,17 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/7cf4a1a3-e825-4653-b7e2-2920e3c4810e_420x300.png",
     "tags": [],
     "id": "https://newsletter.pragmaticengineer.com/p/the-pulse-151"
+  },
+  {
+    "title": "Stop Launching AI Apps Without This Framework",
+    "summary": "A practical guide to building an eval-driven loop for your LLM app using synthetic data, before you have users.",
+    "link": "https://www.decodingai.com/p/stop-launching-ai-apps-without-this",
+    "author": "Hugo Bowne-Anderson",
+    "source": "Decoding AI Magazine",
+    "published": "2025-10-30T08:02:05+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!ennH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc1dc528-01a5-45ac-a42f-5c5cb75c3592_1500x844.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/stop-launching-ai-apps-without-this"
   },
   {
     "title": "Beyond Vibe Coding with Addy Osmani",
@@ -176,6 +253,28 @@
     "id": "https://newsletter.pragmaticengineer.com/p/san-francisco-is-back"
   },
   {
+    "title": "Tool Calling From Scratch to Production: The Complete Guide",
+    "summary": "Master the fundamentals through a deep research agent to learn to properly implement, use, and debug tools in any AI system.",
+    "link": "https://www.decodingai.com/p/tool-calling-from-scratch-to-production",
+    "author": "Paul Iusztin",
+    "source": "Decoding AI Magazine",
+    "published": "2025-10-28T08:00:55+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!cv8k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F362128ff-7821-482e-b08a-8252d0faab99_1200x1200.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/tool-calling-from-scratch-to-production"
+  },
+  {
+    "title": "Patterns and Anti-Patterns for Building with LLMs",
+    "summary": "A bit about our guest author: Hugo Bowne- Anderson advises and teaches teams building LLM-powered systems, including engineers from Netflix, Meta, and the United Nations through my course on the AI software development lifecycle. It covers everything from retrieval and evaluation to agent design and all the steps in between. Use the code",
+    "link": "https://www.marvelousmlops.io/p/patterns-and-anti-patterns-for-building",
+    "author": "Hugo Bowne-Anderson",
+    "source": "Marvelous MLOps Substack",
+    "published": "2025-10-27T10:24:35+00:00",
+    "image": "https://substackcdn.com/image/youtube/w_728,c_limit/mKTQGKIUq8M",
+    "tags": [],
+    "id": "https://www.marvelousmlops.io/p/patterns-and-anti-patterns-for-building"
+  },
+  {
     "title": "The Pulse: AWS takes down a good part of the internet",
     "summary": "On Monday, a major AWS outage hit thousands of sites & apps, and even a Premier League soccer game. An overview of what caused this high-profile, global outage, and learnings from the incident",
     "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-aws-takes-down-a-good-part",
@@ -185,5 +284,225 @@
     "image": "https://substack-post-media.s3.amazonaws.com/public/images/8bd6854e-40ef-4522-b9cb-65ff2edf62bf_1802x1408.png",
     "tags": [],
     "id": "https://newsletter.pragmaticengineer.com/p/the-pulse-aws-takes-down-a-good-part"
+  },
+  {
+    "title": "Building Reliable AI Agents with Durable Workflows",
+    "summary": "How to make agents resilient to any failure",
+    "link": "https://www.decodingai.com/p/building-reliable-ai-agents-with",
+    "author": "Peter Kraft",
+    "source": "Decoding AI Magazine",
+    "published": "2025-10-23T07:00:49+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!mEnh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc4171ff2-0af9-4460-9b83-12308bbddbfa_1600x900.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/building-reliable-ai-agents-with"
+  },
+  {
+    "title": "The \"Done\" Delusion: Why Data Modeling Should Be a Program, Not a Project",
+    "summary": "Ellie makes data modeling as easy as sketching on a whiteboard&#8212;so even business stakeholders can contribute effortlessly.",
+    "link": "https://practicaldatamodeling.substack.com/p/the-done-delusion-why-data-modeling",
+    "author": "Joe Reis",
+    "source": "Practical Data Modeling",
+    "published": "2025-10-21T17:57:02+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!Q0I-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6eecf34a-ff04-4526-a4b3-4163469579cd_500x500.png",
+    "tags": [],
+    "id": "https://practicaldatamodeling.substack.com/p/the-done-delusion-why-data-modeling"
+  },
+  {
+    "title": "What is good software architecture?",
+    "summary": "What good architecture looks like, how to improve your skill at building it &#8211;and why Architects are not always the answer. Guest post by Matthew Hawthorne, who built large systems at Netflix & Twitter",
+    "link": "https://newsletter.pragmaticengineer.com/p/what-is-good-software-architecture",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-10-21T16:10:03+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!BrG3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3ef84c3-a8e2-4161-b346-5a58332a7361_1418x1094.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/what-is-good-software-architecture"
+  },
+  {
+    "title": "Stop Building AI Agents. Use These 5 Patterns Instead.",
+    "summary": "Master the workflow patterns that solve 95% of production problems.",
+    "link": "https://www.decodingai.com/p/stop-building-ai-agents-use-these",
+    "author": "Paul Iusztin",
+    "source": "Decoding AI Magazine",
+    "published": "2025-10-21T07:01:09+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!sm2h!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc9cf87df-9e7c-4c86-b7fa-16c47230b226_1200x1200.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/stop-building-ai-agents-use-these"
+  },
+  {
+    "title": "Escaping POC Purgatory: Evaluation-Driven Development for AI Systems",
+    "summary": "A new software development life cycle for LLMs",
+    "link": "https://www.decodingai.com/p/escaping-poc-purgatory-evaluation",
+    "author": "Hugo Bowne-Anderson",
+    "source": "Decoding AI Magazine",
+    "published": "2025-10-16T07:02:03+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!2HGk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e736eef-2641-4dc5-9a0e-a98458f00b55_1413x965.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/escaping-poc-purgatory-evaluation"
+  },
+  {
+    "title": "Google\u2019s engineering culture",
+    "summary": "Elin Nilsson and I unpack how Google&#8217;s engineering culture, tools, and systems actually work behind the scenes.",
+    "link": "https://newsletter.pragmaticengineer.com/p/googles-engineering-culture",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-10-15T20:32:35+00:00",
+    "image": null,
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/googles-engineering-culture"
+  },
+  {
+    "title": "The Pragmatic Engineer 2025 Survey: What\u2019s in your tech stack? Part 3",
+    "summary": "Which tools do software engineers use for observability, oncall tooling, feature flags, frontend & mobile work, and for developer tooling? Results from our survey, based on 3,000+ responses by readers",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-2025-survey-part-3",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-10-14T14:59:35+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/56adeefe-5dfe-4244-992e-c5f99fbf1a45_1464x1000.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-2025-survey-part-3"
+  },
+  {
+    "title": "Structured Outputs: The Silent Hero of Production AI",
+    "summary": "How to master LLM outputs for reliable AI systems",
+    "link": "https://www.decodingai.com/p/llm-structured-outputs-the-only-way",
+    "author": "Paul Iusztin",
+    "source": "Decoding AI Magazine",
+    "published": "2025-10-14T07:00:49+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!04QT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2b5cc1ed-e1fc-4edb-9388-3740f827630a_1200x1200.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/llm-structured-outputs-the-only-way"
+  },
+  {
+    "title": "The Pulse #149: New trend: programming by kicking off parallel AI agents",
+    "summary": "Also: the ACP protocol, AI security tooling, comparing interview experiences across 8 tech companies, and more",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-149-new-trend-programming",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-10-09T16:31:16+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/c5807b48-0cb4-4fc5-adfe-9683a7ef42f2_420x300.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/the-pulse-149-new-trend-programming"
+  },
+  {
+    "title": "The Top 11 Ways to Easily Improve Your AI Applications",
+    "summary": "AI Software Demands a New Approach",
+    "link": "https://www.decodingai.com/p/the-top-11-ways-to-easily-improve",
+    "author": "Hugo Bowne-Anderson",
+    "source": "Decoding AI Magazine",
+    "published": "2025-10-09T07:02:39+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!L6E-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb17e981-edeb-4375-b383-205e36561468_512x512.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/the-top-11-ways-to-easily-improve"
+  },
+  {
+    "title": "Python, Go, Rust, TypeScript and AI with Armin Ronacher",
+    "summary": "Flask creator and former Sentry engineer Armin Ronacher discusses how programming languages and AI are reshaping how developers build software.",
+    "link": "https://newsletter.pragmaticengineer.com/p/python-go-rust-typescript-and-ai",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-10-08T15:34:25+00:00",
+    "image": null,
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/python-go-rust-typescript-and-ai"
+  },
+  {
+    "title": "State of the software engineering jobs market, 2025, part 2 what hiring managers see",
+    "summary": "Observations by 30+ hiring managers and tech recruiters about what&#8217;s happening: a flood of inbound applications means more selective hiring, there&#8217;s increased demand for product engineers, and more",
+    "link": "https://newsletter.pragmaticengineer.com/p/state-of-the-tech-market-in-2025-hiring-managers",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-10-07T15:53:02+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/db80769a-f3cf-4019-81a9-6e95151e106a_1460x1070.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/state-of-the-tech-market-in-2025-hiring-managers"
+  },
+  {
+    "title": "The Meaning of Meaning in Data Modeling",
+    "summary": "Intro Section in New Chapter on Meaning as a Building Block of Data Modeling",
+    "link": "https://practicaldatamodeling.substack.com/p/the-meaning-of-meaning",
+    "author": "Joe Reis",
+    "source": "Practical Data Modeling",
+    "published": "2025-10-07T07:43:17+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!Q0I-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6eecf34a-ff04-4526-a4b3-4163469579cd_500x500.png",
+    "tags": [],
+    "id": "https://practicaldatamodeling.substack.com/p/the-meaning-of-meaning"
+  },
+  {
+    "title": "AI Workflows vs Agents: The Autonomy Slider",
+    "summary": "What only the top 10% AI engineers who ship think about",
+    "link": "https://www.decodingai.com/p/ai-workflows-vs-agents-the-autonomy",
+    "author": "Paul Iusztin",
+    "source": "Decoding AI Magazine",
+    "published": "2025-10-07T07:02:55+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!gNtA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c96e813-225d-4fcb-a49f-964e38a7d8ca_1200x1200.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/ai-workflows-vs-agents-the-autonomy"
+  },
+  {
+    "title": "The Pulse #148: Did OpenAI set a new record for Datadog spend?",
+    "summary": "A reported $170M per year is almost triple Coinbase&#8217;s previous record. Also: the largest British automaker learns that outsourcing cybersecurity was a terrible decision, and more",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-148",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-10-02T16:11:02+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/b155c7be-b960-4518-bc3c-cc2c3486d243_420x300.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/the-pulse-148"
+  },
+  {
+    "title": "Important Recap and What's Next",
+    "summary": "Past series and our new one on AI Agents. Everything open-source!",
+    "link": "https://www.decodingai.com/p/important-recap-and-whats-next",
+    "author": "Paul Iusztin",
+    "source": "Decoding AI Magazine",
+    "published": "2025-10-02T07:01:16+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!xHhX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcf086725-a2a6-40ba-94bd-6bf1d6a380f3_1200x400.jpeg",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/important-recap-and-whats-next"
+  },
+  {
+    "title": "How to Sell Data Modeling",
+    "summary": "Making the Invisible Visible",
+    "link": "https://practicaldatamodeling.substack.com/p/how-to-sell-data-modeling",
+    "author": "Joe Reis",
+    "source": "Practical Data Modeling",
+    "published": "2025-09-30T13:43:44+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/87c2a6b9-65d3-46fe-9922-f23490c2af15_488x288.gif",
+    "tags": [],
+    "id": "https://practicaldatamodeling.substack.com/p/how-to-sell-data-modeling"
+  },
+  {
+    "title": "From Beginner to AI/ML Pro in 2025",
+    "summary": "The step-by-step roadmap that gets you hired",
+    "link": "https://www.decodingai.com/p/from-beginner-to-aiml-pro-in-2025",
+    "author": "Paolo Perrone",
+    "source": "Decoding AI Magazine",
+    "published": "2025-09-30T07:01:02+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!lN4S!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F043760f3-fcc2-4284-bce0-cff683bc79da_3840x2529.png",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/from-beginner-to-aiml-pro-in-2025"
+  },
+  {
+    "title": "How Politics and Power Influence Data Models",
+    "summary": "Entire Chapter - Part 2 of the Organization's Impact on Data Modeling",
+    "link": "https://practicaldatamodeling.substack.com/p/how-politics-and-power-influence",
+    "author": "Joe Reis",
+    "source": "Practical Data Modeling",
+    "published": "2025-09-29T17:00:08+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!Q0I-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6eecf34a-ff04-4526-a4b3-4163469579cd_500x500.png",
+    "tags": [],
+    "id": "https://practicaldatamodeling.substack.com/p/how-politics-and-power-influence"
+  },
+  {
+    "title": "Introducing Decoding AI Magazine",
+    "summary": "New name, same mission: building real-world AI.",
+    "link": "https://www.decodingai.com/p/introducing-decoding-ai-magazine",
+    "author": "Paul Iusztin",
+    "source": "Decoding AI Magazine",
+    "published": "2025-09-25T07:01:01+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!d9lb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf0ca2f1-f6e4-4c54-8e80-e683b0247395_1200x1200.jpeg",
+    "tags": [],
+    "id": "https://www.decodingai.com/p/introducing-decoding-ai-magazine"
   }
 ]

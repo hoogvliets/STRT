@@ -9,7 +9,7 @@ from dateutil import parser
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from fetch_feeds import main as fetch_feeds_main, fetch_feed, load_config as load_rss_config
 from fetch_hackernews import fetch_hackernews
-from fetch_ticker import fetch_guardian_ticker
+
 
 DATA_DIR = 'data'
 FEED_FILE = os.path.join(DATA_DIR, 'feed.json')
@@ -113,16 +113,7 @@ def main():
         log_error(f"HN Processing Error: {str(e)}")
         print(f"HN Error: {str(e)}")
 
-    # --- Process Guardian Ticker ---
-    print("Processing Guardian ticker...")
-    try:
-        ticker_posts = fetch_guardian_ticker()
-        ticker_file = os.path.join(DATA_DIR, 'ticker.json')
-        save_data(ticker_file, ticker_posts)
-        print(f"Saved {len(ticker_posts)} Guardian headlines for ticker.")
-    except Exception as e:
-        log_error(f"Ticker Processing Error: {str(e)}")
-        print(f"Ticker Error: {str(e)}")
+
 
 if __name__ == "__main__":
     main()

@@ -1,19 +1,83 @@
 [
   {
-    "title": "A looming 'insect apocalypse' could endanger global food supplies",
-    "link": "https://www.livescience.com/animals/insects/a-looming-insect-apocalypse-could-endanger-global-food-supplies-can-we-stop-it-before-its-too-late",
+    "title": "WorldGen \u2013 Text to Immersive 3D Worlds",
+    "link": "https://www.meta.com/en-gb/blog/worldgen-3d-world-generation-reality-labs-generative-ai-research/",
     "source": "Hacker News",
-    "published": "2025-11-22T14:56:39+00:00",
+    "published": "2025-11-22T21:20:24+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46015262\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018380\">Comments</a>"
   },
   {
-    "title": "ADHD and monotropism (2023)",
-    "link": "https://monotropism.org/adhd/",
+    "title": "Show HN: Build the habit of writing meaningful commit messages",
+    "link": "https://github.com/arpxspace/smartcommit",
     "source": "Hacker News",
-    "published": "2025-11-22T11:31:30+00:00",
+    "published": "2025-11-22T20:54:35+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46013960\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018165\">Comments</a>"
+  },
+  {
+    "title": "The Go-Between",
+    "link": "https://theamericanscholar.org/the-go-between/",
+    "source": "Hacker News",
+    "published": "2025-11-22T20:24:17+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46017934\">Comments</a>"
+  },
+  {
+    "title": "The Mozilla Cycle, Part III: Mozilla Dies in Ignominy",
+    "link": "https://taggart-tech.com/mozilla-cycle-pt3/",
+    "source": "Hacker News",
+    "published": "2025-11-22T20:21:56+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46017910\">Comments</a>"
+  },
+  {
+    "title": "Markdown Is Holding You Back",
+    "link": "https://newsletter.bphogan.com/archive/issue-45-markdown-is-holding-you-back/",
+    "source": "Hacker News",
+    "published": "2025-11-22T20:03:14+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46017782\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Forty.News \u2013 Daily news, but on a 40-year delay",
+    "link": "https://forty.news",
+    "source": "Hacker News",
+    "published": "2025-11-22T18:47:08+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46017175\">Comments</a>"
+  },
+  {
+    "title": "Depot (YC W23) Is Hiring a Staff Infrastructure Engineer",
+    "link": "https://www.ycombinator.com/companies/depot/jobs/O2iB56E-staff-infrastructure-engineer",
+    "source": "Hacker News",
+    "published": "2025-11-22T18:05:47+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016799\">Comments</a>"
+  },
+  {
+    "title": "China reaches energy milestone by \"breeding\" uranium from thorium",
+    "link": "https://www.scmp.com/news/china/science/article/3331312/china-reaches-energy-independence-milestone-breeding-uranium-thorium",
+    "source": "Hacker News",
+    "published": "2025-11-22T17:49:27+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016639\">Comments</a>"
+  },
+  {
+    "title": "Gwern's \"Stem Humor\" Directory",
+    "link": "https://gwern.net/doc/math/humor/index",
+    "source": "Hacker News",
+    "published": "2025-11-22T17:49:05+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016630\">Comments</a>"
+  },
+  {
+    "title": "The privacy nightmare of browser fingerprinting",
+    "link": "https://kevinboone.me/fingerprinting.html",
+    "source": "Hacker News",
+    "published": "2025-11-22T17:08:36+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016249\">Comments</a>"
   },
   {
     "title": "Agent design is still hard",
@@ -24,38 +88,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46013935\">Comments</a>"
   },
   {
-    "title": "Original Superman comic becomes the highest-priced comic book ever sold",
-    "link": "https://www.bbc.com/news/articles/c8e9rp0knj6o",
-    "source": "Hacker News",
-    "published": "2025-11-22T05:21:53+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46012328\">Comments</a>"
-  },
-  {
-    "title": "Moss Survives 9 Months in Space Vacuum",
-    "link": "https://scienceclock.com/moss-survives-9-months-in-space-vacuum/",
-    "source": "Hacker News",
-    "published": "2025-11-22T03:57:29+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46011978\">Comments</a>"
-  },
-  {
-    "title": "Sharper MRI scans may be on horizon thanks to new physics-based model",
-    "link": "https://news.rice.edu/news/2025/sharper-mri-scans-may-be-horizon-thanks-new-physics-based-model",
-    "source": "Hacker News",
-    "published": "2025-11-22T00:30:26+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46010806\">Comments</a>"
-  },
-  {
-    "title": "How I learned Vulkan and wrote a small game engine with it (2024)",
-    "link": "https://edw.is/learning-vulkan/",
-    "source": "Hacker News",
-    "published": "2025-11-21T23:28:40+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46010329\">Comments</a>"
-  },
-  {
     "title": "Personal blogs are back, should niche blogs be next?",
     "link": "https://disassociated.com/personal-blogs-back-niche-blogs-next/",
     "source": "Hacker News",
@@ -64,12 +96,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46009894\">Comments</a>"
   },
   {
-    "title": "Discontinuation of ARM Notebook with Snapdragon X Elite SoC",
-    "link": "https://www.tuxedocomputers.com/en/Discontinuation-of-ARM-notebooks-with-Snapdragon-X-Elite-SoC.tuxedo",
+    "title": "We Induced Smells With Ultrasound",
+    "link": "https://writetobrain.com/olfactory",
     "source": "Hacker News",
-    "published": "2025-11-21T19:46:34+00:00",
+    "published": "2025-11-21T20:02:45+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46008156\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46008332\">Comments</a>"
   },
   {
     "title": "Helping Valve to power up Steam devices",
@@ -80,31 +112,15 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46006616\">Comments</a>"
   },
   {
-    "title": "Show HN: Wealthfolio 2.0- Open source investment tracker. Now Mobile and Docker",
-    "link": "https://wealthfolio.app/?v=2.0",
+    "title": "TIL: `satisfies` is my favorite TypeScript keyword",
+    "link": "https://sjer.red/blog/2024-12-21/",
     "source": "Hacker News",
-    "published": "2025-11-21T16:34:52+00:00",
+    "published": "2025-11-18T16:23:57+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46006016\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45968310\">Comments</a>"
   },
   {
-    "title": "We should all be using dependency cooldowns",
-    "link": "https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns",
-    "source": "Hacker News",
-    "published": "2025-11-21T14:50:36+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46005111\">Comments</a>"
-  },
-  {
-    "title": "The Connectivity Standards Alliance Announces Zigbee 4.0 and Suzi",
-    "link": "https://csa-iot.org/newsroom/the-connectivity-standards-alliance-announces-zigbee-4-0-and-suzi-empowering-the-next-generation-of-secure-interoperable-iot-devices/",
-    "source": "Hacker News",
-    "published": "2025-11-18T17:35:31+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45969398\">Comments</a>"
-  },
-  {
-    "title": "How to See the Dead",
+    "title": "How to see the dead",
     "link": "https://www.asimov.press/p/see-the-dead",
     "source": "Hacker News",
     "published": "2025-11-17T16:17:09+00:00",
@@ -112,36 +128,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45954973\">Comments</a>"
   },
   {
-    "title": "Concrete Shipbuilding \u2013 Argentina",
-    "link": "https://thecretefleet.com/blog/f/concrete-shipbuilding-\u2013-argentina",
+    "title": "Tektronix equipment has been used in many movies and shows",
+    "link": "https://vintagetek.org/tektronix-in-movies-shows/",
     "source": "Hacker News",
-    "published": "2025-11-17T04:11:57+00:00",
+    "published": "2025-11-17T03:20:53+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45950797\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45950594\">Comments</a>"
   },
   {
-    "title": "TiDAR: Think in Diffusion, Talk in Autoregression",
-    "link": "https://arxiv.org/abs/2511.08923",
+    "title": "$1900 Bug Bounty to Fix the Lenovo Legion Pro 7 16IAX10H's Speakers on Linux",
+    "link": "https://github.com/nadimkobeissi/16iax10h-linux-sound-saga",
     "source": "Hacker News",
-    "published": "2025-11-15T17:32:35+00:00",
+    "published": "2025-11-15T22:08:28+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45939036\">Comments</a>"
-  },
-  {
-    "title": "Kodak ran a nuclear device in its basement for decades",
-    "link": "https://www.popularmechanics.com/science/energy/a69147321/kodak-film-nuclear-reactor/",
-    "source": "Hacker News",
-    "published": "2025-11-15T15:21:52+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45938005\">Comments</a>"
-  },
-  {
-    "title": "The twin probes just launched toward Mars have an Easter egg on board",
-    "link": "https://arstechnica.com/space/2025/11/the-twin-probes-just-launched-toward-mars-have-an-easter-egg-on-board/",
-    "source": "Hacker News",
-    "published": "2025-11-15T11:49:24+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45936776\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45940980\">Comments</a>"
   },
   {
     "title": "Samsung's 60% DRAM price hike signals a new phase of global memory tightening",
@@ -152,11 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45934619\">Comments</a>"
   },
   {
-    "title": "Weight-sparse transformers have interpretable circuits [pdf]",
-    "link": "https://cdn.openai.com/pdf/41df8f28-d4ef-43e9-aed2-823f9393e470/circuit-sparsity-paper.pdf",
+    "title": "As 'Dorian Gray' ages, its relevance only grows",
+    "link": "https://www.washingtonpost.com/books/2025/11/08/dorian-gray-oscar-wilde-history/",
     "source": "Hacker News",
-    "published": "2025-11-14T13:08:27+00:00",
+    "published": "2025-11-12T19:21:37+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45926371\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45904873\">Comments</a>"
   }
 ]
