@@ -95,6 +95,7 @@ body.ticker-visible .main-layout {
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 0 20px;
+    box-sizing: border-box;
     background-color: var(--card-bg);
     border-bottom: 1px solid var(--border-color);
     height: 40px;
