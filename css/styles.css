@@ -258,6 +258,13 @@ body {
     color: var(--accent-color);
 }
 
+.sidebar-actions {
+    display: flex;
+    gap: 6px;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
 /* Controls */
 .icon-btn {
     background: none;

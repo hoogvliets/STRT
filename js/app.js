@@ -174,9 +174,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const fragment = document.createDocumentFragment();
         state.sidebar.forEach(item => {
+            const id = item.link; // Use link as ID for HN items
+
+            // Skip hidden items
+            if (state.userSettings.hidden.includes(id)) return;
+
             const clone = sidebarTemplate.content.cloneNode(true);
             const card = clone.querySelector('.sidebar-card');
-            const id = item.link; // Use link as ID for HN items
 
             // Mark as read
             if (state.userSettings.read.includes(id)) {
@@ -188,6 +192,19 @@ document.addEventListener('DOMContentLoaded', () => {
             titleLink.textContent = item.title;
             titleLink.href = item.link;
             titleLink.onclick = (e) => handleLinkClick(e, id, card);
+
+            // Actions
+            const favBtn = clone.querySelector('.favorite-btn');
+            if (state.userSettings.favorites.includes(id)) {
+                favBtn.classList.add('active');
+            }
+            favBtn.onclick = () => toggleFavorite(id, favBtn);
+
+            const hideBtn = clone.querySelector('.hide-btn');
+            hideBtn.onclick = () => hidePost(id, card);
+
+            const readBtn = clone.querySelector('.read-toggle-btn');
+            readBtn.onclick = () => toggleRead(id, card);
 
             fragment.appendChild(clone);
         });
@@ -310,7 +327,8 @@ document.addEventListener('DOMContentLoaded', () => {
             card.style.transform = 'scale(0.9)';
             card.style.opacity = '0';
             setTimeout(() => {
-                applyFilters(); // Re-render to remove gap
+                applyFilters(); // Re-render feed to remove gap
+                renderSidebar(); // Re-render sidebar to remove gap
             }, 200);
         }
     }
