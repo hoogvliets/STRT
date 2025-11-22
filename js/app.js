@@ -53,7 +53,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function setupEventListeners() {
-        sourceFilter.addEventListener('change', applyFilters);
+        sourceFilter.addEventListener('change', (e) => {
+            state.filters.source = e.target.value;
+            applyFilters();
+        });
         favoritesToggle.addEventListener('change', applyFilters);
         themeToggle.addEventListener('click', toggleTheme);
 
@@ -92,10 +95,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Toggle source filter visibility
         // User requested to hide the dropdown on non-Tech pages
-        if (viewName === 'tech') {
-            sourceFilter.style.display = '';
-        } else {
-            sourceFilter.style.display = 'none';
+        if (sourceFilter) {
+            if (viewName === 'tech') {
+                sourceFilter.style.display = 'inline-block';
+            } else {
+                sourceFilter.style.display = 'none';
+            }
         }
 
         // If switching to home, re-apply filters to ensure feed is rendered
