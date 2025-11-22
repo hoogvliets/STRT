@@ -203,8 +203,14 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
-    gap: 20px;
+    flex-direction: column;
     transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-body {
+    display: flex;
+    gap: 20px;
+    flex: 1;
 }
 
 .feed-card:hover {
@@ -262,7 +268,7 @@ body {
 }
 
 .card-footer {
-    margin-top: auto;
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -453,7 +459,7 @@ body {
         height: 80px;
     }
 
-    .feed-card {
+    .card-body {
         flex-direction: column-reverse;
     }
 
