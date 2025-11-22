@@ -17,7 +17,12 @@
         <!-- Header -->
         <header class="app-header">
             <div class="header-content">
-                <h1>Onelife</h1>
+                <div class="brand-section">
+                    <h1><a href="#" id="nav-home" class="brand-link">STRT</a></h1>
+                    <nav class="main-nav">
+                        <button id="nav-tech" class="nav-item">Tech</button>
+                    </nav>
+                </div>
                 <div class="header-controls">
                     <div class="filter-group">
                         <select id="source-filter" aria-label="Filter by source">
@@ -64,25 +69,36 @@
 
 
 
-        <!-- Main Content -->
-        <main class="main-layout">
-            <!-- Feed Column -->
-            <section class="feed-column" id="feed-container">
-                <!-- Feed items injected here -->
-                <div class="loading-indicator">Loading feed...</div>
-            </section>
+        <!-- Views -->
+        <div id="view-home" class="view-section">
+            <!-- Empty Landing Page -->
+            <div class="landing-hero">
+                <h2>Welcome to STRT</h2>
+                <p>Select a category to start reading.</p>
+            </div>
+        </div>
 
-            <!-- Sidebar (Hacker News) -->
-            <aside class="sidebar-column">
-                <div class="sidebar-header">
-                    <h2>Hacker News</h2>
-                </div>
-                <div id="sidebar-container" class="sidebar-feed">
-                    <!-- Sidebar items injected here -->
-                    <div class="loading-indicator">Loading updates...</div>
-                </div>
-            </aside>
-        </main>
+        <div id="view-tech" class="view-section hidden">
+            <!-- Main Content -->
+            <main class="main-layout">
+                <!-- Feed Column -->
+                <section class="feed-column" id="feed-container">
+                    <!-- Feed items injected here -->
+                    <div class="loading-indicator">Loading feed...</div>
+                </section>
+
+                <!-- Sidebar (Hacker News) -->
+                <aside class="sidebar-column">
+                    <div class="sidebar-header">
+                        <h2>Hacker News</h2>
+                    </div>
+                    <div id="sidebar-container" class="sidebar-feed">
+                        <!-- Sidebar items injected here -->
+                        <div class="loading-indicator">Loading updates...</div>
+                    </div>
+                </aside>
+            </main>
+        </div>
     </div>
 
     <!-- Templates -->

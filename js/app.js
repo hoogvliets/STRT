@@ -19,12 +19,17 @@ document.addEventListener('DOMContentLoaded', () => {
             hidden: [],
             theme: 'light',
 
-        }
+        },
+        currentView: 'home'
     };
 
     // DOM Elements
     const feedContainer = document.getElementById('feed-container');
     const sidebarContainer = document.getElementById('sidebar-container');
+    const navHome = document.getElementById('nav-home');
+    const navTech = document.getElementById('nav-tech');
+    const viewHome = document.getElementById('view-home');
+    const viewTech = document.getElementById('view-tech');
 
     const sourceFilter = document.getElementById('source-filter');
     const favoritesToggle = document.getElementById('favorites-toggle');
@@ -42,6 +47,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
         setupEventListeners();
         fetchData();
+
+        // Initial view
+        switchView('home');
+    }
+
+    function setupEventListeners() {
+        sourceFilter.addEventListener('change', applyFilters);
+        favoritesToggle.addEventListener('change', applyFilters);
+        themeToggle.addEventListener('click', toggleTheme);
+
+        // Navigation event listeners
+        navHome.addEventListener('click', () => switchView('home'));
+        navTech.addEventListener('click', () => switchView('tech'));
+    }
+
+    function switchView(viewName) {
+        state.currentView = viewName;
+
+        // Update active navigation link
+        navHome.classList.toggle('active', viewName === 'home');
+        navTech.classList.toggle('active', viewName === 'tech');
+
+        // Show/hide views
+        viewHome.classList.toggle('hidden', viewName !== 'home');
+        viewTech.classList.toggle('hidden', viewName !== 'tech');
+
+        // Toggle source filter visibility
+        // User requested to hide the dropdown on non-Tech pages
+        if (viewName === 'tech') {
+            sourceFilter.style.display = '';
+        } else {
+            sourceFilter.style.display = 'none';
+        }
+
+        // If switching to home, re-apply filters to ensure feed is rendered
+        if (viewName === 'home') {
+            applyFilters();
+        }
     }
 
     // --- Data Fetching ---
@@ -387,24 +430,7 @@ document.addEventListener('DOMContentLoaded', () => {
         saveSettings();
     }
 
-    // --- Event Listeners ---
 
-    function setupEventListeners() {
-        sourceFilter.addEventListener('change', (e) => {
-            state.filters.source = e.target.value;
-            applyFilters();
-        });
-
-        favoritesToggle.addEventListener('click', () => {
-            state.filters.favoritesOnly = !state.filters.favoritesOnly;
-            favoritesToggle.classList.toggle('active');
-            applyFilters();
-        });
-
-        themeToggle.addEventListener('click', toggleTheme);
-
-
-    }
 
 
 });

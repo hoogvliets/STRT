@@ -65,6 +65,94 @@ body {
     align-items: center;
 }
 
+.brand-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.brand-link {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.brand-link:hover {
+    color: var(--accent-color);
+}
+
+.main-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 5px 0;
+    position: relative;
+    transition: color 0.2s;
+}
+
+.nav-item:hover {
+    color: var(--text-primary);
+}
+
+.nav-item.active {
+    color: var(--text-primary);
+}
+
+.nav-item.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: var(--accent-color);
+}
+
+.view-section {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.view-section.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.landing-hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.landing-hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+}
+
+.landing-hero p {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+}
+
 .header-controls {
     display: flex;
     gap: 0px;
