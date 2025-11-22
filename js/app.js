@@ -48,24 +48,39 @@ document.addEventListener('DOMContentLoaded', () => {
                 fetch('data/sidebar.json')
             ]);
 
-            if (feedRes.status === 'fulfilled') {
-                state.feed = await feedRes.value.json();
-                applyFilters(); // This will trigger render
-                populateSourceFilter();
+            if (feedRes.status === 'fulfilled' && feedRes.value.ok) {
+                try {
+                    state.feed = await feedRes.value.json();
+                    applyFilters(); // This will trigger render
+                    populateSourceFilter();
+                } catch (e) {
+                    console.error('Error parsing feed:', e);
+                    feedContainer.innerHTML = '<div class="loading-indicator">Failed to parse feed.</div>';
+                }
             } else {
+                console.error('Feed fetch failed or not found');
                 feedContainer.innerHTML = '<div class="loading-indicator">Failed to load feed.</div>';
             }
 
-            if (sidebarRes.status === 'fulfilled') {
-                state.sidebar = await sidebarRes.value.json();
-                renderSidebar();
+            if (sidebarRes.status === 'fulfilled' && sidebarRes.value.ok) {
+                try {
+                    state.sidebar = await sidebarRes.value.json();
+                    renderSidebar();
+                } catch (e) {
+                    console.error('Error parsing sidebar:', e);
+                    sidebarContainer.innerHTML = '<div class="loading-indicator">Failed to parse updates.</div>';
+                }
             } else {
-                sidebarContainer.innerHTML = '<div class="loading-indicator">Failed to load updates.</div>';
+                console.warn('Sidebar fetch failed or not found');
+                sidebarContainer.innerHTML = '<div class="loading-indicator">No updates.</div>';
             }
 
         } catch (error) {
-            console.error('Error fetching data:', error);
-            feedContainer.innerHTML = '<div class="loading-indicator">Error loading data.</div>';
+            console.error('Critical error fetching data:', error);
+            // Only wipe feed if we haven't successfully loaded it yet
+            if (state.feed.length === 0) {
+                feedContainer.innerHTML = '<div class="loading-indicator">Error loading data.</div>';
+            }
         }
     }
 
