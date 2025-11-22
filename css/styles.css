@@ -228,6 +228,11 @@ body {
     padding: 15px;
     margin-bottom: 15px;
     font-size: 0.9rem;
+    transition: opacity 0.2s;
+}
+
+.sidebar-card.read {
+    opacity: 0.6;
 }
 
 .sidebar-header {

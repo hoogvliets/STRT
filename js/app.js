@@ -175,11 +175,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const fragment = document.createDocumentFragment();
         state.sidebar.forEach(item => {
             const clone = sidebarTemplate.content.cloneNode(true);
+            const card = clone.querySelector('.sidebar-card');
+            const id = item.link; // Use link as ID for HN items
+
+            // Mark as read
+            if (state.userSettings.read.includes(id)) {
+                card.classList.add('read');
+            }
 
             clone.querySelector('.sidebar-date').textContent = formatDate(item.published);
             const titleLink = clone.querySelector('.sidebar-title a');
             titleLink.textContent = item.title;
             titleLink.href = item.link;
+            titleLink.onclick = (e) => handleLinkClick(e, id, card);
 
             fragment.appendChild(clone);
         });
