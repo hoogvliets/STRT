@@ -73,6 +73,14 @@ document.addEventListener('DOMContentLoaded', () => {
         viewHome.classList.toggle('hidden', viewName !== 'home');
         viewTech.classList.toggle('hidden', viewName !== 'tech');
 
+        // Toggle source filter visibility
+        // User requested to hide the dropdown on non-Tech pages
+        if (viewName === 'tech') {
+            sourceFilter.style.display = '';
+        } else {
+            sourceFilter.style.display = 'none';
+        }
+
         // If switching to home, re-apply filters to ensure feed is rendered
         if (viewName === 'home') {
             applyFilters();
