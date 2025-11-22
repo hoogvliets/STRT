@@ -1,0 +1,189 @@
+[
+  {
+    "title": "The Pulse #154: Cloudflare takes down half the internet \u2013 but shares a great postmortem",
+    "summary": "Also: why it&#8217;s not practical to build for CDN redundancy, Google launches AI IDE Antigravity externally while using Jetski internally, more AI fakers caught in remote interviews, and more",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-154",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-11-20T18:06:09+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/89aaa746-3de3-4300-a5af-b6fc08319469_420x300.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/the-pulse-154"
+  },
+  {
+    "title": "Counting and Aggregations - A Primer",
+    "summary": "An excerpt from Aggregations, a new building block chapter",
+    "link": "https://practicaldatamodeling.substack.com/p/counting-and-aggregations-a-primer",
+    "author": "Joe Reis",
+    "source": "Practical Data Modeling",
+    "published": "2025-11-19T22:01:53+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!B8ef!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F12f419f7-53e4-45db-b16c-77148897daf7_1010x560.png",
+    "tags": [],
+    "id": "https://practicaldatamodeling.substack.com/p/counting-and-aggregations-a-primer"
+  },
+  {
+    "title": "How AI will change software engineering \u2013 with Martin Fowler",
+    "summary": "Martin Fowler breaks down how AI is transforming software architecture and development, from refactoring and deterministic techniques to the timeless principles that still anchor great engineering.",
+    "link": "https://newsletter.pragmaticengineer.com/p/martin-fowler",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-11-19T17:09:43+00:00",
+    "image": null,
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/martin-fowler"
+  },
+  {
+    "title": "Updates on Mixed Model Arts Book and Upcoming Stuff for 2026",
+    "summary": "Thanks to all of you!",
+    "link": "https://practicaldatamodeling.substack.com/p/updates-on-mixed-model-arts-book",
+    "author": "Joe Reis",
+    "source": "Practical Data Modeling",
+    "published": "2025-11-18T19:39:26+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!Q0I-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6eecf34a-ff04-4526-a4b3-4163469579cd_500x500.png",
+    "tags": [],
+    "id": "https://practicaldatamodeling.substack.com/p/updates-on-mixed-model-arts-book"
+  },
+  {
+    "title": "Career paths for software engineers at large tech companies",
+    "summary": "Tactics for getting promoted to Levels 5, 6, and 7, and advice on when to make your move into management. Former Amazon VP, Ethan Evans, reveals what he saw work during a successful Big Tech career",
+    "link": "https://newsletter.pragmaticengineer.com/p/career-paths-for-software-engineers",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-11-18T17:02:14+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/d8b12a0c-b9c0-46e6-9822-0de783311c0d_1782x1124.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/career-paths-for-software-engineers"
+  },
+  {
+    "title": "The Pulse #153: Is Microsoft too early to agentic OS \u2013 like with smartphones?",
+    "summary": "Also: inside Cursor&#8217;s unique engineering culture, five AI fakers caught in one month by an employer, and more. Plus: early applications for The Pragmatic Summit",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-153",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-11-13T17:53:36+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/066f4d51-bc99-457f-be4a-face79257dd9_420x300.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/the-pulse-153"
+  },
+  {
+    "title": "Netflix\u2019s Engineering Culture",
+    "summary": "Peek inside Netflix&#8217;s engineering culture with CTO Elizabeth Stone, as she shares how the company has no formal performance reviews, learns from failures, and builds at a global scale.",
+    "link": "https://newsletter.pragmaticengineer.com/p/netflix",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-11-12T17:40:07+00:00",
+    "image": null,
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/netflix"
+  },
+  {
+    "title": "The Software Engineer\u2019s Guidebook: a recap",
+    "summary": "Reflections on publishing The Software Engineer&#8217;s Guidebook two years ago, which has sold around 40,000 copies. Also: an unexpected trip to Mongolia to visit the startup which translated it",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-software-engineers-guidebook",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-11-11T17:01:48+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/42091fb8-c98f-4be8-a8ab-76ca25979ad9_5712x4284.jpeg",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/the-software-engineers-guidebook"
+  },
+  {
+    "title": "The Pulse #152: Cursor and GitHub double down on agents",
+    "summary": "Also: AI-assisted interviews at Meta, pay for Directors of Engineering at VC-funded startups, and is OpenAI inflating the bubble? And more",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-150-cursor-and-github-double",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-11-06T16:33:28+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/d2a54491-50df-4672-8519-a450ced1a810_420x300.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/the-pulse-150-cursor-and-github-double"
+  },
+  {
+    "title": "From Swift to Mojo and high-performance AI Engineering with Chris Lattner",
+    "summary": "I sit down with Chris Lattner, creator of LLVM, Swift, and Mojo, to discuss how better language and compiler design can open the door to faster, more accessible AI development.",
+    "link": "https://newsletter.pragmaticengineer.com/p/from-swift-to-mojo-and-high-performance",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-11-05T16:02:14+00:00",
+    "image": null,
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/from-swift-to-mojo-and-high-performance"
+  },
+  {
+    "title": "Semantics, Ontology, and Taxonomy, and Metadata \u2013 Foundations for Meaning in Data Modeling",
+    "summary": "Here it is - the draft of the latest chapter on meaning in data modeling.",
+    "link": "https://practicaldatamodeling.substack.com/p/semantics-ontology-and-taxonomy-and",
+    "author": "Joe Reis",
+    "source": "Practical Data Modeling",
+    "published": "2025-11-05T01:41:46+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!tOv4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F200d840f-5bcd-43bf-8a15-be3717c11a0a_904x544.png",
+    "tags": [],
+    "id": "https://practicaldatamodeling.substack.com/p/semantics-ontology-and-taxonomy-and"
+  },
+  {
+    "title": "Tech jobs market 2025, part 3: job seekers\u2019 stories",
+    "summary": "Details on the state of hiring from software engineers and EMs in the market for a new job. Insights on what&#8217;s happening from recruitment platforms: junior rebound, picky employers & a tough market",
+    "link": "https://newsletter.pragmaticengineer.com/p/tech-jobs-market-2025-part-3",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-11-04T17:23:15+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!MLhU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3817ac5-4c6f-4d14-9f5f-6cf5ff785d36_1600x1050.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/tech-jobs-market-2025-part-3"
+  },
+  {
+    "title": "The Pulse #151: Amazon layoffs \u2013 AI or economy to blame?",
+    "summary": "Also: OpenAI becomes for-profit and takes on Chrome, NVIDIA the biggest Big Tech by a distance, Citibank annoys premium customers for weeks with disastrous product rollout, and more",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-151",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-10-30T17:46:40+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/7cf4a1a3-e825-4653-b7e2-2920e3c4810e_420x300.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/the-pulse-151"
+  },
+  {
+    "title": "Beyond Vibe Coding with Addy Osmani",
+    "summary": "Google&#8217;s Head of Chrome Developer Experience, Addy Osmani, shares how AI is transforming the way we code&#8212;accelerating development while still relying on human expertise to ensure real quality.",
+    "link": "https://newsletter.pragmaticengineer.com/p/beyond-vibe-coding-with-addy-osmani",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-10-29T16:36:24+00:00",
+    "image": null,
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/beyond-vibe-coding-with-addy-osmani"
+  },
+  {
+    "title": "Semantics in Data Modeling",
+    "summary": "What Do You Mean?",
+    "link": "https://practicaldatamodeling.substack.com/p/semantics-in-data-modeling",
+    "author": "Joe Reis",
+    "source": "Practical Data Modeling",
+    "published": "2025-10-29T08:49:13+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!Q0I-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6eecf34a-ff04-4526-a4b3-4163469579cd_500x500.png",
+    "tags": [],
+    "id": "https://practicaldatamodeling.substack.com/p/semantics-in-data-modeling"
+  },
+  {
+    "title": "San Francisco is back as the world\u2019s leading tech hub",
+    "summary": "Impressions from a week in San Fran spent visiting engineering teams at Cursor, OpenAI, Anthropic, Wispr, Factory, and more",
+    "link": "https://newsletter.pragmaticengineer.com/p/san-francisco-is-back",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-10-28T16:55:50+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/bcadf8fa-7ef1-4d60-bb81-a64472d81d6f_2000x1000.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/san-francisco-is-back"
+  },
+  {
+    "title": "The Pulse: AWS takes down a good part of the internet",
+    "summary": "On Monday, a major AWS outage hit thousands of sites & apps, and even a Premier League soccer game. An overview of what caused this high-profile, global outage, and learnings from the incident",
+    "link": "https://newsletter.pragmaticengineer.com/p/the-pulse-aws-takes-down-a-good-part",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-10-23T16:17:31+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/8bd6854e-40ef-4522-b9cb-65ff2edf62bf_1802x1408.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/the-pulse-aws-takes-down-a-good-part"
+  }
+]
