@@ -258,11 +258,22 @@ body {
     color: var(--accent-color);
 }
 
+.sidebar-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.sidebar-source {
+    color: var(--text-secondary);
+}
+
 .sidebar-actions {
     display: flex;
     gap: 6px;
-    margin-top: 10px;
-    justify-content: flex-end;
 }
 
 /* Controls */

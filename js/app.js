@@ -193,6 +193,9 @@ document.addEventListener('DOMContentLoaded', () => {
             titleLink.href = item.link;
             titleLink.onclick = (e) => handleLinkClick(e, id, card);
 
+            // Extract and display source domain
+            clone.querySelector('.sidebar-source').textContent = extractDomain(item.link);
+
             // Actions
             const favBtn = clone.querySelector('.favorite-btn');
             if (state.userSettings.favorites.includes(id)) {
@@ -290,6 +293,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         return date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+    }
+
+    function extractDomain(url) {
+        try {
+            const urlObj = new URL(url);
+            return urlObj.hostname.replace('www.', '');
+        } catch (e) {
+            return '';
+        }
     }
 
     // --- User Actions ---
