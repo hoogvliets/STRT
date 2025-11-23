@@ -1,5 +1,13 @@
 [
   {
+    "title": "Cryptographers Held an Election. They Can't Decrypt the Results",
+    "link": "https://www.nytimes.com/2025/11/21/world/cryptography-group-lost-election-results.html",
+    "source": "Hacker News",
+    "published": "2025-11-23T03:47:17+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020596\">Comments</a>"
+  },
+  {
     "title": "Unusual circuits in the Intel 386's standard cell logic",
     "link": "https://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html",
     "source": "Hacker News",
@@ -32,14 +40,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46019817\">Comments</a>"
   },
   {
-    "title": "A Year Without Caffeine (2013)",
-    "link": "https://bryanalexander.org/personal/a-year-without-caffeine/",
-    "source": "Hacker News",
-    "published": "2025-11-23T00:50:49+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46019714\">Comments</a>"
-  },
-  {
     "title": "A monopoly ISP refuses to fix upstream infrastructure",
     "link": "https://sacbear.com/xfinity-wont-fix-internet/",
     "source": "Hacker News",
@@ -48,20 +48,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46019685\">Comments</a>"
   },
   {
-    "title": "NTSB report: Decryption of images from the Titan submersible camera [pdf]",
+    "title": "NTSB report: Decryption of images from the Titan submersible camera [pdf] (2024)",
     "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=18741602&FileExtension=pdf&FileName=Underwater%20Camera%20-%20Specialist%27s%20Factual%20Report-Rel.pdf",
     "source": "Hacker News",
     "published": "2025-11-23T00:35:27+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46019636\">Comments</a>"
-  },
-  {
-    "title": "How to Spot a Counterfeit Lithium-Ion Battery",
-    "link": "https://spectrum.ieee.org/counterfeit-lithium-ion-batteries",
-    "source": "Hacker News",
-    "published": "2025-11-22T23:08:57+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46019168\">Comments</a>"
   },
   {
     "title": "Windows ARM64 Internals: Deconstructing Pointer Authentication",
@@ -120,6 +112,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46004326\">Comments</a>"
   },
   {
+    "title": "Ubuntu LTS releases to 15 years with Legacy add-on",
+    "link": "https://canonical.com/blog/canonical-expands-total-coverage-for-ubuntu-lts-releases-to-15-years-with-legacy-add-on",
+    "source": "Hacker News",
+    "published": "2025-11-20T12:47:41+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45992035\">Comments</a>"
+  },
+  {
     "title": "The Boring Part of Bell Labs",
     "link": "https://elizabethvannostrand.substack.com/p/the-boring-part-of-bell-labs",
     "source": "Hacker News",
@@ -128,20 +128,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45984173\">Comments</a>"
   },
   {
-    "title": "TIL: `satisfies` is my favorite TypeScript keyword",
+    "title": "`satisfies` is my favorite TypeScript keyword (2024)",
     "link": "https://sjer.red/blog/2024-12-21/",
     "source": "Hacker News",
     "published": "2025-11-18T16:23:57+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45968310\">Comments</a>"
-  },
-  {
-    "title": "Tektronix equipment has been used in many movies and shows",
-    "link": "https://vintagetek.org/tektronix-in-movies-shows/",
-    "source": "Hacker News",
-    "published": "2025-11-17T03:20:53+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45950594\">Comments</a>"
   },
   {
     "title": "Garibaldi, History's Sexiest Revolutionary?",
@@ -158,5 +150,13 @@
     "published": "2025-11-15T22:08:28+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45940980\">Comments</a>"
+  },
+  {
+    "title": "The 1957 \u201cSpaghetti-Grows-on-Trees\u201d Hoax",
+    "link": "https://www.openculture.com/2025/11/the-1957-spaghetti-grows-on-trees-hoax.html",
+    "source": "Hacker News",
+    "published": "2025-11-11T18:53:45+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45891265\">Comments</a>"
   }
 ]
