@@ -1,5 +1,29 @@
 [
   {
+    "title": "\"Good engineering management\" is a fad",
+    "link": "https://lethain.com/good-eng-mgmt-is-a-fad/",
+    "source": "Hacker News",
+    "published": "2025-11-23T20:16:04+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46026939\">Comments</a>"
+  },
+  {
+    "title": "780k Windows Users Downloaded Linux Distro Zorin OS in the Last 5 Weeks",
+    "link": "https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/loaded-this-linux-distro-in-a-month/",
+    "source": "Hacker News",
+    "published": "2025-11-23T19:38:15+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46026579\">Comments</a>"
+  },
+  {
+    "title": "Fran Sans \u2013 font inspired by San Francisco light rail displays",
+    "link": "https://emilysneddon.com/fran-sans-essay",
+    "source": "Hacker News",
+    "published": "2025-11-23T18:20:27+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46025942\">Comments</a>"
+  },
+  {
     "title": "Native Secure Enclave backed SSH keys on macOS",
     "link": "https://gist.github.com/arianvp/5f59f1783e3eaf1a2d4cd8e952bb4acf",
     "source": "Hacker News",
@@ -8,12 +32,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46025721\">Comments</a>"
   },
   {
-    "title": "Are consumers just tech debt to Microsoft?",
-    "link": "https://birchtree.me/blog/are-consumers-just-tech-debt-to-microsoft/",
+    "title": "SVG.js v3.2",
+    "link": "https://svgjs.dev/docs/3.2/",
     "source": "Hacker News",
-    "published": "2025-11-23T17:14:41+00:00",
+    "published": "2025-11-23T17:38:28+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46025196\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46025477\">Comments</a>"
   },
   {
     "title": "HumanLayer (YC F24) Is Hiring Founding Engineers",
@@ -32,22 +56,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46024773\">Comments</a>"
   },
   {
-    "title": "Ask HN: Good resources to learn financial systems engineering?",
-    "link": "https://news.ycombinator.com/item?id=46024753",
-    "source": "Hacker News",
-    "published": "2025-11-23T16:30:08+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46024753\">Comments</a>"
-  },
-  {
-    "title": "73% of AI startups are just prompt engineering",
-    "link": "https://pub.towardsai.net/i-reverse-engineered-200-ai-startups-73-are-lying-a8610acab0d3",
-    "source": "Hacker News",
-    "published": "2025-11-23T16:17:57+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46024644\">Comments</a>"
-  },
-  {
     "title": "Mount Proton Drive on Linux using rclone and systemd",
     "link": "https://github.com/dadtronics/protondrive-linux",
     "source": "Hacker News",
@@ -64,12 +72,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46024184\">Comments</a>"
   },
   {
-    "title": "Tosijs-schema is a super lightweight schema-first LLM-native JSON schema library",
-    "link": "https://www.npmjs.com/package/tosijs-schema",
+    "title": "Editing Code in Emacs",
+    "link": "https://redpenguin101.github.io/html/posts/2025_11_23_emacs_for_code_editing.html",
     "source": "Hacker News",
-    "published": "2025-11-23T13:43:24+00:00",
+    "published": "2025-11-23T14:59:38+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46023531\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46024032\">Comments</a>"
   },
   {
     "title": "Racket v9.0",
@@ -88,28 +96,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46023013\">Comments</a>"
   },
   {
-    "title": "After my dad died, we found the love letters",
-    "link": "https://www.jenn.site/after-my-dad-died-we-found-the-love-letters/",
+    "title": "MCP Apps: Extending servers with interactive user interfaces",
+    "link": "http://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/",
     "source": "Hacker News",
-    "published": "2025-11-23T08:40:41+00:00",
+    "published": "2025-11-23T03:27:04+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46021825\">Comments</a>"
-  },
-  {
-    "title": "Unusual circuits in the Intel 386's standard cell logic",
-    "link": "https://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html",
-    "source": "Hacker News",
-    "published": "2025-11-23T03:33:42+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020543\">Comments</a>"
-  },
-  {
-    "title": "GCC SC approves inclusion of Algol 68 Front End",
-    "link": "https://gcc.gnu.org/pipermail/gcc/2025-November/247020.html",
-    "source": "Hacker News",
-    "published": "2025-11-23T02:18:03+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020151\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020502\">Comments</a>"
   },
   {
     "title": "A monopoly ISP refuses to fix upstream infrastructure",
@@ -120,28 +112,36 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46019685\">Comments</a>"
   },
   {
-    "title": "The privacy nightmare of browser fingerprinting",
-    "link": "https://kevinboone.me/fingerprinting.html",
+    "title": "Terence Tao: At the Erdos problem website, AI assistance now becoming routine",
+    "link": "https://mathstodon.xyz/@tao/115591487350860999",
     "source": "Hacker News",
-    "published": "2025-11-22T17:08:36+00:00",
+    "published": "2025-11-22T20:27:41+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016249\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46017972\">Comments</a>"
   },
   {
-    "title": "We Induced Smells With Ultrasound",
-    "link": "https://writetobrain.com/olfactory",
+    "title": "A time-travelling door bug in Half Life 2",
+    "link": "https://mastodon.gamedev.place/@TomF/115589875974658415",
     "source": "Hacker News",
-    "published": "2025-11-21T20:02:45+00:00",
+    "published": "2025-11-21T22:48:39+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46008332\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46009962\">Comments</a>"
   },
   {
-    "title": "Almost all Collatz orbits attain almost bounded values",
-    "link": "https://mathvideos.org/2023/terence-tao-almost-all-collatz-orbits-attain-almost-bounded-values/",
+    "title": "Forever Object: The Staple-Less Oceanus Brass Stapler",
+    "link": "https://www.core77.com/posts/139027/Forever-Object-The-Staple-less-Oceanus-Brass-Stapler",
     "source": "Hacker News",
-    "published": "2025-11-17T20:28:32+00:00",
+    "published": "2025-11-19T13:36:43+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45957911\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45979357\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Gitlogue \u2013 A terminal tool that replays your Git commits with animation",
+    "link": "https://github.com/unhappychoice/gitlogue",
+    "source": "Hacker News",
+    "published": "2025-11-18T12:47:04+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45964956\">Comments</a>"
   },
   {
     "title": "Pyrotechnic Display Design Software",
