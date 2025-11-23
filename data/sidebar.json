@@ -1,19 +1,51 @@
 [
   {
+    "title": "Demand for UK Food Bank Up 15% Year on Year",
+    "link": "https://www.theguardian.com/society/2025/nov/23/food-banks-demand-prices-frontline-cost-of-living-crisis",
+    "source": "Hacker News",
+    "published": "2025-11-23T13:51:51+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46023573\">Comments</a>"
+  },
+  {
+    "title": "Tosijs-schema is a super lightweight schema-first LLM-native JSON schema library",
+    "link": "https://www.npmjs.com/package/tosijs-schema",
+    "source": "Hacker News",
+    "published": "2025-11-23T13:43:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46023531\">Comments</a>"
+  },
+  {
+    "title": "Claude Code Is Down",
+    "link": "https://status.claude.com/incidents/538r2y9cjmhk",
+    "source": "Hacker News",
+    "published": "2025-11-23T13:24:01+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46023364\">Comments</a>"
+  },
+  {
+    "title": "Maybe that's not liquid water on Mars after all",
+    "link": "https://phys.org/news/2025-11-liquid-mars.html",
+    "source": "Hacker News",
+    "published": "2025-11-23T12:58:54+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46023213\">Comments</a>"
+  },
+  {
+    "title": "Shaders: How to draw high fidelity graphics with just x and y coordinates",
+    "link": "https://www.makingsoftware.com/chapters/shaders",
+    "source": "Hacker News",
+    "published": "2025-11-23T12:26:30+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46023013\">Comments</a>"
+  },
+  {
     "title": "Deepnote (YC S19) is hiring engineers to build a better Jupyter notebook",
     "link": "https://deepnote.com/join-us",
     "source": "Hacker News",
     "published": "2025-11-23T12:03:06+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46022892\">Comments</a>"
-  },
-  {
-    "title": "Signal knows who you're talking to",
-    "link": "https://sanesecurityguy.com/articles/signal-knows-who-youre-talking-to/",
-    "source": "Hacker News",
-    "published": "2025-11-23T10:22:24+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46022279\">Comments</a>"
   },
   {
     "title": "After my dad died, we found the love letters",
@@ -32,28 +64,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46020543\">Comments</a>"
   },
   {
-    "title": "MCP Apps just dropped (OpenAI and Anthropic collab) and I think this is huge",
-    "link": "http://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/",
-    "source": "Hacker News",
-    "published": "2025-11-23T03:27:04+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020502\">Comments</a>"
-  },
-  {
     "title": "GCC SC approves inclusion of Algol 68 Front End",
     "link": "https://gcc.gnu.org/pipermail/gcc/2025-November/247020.html",
     "source": "Hacker News",
     "published": "2025-11-23T02:18:03+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46020151\">Comments</a>"
-  },
-  {
-    "title": "Meta buried 'causal' evidence of social media harm, US court filings allege",
-    "link": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-buried-causal-evidence-social-media-harm-us-court-filings-allege-2025-11-23/",
-    "source": "Hacker News",
-    "published": "2025-11-23T01:09:47+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46019817\">Comments</a>"
   },
   {
     "title": "A monopoly ISP refuses to fix upstream infrastructure",
@@ -112,20 +128,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45992035\">Comments</a>"
   },
   {
-    "title": "The Boring Part of Bell Labs",
-    "link": "https://elizabethvannostrand.substack.com/p/the-boring-part-of-bell-labs",
+    "title": "First kiss dates back 21M years",
+    "link": "https://www.bbc.com/news/articles/cr43gq61g2qo",
     "source": "Hacker News",
-    "published": "2025-11-19T19:47:31+00:00",
+    "published": "2025-11-19T01:57:37+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45984173\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45974977\">Comments</a>"
   },
   {
-    "title": "`satisfies` is my favorite TypeScript keyword (2024)",
-    "link": "https://sjer.red/blog/2024-12-21/",
+    "title": "Typechecking is undecideable when 'type' is a type (1989) [pdf]",
+    "link": "https://dspace.mit.edu/bitstream/handle/1721.1/149366/MIT-LCS-TR-458.pdf",
     "source": "Hacker News",
-    "published": "2025-11-18T16:23:57+00:00",
+    "published": "2025-11-18T11:33:39+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45968310\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45963768\">Comments</a>"
   },
   {
     "title": "Almost all Collatz orbits attain almost bounded values",
@@ -136,27 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45957911\">Comments</a>"
   },
   {
-    "title": "$1900 Bug Bounty to Fix the Lenovo Legion Pro 7 16IAX10H's Speakers on Linux",
-    "link": "https://github.com/nadimkobeissi/16iax10h-linux-sound-saga",
+    "title": "sit: Create StuffIt archives on Unix systems",
+    "link": "https://github.com/thecloudexpanse/sit",
     "source": "Hacker News",
-    "published": "2025-11-15T22:08:28+00:00",
+    "published": "2025-11-17T02:28:57+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45940980\">Comments</a>"
-  },
-  {
-    "title": "CERN Council reviews feasibility study for a next-generation collider",
-    "link": "https://home.cern/news/press-release/accelerators/cern-council-reviews-feasibility-study-next-generation-collider",
-    "source": "Hacker News",
-    "published": "2025-11-12T00:31:46+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45894872\">Comments</a>"
-  },
-  {
-    "title": "The 1957 \u201cSpaghetti-Grows-on-Trees\u201d Hoax",
-    "link": "https://www.openculture.com/2025/11/the-1957-spaghetti-grows-on-trees-hoax.html",
-    "source": "Hacker News",
-    "published": "2025-11-11T18:53:45+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45891265\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45950364\">Comments</a>"
   }
 ]
