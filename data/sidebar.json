@@ -1,11 +1,27 @@
 [
   {
-    "title": "Google Revisits JPEG XL in Chromium After Earlier Removal",
-    "link": "https://windowsreport.com/google-revisits-jpeg-xl-in-chromium-after-earlier-removal/",
+    "title": "Deepnote (YC S19) is hiring engineers to build a better Jupyter notebook",
+    "link": "https://deepnote.com/join-us",
     "source": "Hacker News",
-    "published": "2025-11-23T06:05:51+00:00",
+    "published": "2025-11-23T12:03:06+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46021179\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46022892\">Comments</a>"
+  },
+  {
+    "title": "Signal knows who you're talking to",
+    "link": "https://sanesecurityguy.com/articles/signal-knows-who-youre-talking-to/",
+    "source": "Hacker News",
+    "published": "2025-11-23T10:22:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46022279\">Comments</a>"
+  },
+  {
+    "title": "After my dad died, we found the love letters",
+    "link": "https://www.jenn.site/after-my-dad-died-we-found-the-love-letters/",
+    "source": "Hacker News",
+    "published": "2025-11-23T08:40:41+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46021825\">Comments</a>"
   },
   {
     "title": "Unusual circuits in the Intel 386's standard cell logic",
@@ -16,20 +32,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46020543\">Comments</a>"
   },
   {
+    "title": "MCP Apps just dropped (OpenAI and Anthropic collab) and I think this is huge",
+    "link": "http://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/",
+    "source": "Hacker News",
+    "published": "2025-11-23T03:27:04+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020502\">Comments</a>"
+  },
+  {
     "title": "GCC SC approves inclusion of Algol 68 Front End",
     "link": "https://gcc.gnu.org/pipermail/gcc/2025-November/247020.html",
     "source": "Hacker News",
     "published": "2025-11-23T02:18:03+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46020151\">Comments</a>"
-  },
-  {
-    "title": "An Economy of AI Agents",
-    "link": "https://arxiv.org/abs/2509.01063",
-    "source": "Hacker News",
-    "published": "2025-11-23T02:08:00+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020096\">Comments</a>"
   },
   {
     "title": "Meta buried 'causal' evidence of social media harm, US court filings allege",
@@ -88,14 +104,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46008332\">Comments</a>"
   },
   {
-    "title": "Pixel Art Tips for Programmers",
-    "link": "https://jslegenddev.substack.com/p/5-pixel-art-tips-for-programmers-3d6",
-    "source": "Hacker News",
-    "published": "2025-11-21T13:25:59+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46004326\">Comments</a>"
-  },
-  {
     "title": "Ubuntu LTS releases to 15 years with Legacy add-on",
     "link": "https://canonical.com/blog/canonical-expands-total-coverage-for-ubuntu-lts-releases-to-15-years-with-legacy-add-on",
     "source": "Hacker News",
@@ -120,20 +128,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45968310\">Comments</a>"
   },
   {
-    "title": "Simplifying Cluster-Wide PostgreSQL Execution with Exec_node() and Spock OSS",
-    "link": "https://www.pgedge.com/blog/simplifying-cluster-wide-sql-execution-in-pgedge-with-exec_node",
+    "title": "Almost all Collatz orbits attain almost bounded values",
+    "link": "https://mathvideos.org/2023/terence-tao-almost-all-collatz-orbits-attain-almost-bounded-values/",
     "source": "Hacker News",
-    "published": "2025-11-17T09:35:51+00:00",
+    "published": "2025-11-17T20:28:32+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45952137\">Comments</a>"
-  },
-  {
-    "title": "Garibaldi, History's Sexiest Revolutionary?",
-    "link": "https://www.historyextra.com/period/victorian/historys-sexiest-revolutionary-meet-the-mesmerising-general-whose-charms-helped-win-a-war/",
-    "source": "Hacker News",
-    "published": "2025-11-16T00:38:51+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45941775\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45957911\">Comments</a>"
   },
   {
     "title": "$1900 Bug Bounty to Fix the Lenovo Legion Pro 7 16IAX10H's Speakers on Linux",
@@ -144,12 +144,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45940980\">Comments</a>"
   },
   {
-    "title": "Unicode Binary Input Terminal",
-    "link": "https://hackaday.io/project/192644-unicode-binary-input-terminal",
+    "title": "CERN Council reviews feasibility study for a next-generation collider",
+    "link": "https://home.cern/news/press-release/accelerators/cern-council-reviews-feasibility-study-next-generation-collider",
     "source": "Hacker News",
-    "published": "2025-11-13T18:18:01+00:00",
+    "published": "2025-11-12T00:31:46+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45918442\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45894872\">Comments</a>"
   },
   {
     "title": "The 1957 \u201cSpaghetti-Grows-on-Trees\u201d Hoax",
