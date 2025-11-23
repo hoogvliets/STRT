@@ -9,3 +9,9 @@ dependencies = [
     "python-dateutil>=2.8.2",
     "requests>=2.31.0"
 ]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.packages.find]
+where = ["scripts"]
