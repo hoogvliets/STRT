@@ -1,5 +1,13 @@
 [
   {
+    "title": "How to Spot a Counterfeit Lithium-Ion Battery",
+    "link": "https://spectrum.ieee.org/counterfeit-lithium-ion-batteries",
+    "source": "Hacker News",
+    "published": "2025-11-22T23:08:57+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46019168\">Comments</a>"
+  },
+  {
     "title": "Windows ARM64 Internals: Deconstructing Pointer Authentication",
     "link": "https://www.preludesecurity.com/blog/windows-arm64-internals-deconstructing-pointer-authentication",
     "source": "Hacker News",
@@ -72,6 +80,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46016639\">Comments</a>"
   },
   {
+    "title": "Gwern's \"Stem Humor\" Directory",
+    "link": "https://gwern.net/doc/math/humor/index",
+    "source": "Hacker News",
+    "published": "2025-11-22T17:49:05+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016630\">Comments</a>"
+  },
+  {
     "title": "The realities of being a pop star",
     "link": "https://itscharlibb.substack.com/p/the-realities-of-being-a-pop-star",
     "source": "Hacker News",
@@ -112,14 +128,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46008332\">Comments</a>"
   },
   {
-    "title": "Helping Valve to power up Steam devices",
-    "link": "https://www.igalia.com/2025/11/helpingvalve.html",
-    "source": "Hacker News",
-    "published": "2025-11-21T17:29:59+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46006616\">Comments</a>"
-  },
-  {
     "title": "Pixel Art Tips for Programmers",
     "link": "https://jslegenddev.substack.com/p/5-pixel-art-tips-for-programmers-3d6",
     "source": "Hacker News",
@@ -150,13 +158,5 @@
     "published": "2025-11-15T22:08:28+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45940980\">Comments</a>"
-  },
-  {
-    "title": "Anukari on the CPU (part 2: CPU optimization)",
-    "link": "https://anukari.com/blog/devlog/anukari-on-the-cpu-part-2-cpu-optimization",
-    "source": "Hacker News",
-    "published": "2025-11-15T13:15:56+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45937230\">Comments</a>"
   }
 ]
