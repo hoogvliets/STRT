@@ -1,6 +1,38 @@
 [
   {
-    "title": "Most Stable Raspberry Pi? 81% Better NTP with Thermal Management",
+    "title": "Launch HN: Onyx (YC W24) \u2013 The open-source chat UI",
+    "link": "https://news.ycombinator.com/item?id=46045987",
+    "source": "Hacker News",
+    "published": "2025-11-25T14:20:30+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46045987\">Comments</a>"
+  },
+  {
+    "title": "Apt Rust requirement raises questions",
+    "link": "https://lwn.net/SubscriberLink/1046841/5bbf1fc049a18947/",
+    "source": "Hacker News",
+    "published": "2025-11-25T14:18:01+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46045972\">Comments</a>"
+  },
+  {
+    "title": "Brain has five 'eras' with adult mode not starting until early 30s",
+    "link": "https://www.theguardian.com/science/2025/nov/25/brain-human-cognitive-development-life-stages-cambridge-study",
+    "source": "Hacker News",
+    "published": "2025-11-25T13:38:12+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46045661\">Comments</a>"
+  },
+  {
+    "title": "Making Crash Bandicoot (2011)",
+    "link": "https://all-things-andy-gavin.com/video-games/making-crash/",
+    "source": "Hacker News",
+    "published": "2025-11-25T12:05:39+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46045039\">Comments</a>"
+  },
+  {
+    "title": "Most Stable Raspberry Pi? Better NTP with Thermal Management",
     "link": "https://austinsnerdythings.com/2025/11/24/worlds-most-stable-raspberry-pi-81-better-ntp-with-thermal-management/",
     "source": "Hacker News",
     "published": "2025-11-25T06:35:59+00:00",
@@ -32,14 +64,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46038047\">Comments</a>"
   },
   {
-    "title": "Claude Opus 4.5",
-    "link": "https://www.anthropic.com/news/claude-opus-4-5",
-    "source": "Hacker News",
-    "published": "2025-11-24T18:53:05+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46037637\">Comments</a>"
-  },
-  {
     "title": "Pebble Watch software is now open source",
     "link": "https://ericmigi.com/blog/pebble-watch-software-is-now-100percent-open-source",
     "source": "Hacker News",
@@ -64,44 +88,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46036895\">Comments</a>"
   },
   {
-    "title": "Implications of AI to schools",
-    "link": "https://twitter.com/karpathy/status/1993010584175141038",
+    "title": "Three Years from GPT-3 to Gemini 3",
+    "link": "https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini",
     "source": "Hacker News",
-    "published": "2025-11-24T17:51:02+00:00",
+    "published": "2025-11-23T01:25:17+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46036878\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46019898\">Comments</a>"
   },
   {
-    "title": "Chrome Jpegxl Issue Reopened",
-    "link": "https://issues.chromium.org/issues/40168998",
+    "title": "A million ways to die from a data race in Go",
+    "link": "https://gaultier.github.io/blog/a_million_ways_to_data_race_in_go.html",
     "source": "Hacker News",
-    "published": "2025-11-24T12:23:02+00:00",
+    "published": "2025-11-22T14:33:57+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46033330\">Comments</a>"
-  },
-  {
-    "title": "Shai-Hulud Returns: Over 300 NPM Packages Infected",
-    "link": "https://helixguard.ai/blog/malicious-sha1hulud-2025-11-24",
-    "source": "Hacker News",
-    "published": "2025-11-24T10:40:22+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46032539\">Comments</a>"
-  },
-  {
-    "title": "Build a Compiler in Five Projects",
-    "link": "https://kmicinski.com/functional-programming/2025/11/23/build-a-language/",
-    "source": "Hacker News",
-    "published": "2025-11-24T07:14:55+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46031220\">Comments</a>"
-  },
-  {
-    "title": "What OpenAI did when ChatGPT users lost touch with reality",
-    "link": "https://www.nytimes.com/2025/11/23/technology/openai-chatgpt-users-risks.html",
-    "source": "Hacker News",
-    "published": "2025-11-24T05:58:08+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46030799\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46015095\">Comments</a>"
   },
   {
     "title": "How the Atomic Tests Looked Like from Los Angeles",
@@ -120,20 +120,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46009851\">Comments</a>"
   },
   {
-    "title": "Show HN: OCR Arena \u2013 A playground for OCR models",
-    "link": "https://www.ocrarena.ai/battle",
+    "title": "Nearby peer discovery without GPS using environmental fingerprints",
+    "link": "https://www.svendewaerhert.com/blog/nearby-peer-discovery/",
     "source": "Hacker News",
-    "published": "2025-11-21T16:44:45+00:00",
+    "published": "2025-11-21T11:47:38+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46006104\">Comments</a>"
-  },
-  {
-    "title": "How did the Win 95 user interface code get brought to the Windows NT code base?",
-    "link": "https://devblogs.microsoft.com/oldnewthing/20251028-00/?p=111733",
-    "source": "Hacker News",
-    "published": "2025-11-21T16:23:50+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46005910\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46003606\">Comments</a>"
   },
   {
     "title": "Rethinking C++: Architecture, Concepts, and Responsibility",
@@ -152,11 +144,19 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45982875\">Comments</a>"
   },
   {
-    "title": "Dumb Ways to Die: Printed Ephemera",
-    "link": "https://ilovetypography.com/2025/11/19/dumb-ways-to-die-printed-ephemera/",
+    "title": "Meta Segment Anything Model 3",
+    "link": "https://ai.meta.com/blog/segment-anything-model-3/?_fb_noscript=1",
     "source": "Hacker News",
-    "published": "2025-11-19T16:10:18+00:00",
+    "published": "2025-11-19T16:27:31+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45981281\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45981514\">Comments</a>"
+  },
+  {
+    "title": "Mary Beard: Hollywood Lied to You About Ancient Rome. Here's the Truth",
+    "link": "https://kottke.org/25/11/mary-beard-hollywood-lied-to-you-about-ancient-rome-heres-the-truth",
+    "source": "Hacker News",
+    "published": "2025-11-19T15:59:33+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45981163\">Comments</a>"
   }
 ]
