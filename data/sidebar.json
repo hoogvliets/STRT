@@ -8,6 +8,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46038143\">Comments</a>"
   },
   {
+    "title": "Unpowered SSDs slowly lose data",
+    "link": "https://www.xda-developers.com/your-unpowered-ssd-is-slowly-losing-your-data/",
+    "source": "Hacker News",
+    "published": "2025-11-24T19:25:25+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46038099\">Comments</a>"
+  },
+  {
     "title": "Claude Advanced Tool Use",
     "link": "https://www.anthropic.com/engineering/advanced-tool-use",
     "source": "Hacker News",
@@ -32,14 +40,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46037626\">Comments</a>"
   },
   {
-    "title": "Launch HN: Karumi (YC F25) \u2013 Personalized, agentic product demos",
-    "link": "http://karumi.ai/",
-    "source": "Hacker News",
-    "published": "2025-11-24T18:37:27+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46037416\">Comments</a>"
-  },
-  {
     "title": "The Bitter Lesson of LLM Extensions",
     "link": "https://www.sawyerhood.com/blog/llm-extension",
     "source": "Hacker News",
@@ -48,20 +48,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46037343\">Comments</a>"
   },
   {
-    "title": "TSMC Arizona Outage Saw Fab Halt, Apple Wafers Scrapped",
+    "title": "TSMC Arizona outage saw fab halt, Apple wafers scrapped",
     "link": "https://www.culpium.com/p/tsmc-arizona-outage-saw-fab-halt",
     "source": "Hacker News",
     "published": "2025-11-24T18:30:48+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46037324\">Comments</a>"
-  },
-  {
-    "title": "Mind-reading devices can now predict preconscious thoughts",
-    "link": "https://www.nature.com/articles/d41586-025-03714-0",
-    "source": "Hacker News",
-    "published": "2025-11-24T18:26:09+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46037267\">Comments</a>"
   },
   {
     "title": "Show HN: I built an interactive HN Simulator",
@@ -80,36 +72,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46036895\">Comments</a>"
   },
   {
-    "title": "Implications of AI to schools",
-    "link": "https://twitter.com/karpathy/status/1993010584175141038",
-    "source": "Hacker News",
-    "published": "2025-11-24T17:51:02+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46036878\">Comments</a>"
-  },
-  {
-    "title": "Corvus Robotics (YC S18): Hiring Head of Mfg/Ops, Next Door to YC Mountain View",
-    "link": "https://news.ycombinator.com/item?id=46036222",
-    "source": "Hacker News",
-    "published": "2025-11-24T17:00:33+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46036222\">Comments</a>"
-  },
-  {
     "title": "Chrome Jpegxl Issue Reopened",
     "link": "https://issues.chromium.org/issues/40168998",
     "source": "Hacker News",
     "published": "2025-11-24T12:23:02+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46033330\">Comments</a>"
-  },
-  {
-    "title": "NSA and IETF, part 3: Dodging the issues at hand",
-    "link": "https://blog.cr.yp.to/20251123-dodging.html",
-    "source": "Hacker News",
-    "published": "2025-11-24T12:00:55+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46033151\">Comments</a>"
   },
   {
     "title": "Shai-Hulud Returns: Over 300 NPM Packages Infected",
@@ -128,6 +96,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46030799\">Comments</a>"
   },
   {
+    "title": "Bytes before FLOPS: your algorithm is (mostly) fine, your data isn't",
+    "link": "https://www.bitsdraumar.is/bytes-before-flops/",
+    "source": "Hacker News",
+    "published": "2025-11-23T15:47:50+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46024402\">Comments</a>"
+  },
+  {
     "title": "Three Years from GPT-3 to Gemini 3",
     "link": "https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini",
     "source": "Hacker News",
@@ -136,20 +112,36 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46019898\">Comments</a>"
   },
   {
-    "title": "The history of Indian science fiction",
-    "link": "https://altermag.com/articles/the-secret-history-of-indian-science-fiction",
+    "title": "You can see a working Quantum Computer in IBM's London office",
+    "link": "https://www.ianvisits.co.uk/articles/you-can-see-a-working-quantum-computer-in-ibms-london-office-85464/",
     "source": "Hacker News",
-    "published": "2025-11-22T09:41:46+00:00",
+    "published": "2025-11-22T13:36:02+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46013478\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46014685\">Comments</a>"
   },
   {
-    "title": "Inside Rust's std and parking_lot mutexes \u2013 who wins?",
-    "link": "https://blog.cuongle.dev/p/inside-rusts-std-and-parking-lot-mutexes-who-win",
+    "title": "Show HN: OCR Arena \u2013 A playground for OCR models",
+    "link": "https://www.ocrarena.ai/battle",
     "source": "Hacker News",
-    "published": "2025-11-20T05:32:13+00:00",
+    "published": "2025-11-21T16:44:45+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45989284\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46006104\">Comments</a>"
+  },
+  {
+    "title": "Everything you need to know about hard drive vibration (2016)",
+    "link": "https://www.ept.ca/features/everything-need-know-hard-drive-vibration/",
+    "source": "Hacker News",
+    "published": "2025-11-20T16:07:22+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45994124\">Comments</a>"
+  },
+  {
+    "title": "Random lasers from peanut kernel doped with birch leaf\u2013derived carbon dots",
+    "link": "https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2025-0312/html",
+    "source": "Hacker News",
+    "published": "2025-11-19T16:31:44+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45981568\">Comments</a>"
   },
   {
     "title": "Moving from OpenBSD to FreeBSD for firewalls",
@@ -158,5 +150,13 @@
     "published": "2025-11-19T15:07:35+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45980474\">Comments</a>"
+  },
+  {
+    "title": "Neopets.com changed my life (2019)",
+    "link": "https://annastreetman.com/2019/05/19/how-neopets-com-changed-my-life/",
+    "source": "Hacker News",
+    "published": "2025-11-19T01:24:12+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45974732\">Comments</a>"
   }
 ]
