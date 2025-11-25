@@ -1,13 +1,5 @@
 [
   {
-    "title": "PS5 now costs less than 64GB of DDR5 memory. RAM jumps to $600 due to shortage",
-    "link": "https://www.tomshardware.com/pc-components/ddr5/64gb-of-ddr5-memory-now-costs-more-than-an-entire-ps5-even-after-a-discount-trident-z5-neo-kit-jumps-to-usd600-due-to-dram-shortage-and-its-expected-to-get-worse-into-2026",
-    "source": "Hacker News",
-    "published": "2025-11-24T19:29:12+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46038143\">Comments</a>"
-  },
-  {
     "title": "Unpowered SSDs slowly lose data",
     "link": "https://www.xda-developers.com/your-unpowered-ssd-is-slowly-losing-your-data/",
     "source": "Hacker News",
@@ -72,6 +64,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46036895\">Comments</a>"
   },
   {
+    "title": "Implications of AI to schools",
+    "link": "https://twitter.com/karpathy/status/1993010584175141038",
+    "source": "Hacker News",
+    "published": "2025-11-24T17:51:02+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46036878\">Comments</a>"
+  },
+  {
     "title": "Chrome Jpegxl Issue Reopened",
     "link": "https://issues.chromium.org/issues/40168998",
     "source": "Hacker News",
@@ -112,20 +112,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46019898\">Comments</a>"
   },
   {
-    "title": "Using Antigravity for Statistical Physics in JavaScript",
-    "link": "https://christopherkrapu.com/blog/2025/antigravity-stat-mech/",
+    "title": "Migrating to Bazel symbolic macros",
+    "link": "https://www.tweag.io/blog/2025-11-20-migrating-bazel-symbolic-macros/",
     "source": "Hacker News",
-    "published": "2025-11-21T23:53:42+00:00",
+    "published": "2025-11-22T15:26:44+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46010540\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46015467\">Comments</a>"
   },
   {
-    "title": "How sea turtles learn locations using Earth\u2019s magnetic field: research",
-    "link": "https://uncnews.unc.edu/2025/02/13/sea-turtles-secret-gps-researchers-uncover-how-sea-turtles-learn-locations-using-earths-magnetic-field/",
+    "title": "A million ways to die from a data race in Go",
+    "link": "https://gaultier.github.io/blog/a_million_ways_to_data_race_in_go.html",
     "source": "Hacker News",
-    "published": "2025-11-21T23:43:53+00:00",
+    "published": "2025-11-22T14:33:57+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46010466\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46015095\">Comments</a>"
   },
   {
     "title": "Show HN: OCR Arena \u2013 A playground for OCR models",
@@ -134,6 +134,14 @@
     "published": "2025-11-21T16:44:45+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46006104\">Comments</a>"
+  },
+  {
+    "title": "How did the Windows 95 user interface code get to the Windows NT code base?",
+    "link": "https://devblogs.microsoft.com/oldnewthing/20251028-00/?p=111733",
+    "source": "Hacker News",
+    "published": "2025-11-21T16:23:50+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46005910\">Comments</a>"
   },
   {
     "title": "Random lasers from peanut kernel doped with birch leaf\u2013derived carbon dots",
@@ -150,13 +158,5 @@
     "published": "2025-11-19T15:07:35+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45980474\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Hypercamera \u2013 a browser-based 4D camera simulator",
-    "link": "https://dugas.ch/4d_creatures/4d_camera.html",
-    "source": "Hacker News",
-    "published": "2025-11-19T13:54:04+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45979520\">Comments</a>"
   }
 ]
