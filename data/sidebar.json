@@ -1,13 +1,5 @@
 [
   {
-    "title": "What you can get for the price of a Netflix subscription",
-    "link": "https://nmil.dev/what-you-can-get-for-the-price-of-a-netflix-subscription",
-    "source": "Hacker News",
-    "published": "2025-11-25T06:39:36+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46042969\">Comments</a>"
-  },
-  {
     "title": "Most Stable Raspberry Pi? 81% Better NTP with Thermal Management",
     "link": "https://austinsnerdythings.com/2025/11/24/worlds-most-stable-raspberry-pi-81-better-ntp-with-thermal-management/",
     "source": "Hacker News",
@@ -22,14 +14,6 @@
     "published": "2025-11-25T06:31:31+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46042928\">Comments</a>"
-  },
-  {
-    "title": "Why I (Still) Love Linux ?",
-    "link": "https://it-notes.dragas.net/2025/11/24/why-i-still-love-linux/",
-    "source": "Hacker News",
-    "published": "2025-11-25T06:07:34+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46042800\">Comments</a>"
   },
   {
     "title": "Unpowered SSDs slowly lose data",
@@ -56,7 +40,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46037637\">Comments</a>"
   },
   {
-    "title": "Pebble Watch software is now 100% open source",
+    "title": "Pebble Watch software is now open source",
     "link": "https://ericmigi.com/blog/pebble-watch-software-is-now-100percent-open-source",
     "source": "Hacker News",
     "published": "2025-11-24T18:52:12+00:00",
@@ -96,6 +80,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46033330\">Comments</a>"
   },
   {
+    "title": "Shai-Hulud Returns: Over 300 NPM Packages Infected",
+    "link": "https://helixguard.ai/blog/malicious-sha1hulud-2025-11-24",
+    "source": "Hacker News",
+    "published": "2025-11-24T10:40:22+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46032539\">Comments</a>"
+  },
+  {
     "title": "Build a Compiler in Five Projects",
     "link": "https://kmicinski.com/functional-programming/2025/11/23/build-a-language/",
     "source": "Hacker News",
@@ -112,28 +104,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46030799\">Comments</a>"
   },
   {
-    "title": "Three Years from GPT-3 to Gemini 3",
-    "link": "https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini",
-    "source": "Hacker News",
-    "published": "2025-11-23T01:25:17+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46019898\">Comments</a>"
-  },
-  {
-    "title": "A million ways to die from a data race in Go",
-    "link": "https://gaultier.github.io/blog/a_million_ways_to_data_race_in_go.html",
-    "source": "Hacker News",
-    "published": "2025-11-22T14:33:57+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46015095\">Comments</a>"
-  },
-  {
     "title": "How the Atomic Tests Looked Like from Los Angeles",
     "link": "https://www.amusingplanet.com/2016/09/how-atomic-tests-looked-like-from-los.html",
     "source": "Hacker News",
     "published": "2025-11-21T22:45:53+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46009935\">Comments</a>"
+  },
+  {
+    "title": "Using an Array of Needles to Create Solid Knitted Shapes",
+    "link": "https://dl.acm.org/doi/10.1145/3746059.3747759",
+    "source": "Hacker News",
+    "published": "2025-11-21T22:36:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46009851\">Comments</a>"
   },
   {
     "title": "Show HN: OCR Arena \u2013 A playground for OCR models",
@@ -144,7 +128,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46006104\">Comments</a>"
   },
   {
-    "title": "How did the Windows 95 user interface code get to the Windows NT code base?",
+    "title": "How did the Win 95 user interface code get brought to the Windows NT code base?",
     "link": "https://devblogs.microsoft.com/oldnewthing/20251028-00/?p=111733",
     "source": "Hacker News",
     "published": "2025-11-21T16:23:50+00:00",
@@ -158,5 +142,21 @@
     "published": "2025-11-19T20:58:50+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=45985081\">Comments</a>"
+  },
+  {
+    "title": "Broccoli Man, Remastered",
+    "link": "https://mbleigh.dev/posts/broccoli-man-remastered/",
+    "source": "Hacker News",
+    "published": "2025-11-19T18:16:53+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45982875\">Comments</a>"
+  },
+  {
+    "title": "Dumb Ways to Die: Printed Ephemera",
+    "link": "https://ilovetypography.com/2025/11/19/dumb-ways-to-die-printed-ephemera/",
+    "source": "Hacker News",
+    "published": "2025-11-19T16:10:18+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45981281\">Comments</a>"
   }
 ]
