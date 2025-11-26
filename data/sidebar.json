@@ -1,11 +1,35 @@
 [
   {
-    "title": "AWS is 10x slower than a dedicated server for the same price [video]",
-    "link": "https://www.youtube.com/watch?v=Ps3AI1kTIR4",
+    "title": "Cekura (YC F24) Is Hiring",
+    "link": "https://www.ycombinator.com/companies/cekura-ai/jobs/0ZGLW69-forward-deployed-engineer-us",
     "source": "Hacker News",
-    "published": "2025-11-26T08:18:45+00:00",
+    "published": "2025-11-26T12:01:24+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46055298\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46056583\">Comments</a>"
+  },
+  {
+    "title": "Await Is Not a Context Switch: Understanding Python's Coroutines vs. Tasks",
+    "link": "https://mergify.com/blog/await-is-not-a-context-switch-understanding-python-s-coroutines-vs-tasks",
+    "source": "Hacker News",
+    "published": "2025-11-26T11:00:49+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46056197\">Comments</a>"
+  },
+  {
+    "title": "Statistical Process Control in Python",
+    "link": "https://timothyfraser.com/sigma/statistical-process-control-in-python.html",
+    "source": "Hacker News",
+    "published": "2025-11-26T08:40:29+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46055421\">Comments</a>"
+  },
+  {
+    "title": "Image Diffusion Models Exhibit Emergent Temporal Propagation in Videos",
+    "link": "https://arxiv.org/abs/2511.19936",
+    "source": "Hacker News",
+    "published": "2025-11-26T07:55:49+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46055177\">Comments</a>"
   },
   {
     "title": "Space Truckin' \u2013 The Nostromo (2012)",
@@ -14,14 +38,6 @@
     "published": "2025-11-26T02:31:41+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46053566\">Comments</a>"
-  },
-  {
-    "title": "BebboSSH: SSH2 implementation for Amiga systems (68000, GPLv3)",
-    "link": "https://franke.ms/git/bebbo/bebbossh",
-    "source": "Hacker News",
-    "published": "2025-11-26T01:51:26+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46053262\">Comments</a>"
   },
   {
     "title": "CS234: Reinforcement Learning Winter 2025",
@@ -48,44 +64,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46049932\">Comments</a>"
   },
   {
-    "title": "The Bughouse Effect",
-    "link": "https://tsvibt.blogspot.com/2025/11/the-bughouse-effect.html",
-    "source": "Hacker News",
-    "published": "2025-11-25T19:43:42+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46049835\">Comments</a>"
-  },
-  {
-    "title": "Google Antigravity exfiltrates data via indirect prompt injection attack",
-    "link": "https://www.promptarmor.com/resources/google-antigravity-exfiltrates-data",
-    "source": "Hacker News",
-    "published": "2025-11-25T18:31:16+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46048996\">Comments</a>"
-  },
-  {
     "title": "Show HN: We built an open source, zero webhooks payment processor",
     "link": "https://github.com/flowglad/flowglad",
     "source": "Hacker News",
     "published": "2025-11-25T17:33:50+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46048252\">Comments</a>"
-  },
-  {
-    "title": "Ilya Sutskever: We're moving from the age of scaling to the age of research",
-    "link": "https://www.dwarkesh.com/p/ilya-sutskever-2",
-    "source": "Hacker News",
-    "published": "2025-11-25T17:21:52+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46048125\">Comments</a>"
-  },
-  {
-    "title": "Python is not a great language for data science",
-    "link": "https://blog.genesmindsmachines.com/p/python-is-not-a-great-language-for",
-    "source": "Hacker News",
-    "published": "2025-11-25T16:38:57+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46047580\">Comments</a>"
   },
   {
     "title": "New layouts with CSS Subgrid",
@@ -128,6 +112,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46040053\">Comments</a>"
   },
   {
+    "title": "Efficient solar cooking that stores heat in sand",
+    "link": "https://www.sciencedirect.com/science/article/pii/S266711312500035X",
+    "source": "Hacker News",
+    "published": "2025-11-24T04:17:41+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46030337\">Comments</a>"
+  },
+  {
     "title": "Surprisingly, Emacs on Android is pretty good",
     "link": "https://kristofferbalintona.me/posts/202505291438/",
     "source": "Hacker News",
@@ -150,6 +142,14 @@
     "published": "2025-11-22T17:44:12+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46016579\">Comments</a>"
+  },
+  {
+    "title": "Downsampling: Largest-Triangle-Three-Buckets and the Fourier Transform",
+    "link": "https://daniel.mitterdorfer.name/posts/2024-01-30-downsampling-lttb-and-fft/",
+    "source": "Hacker News",
+    "published": "2025-11-21T16:55:14+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46006211\">Comments</a>"
   },
   {
     "title": "Copyparty, the FOSS file server [video]",
