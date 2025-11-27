@@ -1,19 +1,19 @@
 [
   {
+    "title": "Coq: The World's Best Macro Assembler? [pdf] [2013]",
+    "link": "https://nickbenton.name/coqasm.pdf",
+    "source": "Hacker News",
+    "published": "2025-11-27T04:34:56+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46065698\">Comments</a>"
+  },
+  {
     "title": "DIY NAS: 2026 Edition",
     "link": "https://blog.briancmoses.com/2025/11/diy-nas-2026-edition.html",
     "source": "Hacker News",
     "published": "2025-11-27T02:54:23+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46065034\">Comments</a>"
-  },
-  {
-    "title": "Green Card Interviews End in Handcuffs for Spouses of U.S. Citizens",
-    "link": "https://www.nytimes.com/2025/11/26/us/trump-green-card-interview-arrests.html",
-    "source": "Hacker News",
-    "published": "2025-11-27T02:51:31+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46065015\">Comments</a>"
   },
   {
     "title": "Penpot: The Open-Source Figma",
@@ -24,12 +24,36 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46064757\">Comments</a>"
   },
   {
-    "title": "Migrating the Main Zig Repository from GitHub to Codeberg",
+    "title": "Functional Data Structures and Algorithms: a Proof Assistant Approach",
+    "link": "https://fdsa-book.net/",
+    "source": "Hacker News",
+    "published": "2025-11-27T02:04:57+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46064680\">Comments</a>"
+  },
+  {
+    "title": "Migrating the main Zig repository from GitHub to Codeberg",
     "link": "https://ziglang.org/news/migrating-from-github-to-codeberg/",
     "source": "Hacker News",
     "published": "2025-11-27T01:49:00+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46064571\">Comments</a>"
+  },
+  {
+    "title": "DSP 101 Part 1: An Introductory Course in DSP System Design",
+    "link": "https://www.analog.com/en/resources/analog-dialogue/articles/dsp-101-part-1.html",
+    "source": "Hacker News",
+    "published": "2025-11-27T00:42:13+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46064065\">Comments</a>"
+  },
+  {
+    "title": "C100 Developer Terminal",
+    "link": "https://caligra.com/",
+    "source": "Hacker News",
+    "published": "2025-11-26T23:22:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46063450\">Comments</a>"
   },
   {
     "title": "Running Unsupported iOS on Deprecated Devices",
@@ -40,7 +64,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46063272\">Comments</a>"
   },
   {
-    "title": "Bring Bathroom Doors Back to Hotels",
+    "title": "Bring bathroom doors back to hotels",
     "link": "https://bringbackdoors.com/",
     "source": "Hacker News",
     "published": "2025-11-26T22:26:36+00:00",
@@ -62,14 +86,6 @@
     "published": "2025-11-26T19:58:27+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46061682\">Comments</a>"
-  },
-  {
-    "title": "Alan.app \u2013 Add a Border to macOS Active Window",
-    "link": "https://tyler.io/2025/11/alan/",
-    "source": "Hacker News",
-    "published": "2025-11-26T19:12:40+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46061239\">Comments</a>"
   },
   {
     "title": "Fara-7B: An efficient agentic model for computer use",
@@ -96,36 +112,28 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46057488\">Comments</a>"
   },
   {
-    "title": "A cell so minimal that it challenges definitions of life",
-    "link": "https://www.quantamagazine.org/a-cell-so-minimal-that-it-challenges-definitions-of-life-20251124/",
+    "title": "Willis Whitfield: A simple man with a simple solution that changed the world",
+    "link": "https://www.sandia.gov/labnews/2024/04/04/willis-whitfield-a-simple-man-with-a-simple-solution-that-changed-the-world/",
     "source": "Hacker News",
-    "published": "2025-11-26T10:06:41+00:00",
+    "published": "2025-11-24T21:12:25+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46055935\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46039387\">Comments</a>"
   },
   {
-    "title": "Statistical Process Control in Python",
-    "link": "https://timothyfraser.com/sigma/statistical-process-control-in-python.html",
+    "title": "Ruby Was Ready from the Start",
+    "link": "https://obie.medium.com/ruby-was-ready-from-the-start-4b089b17babb",
     "source": "Hacker News",
-    "published": "2025-11-26T08:40:29+00:00",
+    "published": "2025-11-24T08:30:00+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46055421\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46031664\">Comments</a>"
   },
   {
-    "title": "How Does Microwaving Grapes Create Plumes of Plasma?",
-    "link": "https://www.pbs.org/wgbh/nova/article/how-does-microwaving-grapes-create-plumes-plasma/",
+    "title": "Making my 1970's-style renderer multi-threaded",
+    "link": "https://filiph.net/text/making-my-1970s-renderer-multi-threaded.html",
     "source": "Hacker News",
-    "published": "2025-11-24T04:16:02+00:00",
+    "published": "2025-11-23T21:09:33+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46030325\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Safe-NPM \u2013 only install packages that are +90 days old",
-    "link": "https://github.com/kevinslin/safe-npm",
-    "source": "Hacker News",
-    "published": "2025-11-23T22:14:14+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46027878\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46027348\">Comments</a>"
   },
   {
     "title": "A Fast 64-Bit Date Algorithm (30\u201340% faster by counting dates backwards)",
@@ -134,14 +142,6 @@
     "published": "2025-11-23T02:27:16+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46020193\">Comments</a>"
-  },
-  {
-    "title": "Cardiac implantable electronic devices' longevity: A novel modelling tool",
-    "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0333195",
-    "source": "Hacker News",
-    "published": "2025-11-22T21:02:02+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018226\">Comments</a>"
   },
   {
     "title": "A woman on a mission to photograph every species of hummingbird",
