@@ -1,6 +1,38 @@
 [
   {
-    "title": "How Arthur Conan Doyle Explored Men's Mental Health Through Sherlock Holmes",
+    "title": "Show HN: Runprompt \u2013 run .prompt files from the command line",
+    "link": "https://github.com/chr15m/runprompt",
+    "source": "Hacker News",
+    "published": "2025-11-27T14:26:35+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46069556\">Comments</a>"
+  },
+  {
+    "title": "TPUs vs. GPUs and why Google is positioned to win AI race in the long term",
+    "link": "https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference",
+    "source": "Hacker News",
+    "published": "2025-11-27T13:28:34+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46069048\">Comments</a>"
+  },
+  {
+    "title": "The State of GPL Propagation to AI Models",
+    "link": "https://shujisado.org/2025/11/27/gpl-propagates-to-ai-models-trained-on-gpl-code/",
+    "source": "Hacker News",
+    "published": "2025-11-27T12:48:12+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46068777\">Comments</a>"
+  },
+  {
+    "title": "C64 Burrow.BAS",
+    "link": "https://basic-code.bearblog.dev/c64-burrow/",
+    "source": "Hacker News",
+    "published": "2025-11-27T11:11:46+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46068147\">Comments</a>"
+  },
+  {
+    "title": "Arthur Conan Doyle explored men\u2019s mental health through Sherlock Holmes",
     "link": "https://scienceclock.com/arthur-conan-doyle-delved-into-mens-mental-health-through-his-sherlock-holmes-stories/",
     "source": "Hacker News",
     "published": "2025-11-27T10:54:02+00:00",
@@ -8,12 +40,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46068015\">Comments</a>"
   },
   {
-    "title": "Ray Marching Soft Shadows in 2D",
+    "title": "Ray Marching Soft Shadows in 2D (2020)",
     "link": "https://www.rykap.com/2020/09/23/distance-fields/",
     "source": "Hacker News",
     "published": "2025-11-27T07:31:24+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46066695\">Comments</a>"
+  },
+  {
+    "title": "Mixpanel Security Breach",
+    "link": "https://mixpanel.com/blog/sms-security-incident/",
+    "source": "Hacker News",
+    "published": "2025-11-27T07:02:40+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46066522\">Comments</a>"
   },
   {
     "title": "Linux Kernel Explorer",
@@ -24,14 +64,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46066280\">Comments</a>"
   },
   {
-    "title": "$96M AUD revamp of Bom website bombs out on launch",
-    "link": "https://www.bbc.com/news/articles/c2k4dy15nqqo",
-    "source": "Hacker News",
-    "published": "2025-11-27T05:05:46+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46065870\">Comments</a>"
-  },
-  {
     "title": "Music eases surgery and speeds recovery, study finds",
     "link": "https://www.bbc.com/news/articles/c231dv9zpz3o",
     "source": "Hacker News",
@@ -40,7 +72,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46065817\">Comments</a>"
   },
   {
-    "title": "Coq: The World's Best Macro Assembler? [pdf] [2013]",
+    "title": "Coq: The World's Best Macro Assembler? (2013) [pdf]",
     "link": "https://nickbenton.name/coqasm.pdf",
     "source": "Hacker News",
     "published": "2025-11-27T04:34:56+00:00",
@@ -62,22 +94,6 @@
     "published": "2025-11-27T02:14:36+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46064757\">Comments</a>"
-  },
-  {
-    "title": "Functional Data Structures and Algorithms: a Proof Assistant Approach",
-    "link": "https://fdsa-book.net/",
-    "source": "Hacker News",
-    "published": "2025-11-27T02:04:57+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46064680\">Comments</a>"
-  },
-  {
-    "title": "Migrating the main Zig repository from GitHub to Codeberg",
-    "link": "https://ziglang.org/news/migrating-from-github-to-codeberg/",
-    "source": "Hacker News",
-    "published": "2025-11-27T01:49:00+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46064571\">Comments</a>"
   },
   {
     "title": "Running Unsupported iOS on Deprecated Devices",
@@ -104,15 +120,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46060508\">Comments</a>"
   },
   {
-    "title": "Voyager 1 is about to reach one light-day from Earth",
-    "link": "https://scienceclock.com/voyager-1-is-about-to-reach-one-light-day-from-earth/",
-    "source": "Hacker News",
-    "published": "2025-11-26T14:02:46+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46057488\">Comments</a>"
-  },
-  {
-    "title": "Willis Whitfield: A simple man with a simple solution that changed the world",
+    "title": "Willis Whitfield: Creator of clean room technology still in use today (2024)",
     "link": "https://www.sandia.gov/labnews/2024/04/04/willis-whitfield-a-simple-man-with-a-simple-solution-that-changed-the-world/",
     "source": "Hacker News",
     "published": "2025-11-24T21:12:25+00:00",
@@ -128,6 +136,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46039106\">Comments</a>"
   },
   {
+    "title": "Technical Deflation",
+    "link": "https://benanderson.work/blog/technical-deflation/",
+    "source": "Hacker News",
+    "published": "2025-11-24T12:39:10+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46033472\">Comments</a>"
+  },
+  {
     "title": "G0-G3 corners, visualised: learn what \"Apple corners\" are",
     "link": "https://www.printables.com/model/1490911-g0-g3-corners-visualised-learn-what-apple-corners",
     "source": "Hacker News",
@@ -136,27 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46025911\">Comments</a>"
   },
   {
-    "title": "A Fast 64-Bit Date Algorithm (30\u201340% faster by counting dates backwards)",
-    "link": "https://www.benjoffe.com/fast-date-64",
+    "title": "The Concrete Pontoons of Bristol",
+    "link": "https://thecretefleet.com/blog/f/the-concrete-pontoons-of-bristol",
     "source": "Hacker News",
-    "published": "2025-11-23T02:27:16+00:00",
+    "published": "2025-11-21T15:04:13+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020193\">Comments</a>"
-  },
-  {
-    "title": "How/why to sweep async tasks under a Postgres table",
-    "link": "https://taylor.town/pg-task",
-    "source": "Hacker News",
-    "published": "2025-11-21T18:28:31+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46007267\">Comments</a>"
-  },
-  {
-    "title": "Closest Harmonic Number to an Integer",
-    "link": "https://www.johndcook.com/blog/2025/11/19/closest-harmonic-number-to-an-integer/",
-    "source": "Hacker News",
-    "published": "2025-11-20T21:33:06+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=45998044\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46005239\">Comments</a>"
   }
 ]
