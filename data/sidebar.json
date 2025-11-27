@@ -1,19 +1,35 @@
 [
   {
-    "title": "Crypto hoarders dump tokens as shares tumble",
-    "link": "https://arstechnica.com/information-technology/2025/11/crypto-hoarders-dump-tokens-as-shares-tumble/",
+    "title": "DIY NAS: 2026 Edition",
+    "link": "https://blog.briancmoses.com/2025/11/diy-nas-2026-edition.html",
     "source": "Hacker News",
-    "published": "2025-11-27T00:07:49+00:00",
+    "published": "2025-11-27T02:54:23+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46063819\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46065034\">Comments</a>"
   },
   {
-    "title": "C100 Developer Terminal",
-    "link": "https://caligra.com/",
+    "title": "Green Card Interviews End in Handcuffs for Spouses of U.S. Citizens",
+    "link": "https://www.nytimes.com/2025/11/26/us/trump-green-card-interview-arrests.html",
     "source": "Hacker News",
-    "published": "2025-11-26T23:22:24+00:00",
+    "published": "2025-11-27T02:51:31+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46063450\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46065015\">Comments</a>"
+  },
+  {
+    "title": "Penpot: The Open-Source Figma",
+    "link": "https://github.com/penpot/penpot",
+    "source": "Hacker News",
+    "published": "2025-11-27T02:14:36+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46064757\">Comments</a>"
+  },
+  {
+    "title": "Migrating the Main Zig Repository from GitHub to Codeberg",
+    "link": "https://ziglang.org/news/migrating-from-github-to-codeberg/",
+    "source": "Hacker News",
+    "published": "2025-11-27T01:49:00+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46064571\">Comments</a>"
   },
   {
     "title": "Running Unsupported iOS on Deprecated Devices",
@@ -48,14 +64,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46061682\">Comments</a>"
   },
   {
-    "title": "Don't Download Apps",
-    "link": "https://blog.calebjay.com/posts/dont-download-apps/",
-    "source": "Hacker News",
-    "published": "2025-11-26T19:51:52+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46061623\">Comments</a>"
-  },
-  {
     "title": "Alan.app \u2013 Add a Border to macOS Active Window",
     "link": "https://tyler.io/2025/11/alan/",
     "source": "Hacker News",
@@ -80,15 +88,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46060508\">Comments</a>"
   },
   {
-    "title": "Compressed filesystems \u00e0 la language models",
-    "link": "https://grohan.co/2025/11/25/llmfuse/",
-    "source": "Hacker News",
-    "published": "2025-11-26T15:03:09+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46058033\">Comments</a>"
-  },
-  {
-    "title": "Voyager 1 is about to reach one light-day from earth",
+    "title": "Voyager 1 is about to reach one light-day from Earth",
     "link": "https://scienceclock.com/voyager-1-is-about-to-reach-one-light-day-from-earth/",
     "source": "Hacker News",
     "published": "2025-11-26T14:02:46+00:00",
@@ -110,14 +110,6 @@
     "published": "2025-11-26T08:40:29+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46055421\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Yolodex \u2013 real-time customer enrichment API",
-    "link": "https://api.yolodex.ai",
-    "source": "Hacker News",
-    "published": "2025-11-24T14:02:04+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46034189\">Comments</a>"
   },
   {
     "title": "How Does Microwaving Grapes Create Plumes of Plasma?",
@@ -144,6 +136,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46020193\">Comments</a>"
   },
   {
+    "title": "Cardiac implantable electronic devices' longevity: A novel modelling tool",
+    "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0333195",
+    "source": "Hacker News",
+    "published": "2025-11-22T21:02:02+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46018226\">Comments</a>"
+  },
+  {
     "title": "A woman on a mission to photograph every species of hummingbird",
     "link": "https://www.audubon.org/magazine/meet-woman-mission-photograph-every-species-of-hummingbird-world",
     "source": "Hacker News",
@@ -152,11 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46017830\">Comments</a>"
   },
   {
-    "title": "Show HN: I turned algae into a bio-altimeter and put it on a weather balloon",
-    "link": "https://radi8.dev/blog/stratospore/",
+    "title": "Comic Code Reviews",
+    "link": "https://www.jona.ca/2025/11/comic-code-reviews.html",
     "source": "Hacker News",
-    "published": "2025-11-22T17:11:52+00:00",
+    "published": "2025-11-20T21:58:36+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46016288\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=45998392\">Comments</a>"
   }
 ]
