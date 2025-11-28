@@ -1,11 +1,51 @@
 [
   {
-    "title": "Google denies 'misleading' reports of Gmail using your emails to train AI",
-    "link": "https://www.theverge.com/news/826902/gmail-ai-training-data-opt-out",
+    "title": "Petition to formally recognize open source work as civic service in Germany",
+    "link": "https://www.openpetition.de/petition/online/anerkennung-von-open-source-arbeit-als-ehrenamt-in-deutschland#petition-main",
     "source": "Hacker News",
-    "published": "2025-11-28T10:38:41+00:00",
+    "published": "2025-11-28T14:08:14+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46077404\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46078770\">Comments</a>"
+  },
+  {
+    "title": "A trillion dollars (potentially) wasted on gen-AI",
+    "link": "https://garymarcus.substack.com/p/a-trillion-dollars-is-a-terrible",
+    "source": "Hacker News",
+    "published": "2025-11-28T13:21:17+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46078407\">Comments</a>"
+  },
+  {
+    "title": "A Remarkable Assertion from A16Z",
+    "link": "https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z",
+    "source": "Hacker News",
+    "published": "2025-11-28T12:41:32+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46078138\">Comments</a>"
+  },
+  {
+    "title": "The mysterious black fungus from Chernobyl that may eat radiation",
+    "link": "https://www.bbc.com/future/article/20251125-the-mysterious-black-fungus-from-chernobyl-that-appears-to-eat-radiation",
+    "source": "Hacker News",
+    "published": "2025-11-28T12:17:15+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46077992\">Comments</a>"
+  },
+  {
+    "title": "A Tale of Four Fuzzers",
+    "link": "https://tigerbeetle.com/blog/2025-11-28-tale-of-four-fuzzers/",
+    "source": "Hacker News",
+    "published": "2025-11-28T12:11:39+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46077964\">Comments</a>"
+  },
+  {
+    "title": "Switzerland: Data Protection Officers Impose Broad Cloud Ban for Authorities",
+    "link": "https://www.heise.de/en/news/Switzerland-Data-Protection-Officers-Impose-Broad-Cloud-Ban-for-Authorities-11093477.html",
+    "source": "Hacker News",
+    "published": "2025-11-28T12:00:35+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46077885\">Comments</a>"
   },
   {
     "title": "EU Council Approves New \"Chat Control\" Mandate Pushing Mass Surveillance",
@@ -32,6 +72,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46077038\">Comments</a>"
   },
   {
+    "title": "SQLite as an Application File Format",
+    "link": "https://sqlite.org/appfileformat.html",
+    "source": "Hacker News",
+    "published": "2025-11-28T08:15:50+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46076642\">Comments</a>"
+  },
+  {
     "title": "Show HN: Glasses to detect smart-glasses that have cameras",
     "link": "https://github.com/NullPxl/banrays",
     "source": "Hacker News",
@@ -40,20 +88,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46075882\">Comments</a>"
   },
   {
-    "title": "How to use Linux vsock for fast VM communication",
-    "link": "https://popovicu.com/posts/how-to-use-linux-vsock-for-fast-vm-communication/",
+    "title": "Tiger Style: Coding philosophy (2024)",
+    "link": "https://tigerstyle.dev/",
     "source": "Hacker News",
-    "published": "2025-11-28T05:19:45+00:00",
+    "published": "2025-11-28T04:53:07+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46075746\">Comments</a>"
-  },
-  {
-    "title": "Beads \u2013 A memory upgrade for your coding agent",
-    "link": "https://github.com/steveyegge/beads",
-    "source": "Hacker News",
-    "published": "2025-11-28T04:50:57+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46075616\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46075628\">Comments</a>"
   },
   {
     "title": "Pocketbase \u2013 open-source realtime back end in 1 file",
@@ -64,60 +104,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46075320\">Comments</a>"
   },
   {
-    "title": "How Charles M Schulz created Charlie Brown and Snoopy (2024)",
-    "link": "https://www.bbc.com/culture/article/20241205-how-charles-m-schulz-created-charlie-brown-and-snoopy",
+    "title": "Show HN: Spikelog \u2013 A simple metrics service for scripts, cron jobs, and MVPs",
+    "link": "https://spikelog.com",
     "source": "Hacker News",
-    "published": "2025-11-28T00:10:38+00:00",
+    "published": "2025-11-27T11:10:51+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46074362\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46068138\">Comments</a>"
   },
   {
-    "title": "Vsora Jotunn-8 5nm European inference chip",
-    "link": "https://vsora.com/products/jotunn-8/",
+    "title": "Atuin\u2019s New Runbook Execution Engine",
+    "link": "https://blog.atuin.sh/introducing-the-new-runbook-execution-engine/",
     "source": "Hacker News",
-    "published": "2025-11-27T23:30:11+00:00",
+    "published": "2025-11-24T21:06:39+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46074111\">Comments</a>"
-  },
-  {
-    "title": "250MWh 'Sand Battery' to start construction in Finland",
-    "link": "https://www.energy-storage.news/250mwh-sand-battery-to-start-construction-in-finland-for-both-heating-and-ancillary-services/",
-    "source": "Hacker News",
-    "published": "2025-11-27T22:48:44+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46073855\">Comments</a>"
-  },
-  {
-    "title": "A programmer-friendly I/O abstraction over io_uring and kqueue (2022)",
-    "link": "https://tigerbeetle.com/blog/2022-11-23-a-friendly-abstraction-over-iouring-and-kqueue/",
-    "source": "Hacker News",
-    "published": "2025-11-27T22:41:06+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46073817\">Comments</a>"
-  },
-  {
-    "title": "Same-day upstream Linux support for Snapdragon 8 Elite Gen 5",
-    "link": "https://www.qualcomm.com/developer/blog/2025/10/same-day-snapdragon-8-elite-gen-5-upstream-linux-support",
-    "source": "Hacker News",
-    "published": "2025-11-27T16:19:03+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46070668\">Comments</a>"
-  },
-  {
-    "title": "GitLab discovers widespread NPM supply chain attack",
-    "link": "https://about.gitlab.com/blog/gitlab-discovers-widespread-npm-supply-chain-attack/",
-    "source": "Hacker News",
-    "published": "2025-11-27T15:36:56+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46070203\">Comments</a>"
-  },
-  {
-    "title": "Implementing Bluetooth LE Audio and Auracast on Linux Systems",
-    "link": "https://www.collabora.com/news-and-blog/blog/2025/11/24/implementing-bluetooth-le-audio-and-auracast-on-linux-systems/",
-    "source": "Hacker News",
-    "published": "2025-11-24T20:15:53+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46038684\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46039317\">Comments</a>"
   },
   {
     "title": "Open (Apache 2.0) TTS model for streaming conversational audio in realtime",
@@ -128,12 +128,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46033386\">Comments</a>"
   },
   {
-    "title": "Quake Engine Indicators",
-    "link": "https://fabiensanglard.net/quake_indicators/index.html",
+    "title": "OS Malevich \u2013 how we made a system that embodies the idea of simplicity (2017)",
+    "link": "https://www.ajax-systems.uz/blog/hub-os-malevich-story/",
     "source": "Hacker News",
-    "published": "2025-11-24T08:10:11+00:00",
+    "published": "2025-11-24T10:52:37+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46031552\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46032623\">Comments</a>"
   },
   {
     "title": "How to make precise sheet metal parts (photochemical machining) [video]",
