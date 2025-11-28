@@ -8,6 +8,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46074362\">Comments</a>"
   },
   {
+    "title": "Bird flu viruses are resistant to fever, making them a major threat to humans",
+    "link": "https://medicalxpress.com/news/2025-11-bird-flu-viruses-resistant-fever.html",
+    "source": "Hacker News",
+    "published": "2025-11-27T23:57:57+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46074286\">Comments</a>"
+  },
+  {
     "title": "Vsora Jotunn-8 5nm European inference chip",
     "link": "https://vsora.com/products/jotunn-8/",
     "source": "Hacker News",
@@ -24,7 +32,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46073855\">Comments</a>"
   },
   {
-    "title": "A Programmer-Friendly I/O Abstraction Over io_uring and kqueue",
+    "title": "A programmer-friendly I/O abstraction over io_uring and kqueue (2022)",
     "link": "https://tigerbeetle.com/blog/2022-11-23-a-friendly-abstraction-over-iouring-and-kqueue/",
     "source": "Hacker News",
     "published": "2025-11-27T22:41:06+00:00",
@@ -38,14 +46,6 @@
     "published": "2025-11-27T20:37:51+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46073033\">Comments</a>"
-  },
-  {
-    "title": "LinkedIn is loud, and corporate is hell",
-    "link": "https://ramones.dev/posts/linkedin-is-loud/",
-    "source": "Hacker News",
-    "published": "2025-11-27T20:30:21+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46072988\">Comments</a>"
   },
   {
     "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning [pdf]",
@@ -64,20 +64,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46070668\">Comments</a>"
   },
   {
+    "title": "GitLab discovers widespread NPM supply chain attack",
+    "link": "https://about.gitlab.com/blog/gitlab-discovers-widespread-npm-supply-chain-attack/",
+    "source": "Hacker News",
+    "published": "2025-11-27T15:36:56+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46070203\">Comments</a>"
+  },
+  {
     "title": "TPUs vs. GPUs and why Google is positioned to win AI race in the long term",
     "link": "https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference",
     "source": "Hacker News",
     "published": "2025-11-27T13:28:34+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46069048\">Comments</a>"
-  },
-  {
-    "title": "Mixpanel Security Breach",
-    "link": "https://mixpanel.com/blog/sms-security-incident/",
-    "source": "Hacker News",
-    "published": "2025-11-27T07:02:40+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46066522\">Comments</a>"
   },
   {
     "title": "Linux Kernel Explorer",
@@ -104,22 +104,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46065034\">Comments</a>"
   },
   {
-    "title": "Why Strong Consistency?",
-    "link": "https://brooker.co.za/blog/2025/11/18/consistency.html",
-    "source": "Hacker News",
-    "published": "2025-11-26T22:00:48+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46062855\">Comments</a>"
-  },
-  {
-    "title": "Inspired by Spider-Man, scientists recreate web-slinging technology",
-    "link": "https://scienceclock.com/inspired-by-spider-man-scientists-recreate-web-slinging-technology/",
-    "source": "Hacker News",
-    "published": "2025-11-26T20:17:44+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46061871\">Comments</a>"
-  },
-  {
     "title": "Feedback doesn't scale",
     "link": "https://another.rodeo/feedback/",
     "source": "Hacker News",
@@ -136,6 +120,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46057266\">Comments</a>"
   },
   {
+    "title": "Maxduino Review: Tape Cassette Emulator for Multiple Retro Computers",
+    "link": "https://retrogamecoders.com/maxduino-review/",
+    "source": "Hacker News",
+    "published": "2025-11-24T16:26:22+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46035819\">Comments</a>"
+  },
+  {
     "title": "Quake Engine Indicators",
     "link": "https://fabiensanglard.net/quake_indicators/index.html",
     "source": "Hacker News",
@@ -144,7 +136,15 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46031552\">Comments</a>"
   },
   {
-    "title": "Indie, Alone, and Figuring It Out",
+    "title": "Giving the Jakks Atari Paddle a Spin",
+    "link": "https://nicole.express/2025/paddle-me-atari.html",
+    "source": "Hacker News",
+    "published": "2025-11-23T20:31:45+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46027065\">Comments</a>"
+  },
+  {
+    "title": "Indie, alone, and figuring it out",
     "link": "https://danijelavrzan.com/posts/2025/11/indie-dev/",
     "source": "Hacker News",
     "published": "2025-11-23T15:33:22+00:00",
