@@ -1,5 +1,53 @@
 [
   {
+    "title": "How Charles M Schulz created Charlie Brown and Snoopy (2024)",
+    "link": "https://www.bbc.com/culture/article/20241205-how-charles-m-schulz-created-charlie-brown-and-snoopy",
+    "source": "Hacker News",
+    "published": "2025-11-28T00:10:38+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46074362\">Comments</a>"
+  },
+  {
+    "title": "Vsora Jotunn-8 5nm European inference chip",
+    "link": "https://vsora.com/products/jotunn-8/",
+    "source": "Hacker News",
+    "published": "2025-11-27T23:30:11+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46074111\">Comments</a>"
+  },
+  {
+    "title": "250MWh 'Sand Battery' to start construction in Finland",
+    "link": "https://www.energy-storage.news/250mwh-sand-battery-to-start-construction-in-finland-for-both-heating-and-ancillary-services/",
+    "source": "Hacker News",
+    "published": "2025-11-27T22:48:44+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46073855\">Comments</a>"
+  },
+  {
+    "title": "A Programmer-Friendly I/O Abstraction Over io_uring and kqueue",
+    "link": "https://tigerbeetle.com/blog/2022-11-23-a-friendly-abstraction-over-iouring-and-kqueue/",
+    "source": "Hacker News",
+    "published": "2025-11-27T22:41:06+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46073817\">Comments</a>"
+  },
+  {
+    "title": "Underrated reasons to be thankful V",
+    "link": "https://dynomight.net/thanks-5/",
+    "source": "Hacker News",
+    "published": "2025-11-27T20:37:51+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46073033\">Comments</a>"
+  },
+  {
+    "title": "LinkedIn is loud, and corporate is hell",
+    "link": "https://ramones.dev/posts/linkedin-is-loud/",
+    "source": "Hacker News",
+    "published": "2025-11-27T20:30:21+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46072988\">Comments</a>"
+  },
+  {
     "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning [pdf]",
     "link": "https://github.com/deepseek-ai/DeepSeek-Math-V2/blob/main/DeepSeekMath_V2.pdf",
     "source": "Hacker News",
@@ -8,52 +56,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46072786\">Comments</a>"
   },
   {
-    "title": "AI CEO \u2013 Replace your boss before they replace you",
-    "link": "https://replaceyourboss.ai/",
-    "source": "Hacker News",
-    "published": "2025-11-27T18:37:41+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46072002\">Comments</a>"
-  },
-  {
-    "title": "The input stack on Linux: An end-to-end architecture overview",
-    "link": "https://venam.net/blog/unix/2025/11/27/input_devices_linux.html",
-    "source": "Hacker News",
-    "published": "2025-11-27T16:55:30+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46071030\">Comments</a>"
-  },
-  {
-    "title": "Pakistan says rooftop solar output to exceed grid demand in some hubs next year",
-    "link": "https://www.reuters.com/sustainability/boards-policy-regulation/pakistan-says-rooftop-solar-output-exceed-grid-demand-some-hubs-next-year-2025-11-22/",
-    "source": "Hacker News",
-    "published": "2025-11-27T16:42:40+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46070915\">Comments</a>"
-  },
-  {
-    "title": "The VanDersarl Bl\u00e9riot: a 1911 airplane homebuilt by teenage brothers",
-    "link": "https://www.historynet.com/vandersarl-bleriot/",
-    "source": "Hacker News",
-    "published": "2025-11-27T16:38:35+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46070868\">Comments</a>"
-  },
-  {
     "title": "Same-day upstream Linux support for Snapdragon 8 Elite Gen 5",
     "link": "https://www.qualcomm.com/developer/blog/2025/10/same-day-snapdragon-8-elite-gen-5-upstream-linux-support",
     "source": "Hacker News",
     "published": "2025-11-27T16:19:03+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46070668\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Runprompt \u2013 run .prompt files from the command line",
-    "link": "https://github.com/chr15m/runprompt",
-    "source": "Hacker News",
-    "published": "2025-11-27T14:26:35+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46069556\">Comments</a>"
   },
   {
     "title": "TPUs vs. GPUs and why Google is positioned to win AI race in the long term",
@@ -88,28 +96,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46065955\">Comments</a>"
   },
   {
-    "title": "Coq: The World's Best Macro Assembler? (2013) [pdf]",
-    "link": "https://nickbenton.name/coqasm.pdf",
-    "source": "Hacker News",
-    "published": "2025-11-27T04:34:56+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46065698\">Comments</a>"
-  },
-  {
     "title": "DIY NAS: 2026 Edition",
     "link": "https://blog.briancmoses.com/2025/11/diy-nas-2026-edition.html",
     "source": "Hacker News",
     "published": "2025-11-27T02:54:23+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46065034\">Comments</a>"
-  },
-  {
-    "title": "Penpot: The Open-Source Figma",
-    "link": "https://github.com/penpot/penpot",
-    "source": "Hacker News",
-    "published": "2025-11-27T02:14:36+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46064757\">Comments</a>"
   },
   {
     "title": "Why Strong Consistency?",
@@ -150,6 +142,14 @@
     "published": "2025-11-24T08:10:11+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46031552\">Comments</a>"
+  },
+  {
+    "title": "Indie, Alone, and Figuring It Out",
+    "link": "https://danijelavrzan.com/posts/2025/11/indie-dev/",
+    "source": "Hacker News",
+    "published": "2025-11-23T15:33:22+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46024302\">Comments</a>"
   },
   {
     "title": "Physicists drive antihydrogen breakthrough at CERN",
