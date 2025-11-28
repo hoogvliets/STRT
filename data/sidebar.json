@@ -1,5 +1,29 @@
 [
   {
+    "title": "GrapheneOS Moving Out of France",
+    "link": "https://xcancel.com/GrapheneOS/status/1993035936800584103",
+    "source": "Hacker News",
+    "published": "2025-11-28T06:43:13+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46076150\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Glasses to detect smart-glasses that have cameras",
+    "link": "https://github.com/NullPxl/banrays",
+    "source": "Hacker News",
+    "published": "2025-11-28T05:52:38+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46075882\">Comments</a>"
+  },
+  {
+    "title": "How to use Linux vsock for fast VM communication",
+    "link": "https://popovicu.com/posts/how-to-use-linux-vsock-for-fast-vm-communication/",
+    "source": "Hacker News",
+    "published": "2025-11-28T05:19:45+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46075746\">Comments</a>"
+  },
+  {
     "title": "TigerStyle: Coding philosophy focused on safety, performance, dev experience",
     "link": "https://tigerstyle.dev/",
     "source": "Hacker News",
@@ -22,14 +46,6 @@
     "published": "2025-11-28T03:45:04+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46075320\">Comments</a>"
-  },
-  {
-    "title": "China's BEV Trucks and the End of Diesel's Dominance",
-    "link": "https://cleantechnica.com/2025/11/26/chinas-bev-trucks-and-the-end-of-diesels-dominance/",
-    "source": "Hacker News",
-    "published": "2025-11-28T03:40:52+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46075305\">Comments</a>"
   },
   {
     "title": "How Charles M Schulz created Charlie Brown and Snoopy (2024)",
@@ -80,14 +96,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46070203\">Comments</a>"
   },
   {
-    "title": "Tell HN: Happy Thanksgiving",
-    "link": "https://news.ycombinator.com/item?id=46065955",
-    "source": "Hacker News",
-    "published": "2025-11-27T05:21:16+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46065955\">Comments</a>"
-  },
-  {
     "title": "Feedback doesn't scale",
     "link": "https://another.rodeo/feedback/",
     "source": "Hacker News",
@@ -102,6 +110,22 @@
     "published": "2025-11-26T13:36:19+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46057266\">Comments</a>"
+  },
+  {
+    "title": "Comparing xeus-Haskell and ihaskell kernels",
+    "link": "https://www.datahaskell.org/blog/2025/11/25/a-tale-of-two-kernels.html",
+    "source": "Hacker News",
+    "published": "2025-11-26T06:13:26+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46054661\">Comments</a>"
+  },
+  {
+    "title": "Implementing Bluetooth LE Audio and Auracast on Linux Systems",
+    "link": "https://www.collabora.com/news-and-blog/blog/2025/11/24/implementing-bluetooth-le-audio-and-auracast-on-linux-systems/",
+    "source": "Hacker News",
+    "published": "2025-11-24T20:15:53+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46038684\">Comments</a>"
   },
   {
     "title": "Installing Java in 2025, and Version Managers",
@@ -126,30 +150,6 @@
     "published": "2025-11-24T08:10:11+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46031552\">Comments</a>"
-  },
-  {
-    "title": "Giving the Jakks Atari Paddle a Spin",
-    "link": "https://nicole.express/2025/paddle-me-atari.html",
-    "source": "Hacker News",
-    "published": "2025-11-23T20:31:45+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46027065\">Comments</a>"
-  },
-  {
-    "title": "Indie, alone, and figuring it out",
-    "link": "https://danijelavrzan.com/posts/2025/11/indie-dev/",
-    "source": "Hacker News",
-    "published": "2025-11-23T15:33:22+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46024302\">Comments</a>"
-  },
-  {
-    "title": "Experimenting with Robin Hood Hashing",
-    "link": "https://twdev.blog/2025/11/robin_hood/",
-    "source": "Hacker News",
-    "published": "2025-11-23T10:05:32+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46022203\">Comments</a>"
   },
   {
     "title": "Physicists drive antihydrogen breakthrough at CERN",
