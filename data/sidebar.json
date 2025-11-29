@@ -1,19 +1,35 @@
 [
   {
+    "title": "Belgian Police exposed using botnets to manipulate EU data law impact assessment",
+    "link": "https://old.reddit.com/r/europe/comments/1p9kxhm/belgian_federal_police_forgot_to_turn_their_vpn/",
+    "source": "Hacker News",
+    "published": "2025-11-29T11:10:39+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46086681\">Comments</a>"
+  },
+  {
+    "title": "High Air Pollution Could Diminish Exercise Benefits by 50%, Study Finds",
+    "link": "https://scienceclock.com/exercise-may-protect-less-when-air-pollution-is-high-study-finds/",
+    "source": "Hacker News",
+    "published": "2025-11-29T10:54:16+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46086624\">Comments</a>"
+  },
+  {
+    "title": "I Know We're in an AI Bubble Because Nobody Wants Me",
+    "link": "https://petewarden.com/2025/11/29/i-know-were-in-an-ai-bubble-because-nobody-wants-me-%f0%9f%98%ad/",
+    "source": "Hacker News",
+    "published": "2025-11-29T10:08:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46086410\">Comments</a>"
+  },
+  {
     "title": "Garfield's Proof of the Pythagorean Theorem",
     "link": "https://en.wikipedia.org/wiki/Garfield%27s_proof_of_the_Pythagorean_theorem",
     "source": "Hacker News",
     "published": "2025-11-29T06:37:05+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46085585\">Comments</a>"
-  },
-  {
-    "title": "The Great Downzoning",
-    "link": "https://worksinprogress.co/issue/the-great-downzoning/",
-    "source": "Hacker News",
-    "published": "2025-11-29T05:00:27+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46085276\">Comments</a>"
   },
   {
     "title": "System 7 natively boots on the Mac mini G4",
@@ -40,14 +56,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46084122\">Comments</a>"
   },
   {
-    "title": "Fabric Project",
-    "link": "https://github.com/Fabric-Project/Fabric",
-    "source": "Hacker News",
-    "published": "2025-11-28T22:32:03+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46083375\">Comments</a>"
-  },
-  {
     "title": "Confessions of a Software Developer: No More Self-Censorship",
     "link": "https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/",
     "source": "Hacker News",
@@ -56,28 +64,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46083303\">Comments</a>"
   },
   {
-    "title": "A first look at Django's new background tasks",
-    "link": "https://roam.be/notes/2025/a-first-look-at-djangos-new-background-tasks/",
-    "source": "Hacker News",
-    "published": "2025-11-28T21:46:07+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46083051\">Comments</a>"
-  },
-  {
     "title": "Airbus A320 \u2013 intense solar radiation may corrupt data critical for flight",
     "link": "https://www.airbus.com/en/newsroom/press-releases/2025-11-airbus-update-on-a320-family-precautionary-fleet-action",
     "source": "Hacker News",
     "published": "2025-11-28T21:40:21+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46083004\">Comments</a>"
-  },
-  {
-    "title": "How good engineers write bad code at big companies",
-    "link": "https://www.seangoedecke.com/bad-code-at-big-companies/",
-    "source": "Hacker News",
-    "published": "2025-11-28T19:59:32+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46082223\">Comments</a>"
   },
   {
     "title": "The original ABC language, Python's predecessor (1991)",
@@ -128,6 +120,22 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46080289\">Comments</a>"
   },
   {
+    "title": "Language is primarily a tool for communication rather than thought (2024) [pdf]",
+    "link": "https://gwern.net/doc/psychology/linguistics/2024-fedorenko.pdf",
+    "source": "Hacker News",
+    "published": "2025-11-28T14:42:19+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46079073\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Anthony Bourdain's Lost Li.st's",
+    "link": "https://bourdain.greg.technology/",
+    "source": "Hacker News",
+    "published": "2025-11-26T07:03:27+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46054879\">Comments</a>"
+  },
+  {
     "title": "WinApps: Run Windows apps as if they were a part of the native Linux OS",
     "link": "https://github.com/winapps-org/winapps",
     "source": "Hacker News",
@@ -142,14 +150,6 @@
     "published": "2025-11-24T18:05:08+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46037031\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Mu \u2013 The Micro Network",
-    "link": "https://github.com/asim/mu",
-    "source": "Hacker News",
-    "published": "2025-11-24T14:06:40+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46034255\">Comments</a>"
   },
   {
     "title": "The risk of round numbers and sharp thresholds in clinical practice",
