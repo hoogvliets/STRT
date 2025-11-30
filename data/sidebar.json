@@ -1,5 +1,37 @@
 [
   {
+    "title": "Dilution vs. Risk taking: Capital gains taxes and entrepreneurs",
+    "link": "https://www.nber.org/papers/w34512",
+    "source": "Hacker News",
+    "published": "2025-11-29T23:59:49+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46092056\">Comments</a>"
+  },
+  {
+    "title": "Scala",
+    "link": "https://www.huygens-fokker.org/scala/",
+    "source": "Hacker News",
+    "published": "2025-11-29T23:51:21+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46092000\">Comments</a>"
+  },
+  {
+    "title": "Bazzite: The next generation of Linux gaming",
+    "link": "https://bazzite.gg/",
+    "source": "Hacker News",
+    "published": "2025-11-29T22:22:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46091362\">Comments</a>"
+  },
+  {
+    "title": "Landlock-Ing Linux",
+    "link": "https://blog.prizrak.me/post/landlock/",
+    "source": "Hacker News",
+    "published": "2025-11-29T21:30:53+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46090969\">Comments</a>"
+  },
+  {
     "title": "Show HN: Nano PDF \u2013 A CLI Tool to Edit PDFs with Gemini's Nano Banana",
     "link": "https://github.com/gavrielc/Nano-PDF",
     "source": "Hacker News",
@@ -24,6 +56,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46090294\">Comments</a>"
   },
   {
+    "title": "Learning Feynman's Trick for Integrals",
+    "link": "https://zackyzz.github.io/feynman.html",
+    "source": "Hacker News",
+    "published": "2025-11-29T19:55:17+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46090269\">Comments</a>"
+  },
+  {
     "title": "Be Like Clippy",
     "link": "https://be-clippy.com/",
     "source": "Hacker News",
@@ -32,23 +72,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46090172\">Comments</a>"
   },
   {
-    "title": "Framework Computer Now Sponsoring LVFS / Fwupd Development",
-    "link": "https://www.phoronix.com/news/Framework-Sponsoring-LVFS",
-    "source": "Hacker News",
-    "published": "2025-11-29T19:14:13+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46089980\">Comments</a>"
-  },
-  {
-    "title": "Electric vehicle sales are booming in South America \u2013 without Tesla",
-    "link": "https://www.reuters.com/sustainability/climate-energy/electric-vehicle-sales-are-booming-south-america-without-tesla-2025-11-17/",
-    "source": "Hacker News",
-    "published": "2025-11-29T19:12:48+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46089971\">Comments</a>"
-  },
-  {
-    "title": "Student Perceptions of AI Coding Assistants in Learning",
+    "title": "Student perceptions of AI coding assistants in learning",
     "link": "https://arxiv.org/abs/2507.22900",
     "source": "Hacker News",
     "published": "2025-11-29T18:14:21+00:00",
@@ -64,44 +88,28 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46089394\">Comments</a>"
   },
   {
-    "title": "AccessOwl (YC S22) Is Hiring a Technical Account Manager (IAM)",
-    "link": "https://www.ycombinator.com/companies/accessowl/jobs/dGC3pcO-technical-account-manager-identity-access-management",
+    "title": "Testing shows automotive glassbreakers can't break modern automotive glass",
+    "link": "https://www.core77.com/posts/138925/Testing-Shows-Automotive-Glassbreakers-Cant-Break-Modern-Automotive-Glass",
     "source": "Hacker News",
-    "published": "2025-11-29T17:00:23+00:00",
+    "published": "2025-11-29T15:43:58+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46089008\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46088379\">Comments</a>"
   },
   {
-    "title": "Iceland declares ocean-current instability a national security risk",
-    "link": "https://edition.cnn.com/2025/11/15/climate/iceland-warming-current-amoc-collapse-threat",
+    "title": "Datacenters in space aren't going to work",
+    "link": "https://taranis.ie/datacenters-in-space-are-a-terrible-horrible-no-good-idea/",
     "source": "Hacker News",
-    "published": "2025-11-29T15:21:29+00:00",
+    "published": "2025-11-29T14:05:53+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46088192\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46087616\">Comments</a>"
   },
   {
-    "title": "DNS LOC Record (2014)",
-    "link": "https://blog.cloudflare.com/the-weird-and-wonderful-world-of-dns-loc-records/",
+    "title": "Leak confirms OpenAI is preparing ads on ChatGPT for public roll out",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/",
     "source": "Hacker News",
-    "published": "2025-11-29T14:02:23+00:00",
+    "published": "2025-11-29T11:31:58+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46087596\">Comments</a>"
-  },
-  {
-    "title": "Hachi: An Image Search Engine",
-    "link": "https://eagledot.xyz/hachi.md.html",
-    "source": "Hacker News",
-    "published": "2025-11-29T13:56:04+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46087549\">Comments</a>"
-  },
-  {
-    "title": "The CRDT Dictionary: A Field Guide to Conflict-Free Replicated Data Types",
-    "link": "https://www.iankduncan.com/engineering/2025-11-27-crdt-dictionary/",
-    "source": "Hacker News",
-    "published": "2025-11-29T12:25:35+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46087022\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46086771\">Comments</a>"
   },
   {
     "title": "An update on the Farphone's battery",
@@ -112,6 +120,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46078684\">Comments</a>"
   },
   {
+    "title": "Blender facial animation tool. What else should it do?",
+    "link": "https://github.com/shun126/livelinkface_arkit_receiver/wiki",
+    "source": "Hacker News",
+    "published": "2025-11-27T17:13:51+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46071221\">Comments</a>"
+  },
+  {
     "title": "Rare X-ray images of a 4.5-ton satellite that returned intact from space",
     "link": "https://www.empa.ch/web/s604/eureca-satellit-mit-roentgenmethoden-untersucht",
     "source": "Hacker News",
@@ -120,20 +136,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46060432\">Comments</a>"
   },
   {
-    "title": "Post-mortem of Shai-Hulud attack on November 24th, 2025",
-    "link": "https://posthog.com/blog/nov-24-shai-hulud-attack-post-mortem",
+    "title": "Let go of StackOverflow; communities must take ownership",
+    "link": "https://ahelwer.ca/post/2025-11-25-stackoverflow/",
     "source": "Hacker News",
-    "published": "2025-11-26T13:22:46+00:00",
+    "published": "2025-11-25T21:46:21+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46057141\">Comments</a>"
-  },
-  {
-    "title": "Anthony Bourdain's Lost Li.st's",
-    "link": "https://bourdain.greg.technology/",
-    "source": "Hacker News",
-    "published": "2025-11-26T07:03:27+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46054879\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46051182\">Comments</a>"
   },
   {
     "title": "Show HN: Network Monitor \u2013 a GUI to spot anomalous connections on your Linux",
@@ -150,13 +158,5 @@
     "published": "2025-11-23T04:22:41+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46020730\">Comments</a>"
-  },
-  {
-    "title": "Bronze Age mega-settlement in Kazakhstan has advanced urban planning, metallurgy",
-    "link": "https://archaeologymag.com/2025/11/bronze-age-mega-settlement-in-kazakhstan/",
-    "source": "Hacker News",
-    "published": "2025-11-21T17:06:21+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46006323\">Comments</a>"
   }
 ]
