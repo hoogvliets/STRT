@@ -1,11 +1,27 @@
 [
   {
-    "title": "Dilution vs. Risk taking: Capital gains taxes and entrepreneurs",
-    "link": "https://www.nber.org/papers/w34512",
+    "title": "Stopping bad guys from using my open source project (feedback wanted)",
+    "link": "https://evanhahn.com/stopping-bad-guys-from-using-my-open-source-project/",
     "source": "Hacker News",
-    "published": "2025-11-29T23:59:49+00:00",
+    "published": "2025-11-30T01:25:43+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46092056\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46092630\">Comments</a>"
+  },
+  {
+    "title": "Meshtastic",
+    "link": "https://meshtastic.org/",
+    "source": "Hacker News",
+    "published": "2025-11-30T01:15:59+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46092558\">Comments</a>"
+  },
+  {
+    "title": "A new Little Prince museum has opened its doors in Switzerland",
+    "link": "https://www.lepetitprince.com/en/events-around-the-world/a-new-little-prince-museum-has-opened-its-doors-in-switzerland/",
+    "source": "Hacker News",
+    "published": "2025-11-30T01:03:44+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46092478\">Comments</a>"
   },
   {
     "title": "Scala",
@@ -14,6 +30,14 @@
     "published": "2025-11-29T23:51:21+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46092000\">Comments</a>"
+  },
+  {
+    "title": "Americans no longer see four-year college degrees as worth the cost",
+    "link": "https://www.nbcnews.com/politics/politics-news/poll-dramatic-shift-americans-no-longer-see-four-year-college-degrees-rcna243672",
+    "source": "Hacker News",
+    "published": "2025-11-29T22:56:14+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46091591\">Comments</a>"
   },
   {
     "title": "Bazzite: The next generation of Linux gaming",
@@ -72,22 +96,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46090172\">Comments</a>"
   },
   {
-    "title": "Student perceptions of AI coding assistants in learning",
-    "link": "https://arxiv.org/abs/2507.22900",
-    "source": "Hacker News",
-    "published": "2025-11-29T18:14:21+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46089546\">Comments</a>"
-  },
-  {
-    "title": "Zero knowlege proof of compositeness",
-    "link": "https://www.johndcook.com/blog/2025/11/29/zkp-composite/",
-    "source": "Hacker News",
-    "published": "2025-11-29T17:53:57+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46089394\">Comments</a>"
-  },
-  {
     "title": "Testing shows automotive glassbreakers can't break modern automotive glass",
     "link": "https://www.core77.com/posts/138925/Testing-Shows-Automotive-Glassbreakers-Cant-Break-Modern-Automotive-Glass",
     "source": "Hacker News",
@@ -102,14 +110,6 @@
     "published": "2025-11-29T14:05:53+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46087616\">Comments</a>"
-  },
-  {
-    "title": "Leak confirms OpenAI is preparing ads on ChatGPT for public roll out",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/",
-    "source": "Hacker News",
-    "published": "2025-11-29T11:31:58+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46086771\">Comments</a>"
   },
   {
     "title": "An update on the Farphone's battery",
@@ -136,6 +136,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46060432\">Comments</a>"
   },
   {
+    "title": "The HTTP Query Method",
+    "link": "https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-14.html",
+    "source": "Hacker News",
+    "published": "2025-11-26T12:57:35+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46056954\">Comments</a>"
+  },
+  {
     "title": "Let go of StackOverflow; communities must take ownership",
     "link": "https://ahelwer.ca/post/2025-11-25-stackoverflow/",
     "source": "Hacker News",
@@ -144,19 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46051182\">Comments</a>"
   },
   {
-    "title": "Show HN: Network Monitor \u2013 a GUI to spot anomalous connections on your Linux",
-    "link": "https://news.ycombinator.com/item?id=46032074",
+    "title": "A new myth appeared during the presidential campaign of Andrew Jackson",
+    "link": "https://www.historynewsnetwork.org/article/self-made",
     "source": "Hacker News",
-    "published": "2025-11-24T09:30:40+00:00",
+    "published": "2025-11-25T21:12:55+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46032074\">Comments</a>"
-  },
-  {
-    "title": "Hardening the C++ Standard Library at scale",
-    "link": "https://queue.acm.org/detail.cfm?id=3773097",
-    "source": "Hacker News",
-    "published": "2025-11-23T04:22:41+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46020730\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46050861\">Comments</a>"
   }
 ]
