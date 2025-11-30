@@ -1,5 +1,29 @@
 [
   {
+    "title": "CachyOS: Fast and Customizable Linux Distribution",
+    "link": "https://cachyos.org/",
+    "source": "Hacker News",
+    "published": "2025-11-30T10:47:27+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46095585\">Comments</a>"
+  },
+  {
+    "title": "Silicon Valley's Man in the White House Is Benefiting Himself and His Friends",
+    "link": "https://www.nytimes.com/2025/11/30/technology/david-sacks-white-house-profits.html",
+    "source": "Hacker News",
+    "published": "2025-11-30T10:03:31+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46095363\">Comments</a>"
+  },
+  {
+    "title": "The Space of Minds",
+    "link": "https://karpathy.bearblog.dev/the-space-of-minds/",
+    "source": "Hacker News",
+    "published": "2025-11-30T09:44:15+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46095250\">Comments</a>"
+  },
+  {
     "title": "Jiga (YC W21) Is Hiring Product Designer",
     "link": "https://www.ycombinator.com/companies/jiga/jobs/Cco7vyK-product-designer-remote-europe",
     "source": "Hacker News",
@@ -40,14 +64,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46092478\">Comments</a>"
   },
   {
-    "title": "Scala",
-    "link": "https://www.huygens-fokker.org/scala/",
-    "source": "Hacker News",
-    "published": "2025-11-29T23:51:21+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46092000\">Comments</a>"
-  },
-  {
     "title": "Americans no longer see four-year college degrees as worth the cost",
     "link": "https://www.nbcnews.com/politics/politics-news/poll-dramatic-shift-americans-no-longer-see-four-year-college-degrees-rcna243672",
     "source": "Hacker News",
@@ -72,14 +88,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46090969\">Comments</a>"
   },
   {
-    "title": "Show HN: Nano PDF \u2013 A CLI Tool to Edit PDFs with Gemini's Nano Banana",
-    "link": "https://github.com/gavrielc/Nano-PDF",
-    "source": "Hacker News",
-    "published": "2025-11-29T20:44:24+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46090619\">Comments</a>"
-  },
-  {
     "title": "All it takes is for one to work out",
     "link": "https://alearningaday.blog/2025/11/28/all-it-takes-is-for-one-to-work-out-2/",
     "source": "Hacker News",
@@ -96,14 +104,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46090269\">Comments</a>"
   },
   {
-    "title": "Be Like Clippy",
-    "link": "https://be-clippy.com/",
-    "source": "Hacker News",
-    "published": "2025-11-29T19:41:55+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46090172\">Comments</a>"
-  },
-  {
     "title": "Datacenters in space aren't going to work",
     "link": "https://taranis.ie/datacenters-in-space-are-a-terrible-horrible-no-good-idea/",
     "source": "Hacker News",
@@ -112,12 +112,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46087616\">Comments</a>"
   },
   {
-    "title": "Leak confirms OpenAI is preparing ads on ChatGPT for public roll out",
-    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/",
+    "title": "What's Hiding Inside Haribo's Power Bank and Headphones?",
+    "link": "https://www.lumafield.com/first-article/posts/whats-hiding-inside-haribos-power-bank-and-headphones",
     "source": "Hacker News",
-    "published": "2025-11-29T11:31:58+00:00",
+    "published": "2025-11-27T17:23:06+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46086771\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46071317\">Comments</a>"
   },
   {
     "title": "Blender facial animation tool. What else should it do?",
@@ -128,12 +128,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46071221\">Comments</a>"
   },
   {
-    "title": "Rare X-ray images of a 4.5-ton satellite that returned intact from space",
-    "link": "https://www.empa.ch/web/s604/eureca-satellit-mit-roentgenmethoden-untersucht",
+    "title": "RL is more information inefficient than you thought",
+    "link": "https://www.dwarkesh.com/p/bits-per-sample",
     "source": "Hacker News",
-    "published": "2025-11-26T18:02:45+00:00",
+    "published": "2025-11-27T08:23:03+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46060432\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46067011\">Comments</a>"
   },
   {
     "title": "The HTTP Query Method",
@@ -144,19 +144,19 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46056954\">Comments</a>"
   },
   {
-    "title": "Dynamic Skillset Reference Architecture",
-    "link": "https://chatbotkit.com/examples/dynamic-skillset-reference-architecture",
+    "title": "Show HN: Real-time system that tracks how news spreads across 200k websites",
+    "link": "https://yandori.io/news-flow/",
     "source": "Hacker News",
-    "published": "2025-11-26T10:08:19+00:00",
+    "published": "2025-11-26T01:27:16+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46055942\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46053076\">Comments</a>"
   },
   {
-    "title": "Matrix Core Programming on AMD CDNA Architecture",
-    "link": "https://rocm.blogs.amd.com/software-tools-optimization/matrix-cores-cdna/README.html",
+    "title": "Our Phosphorescent World",
+    "link": "https://aeon.co/essays/the-cycling-of-phosphorus-is-the-basis-for-all-life-on-earth",
     "source": "Hacker News",
-    "published": "2025-11-25T15:57:53+00:00",
+    "published": "2025-11-25T06:36:01+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46047052\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46042947\">Comments</a>"
   }
 ]
