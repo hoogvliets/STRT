@@ -1,19 +1,19 @@
 [
   {
-    "title": "It's Been a Hard Year",
-    "link": "https://bell.bz/its-been-a-very-hard-year/",
+    "title": "DeepSeek releases open-weights math model with IMO gold medal performance",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-Math-V2",
     "source": "Hacker News",
-    "published": "2025-12-01T05:36:48+00:00",
+    "published": "2025-12-01T08:54:31+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103858\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46105079\">Comments</a>"
   },
   {
-    "title": "Google Antigravity Deletes D Drive",
-    "link": "https://mastodon.gamedev.place/@bastardsheep@aus.social/115641546248437052",
+    "title": "Do the thinking models think?",
+    "link": "https://bytesauna.com/post/consciousness",
     "source": "Hacker News",
-    "published": "2025-12-01T05:29:00+00:00",
+    "published": "2025-12-01T07:26:47+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103811\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46104511\">Comments</a>"
   },
   {
     "title": "SmartTube Compromised",
@@ -22,6 +22,14 @@
     "published": "2025-12-01T05:01:01+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46103657\">Comments</a>"
+  },
+  {
+    "title": "Google Antigravity just deleted the contents of whole drive",
+    "link": "https://old.reddit.com/r/google_antigravity/comments/1p82or6/google_antigravity_just_deleted_the_contents_of/",
+    "source": "Hacker News",
+    "published": "2025-12-01T04:39:28+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103532\">Comments</a>"
   },
   {
     "title": "Search tool that only returns content created before ChatGPT's public release",
@@ -48,12 +56,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46102347\">Comments</a>"
   },
   {
-    "title": "Is America's jobs market nearing a cliff?",
-    "link": "https://www.economist.com/finance-and-economics/2025/11/30/is-americas-jobs-market-nearing-a-cliff",
+    "title": "Ly \u2013 A lightweight TUI (ncurses-like) display manager for Linux and BSD",
+    "link": "https://codeberg.org/fairyglade/ly",
     "source": "Hacker News",
-    "published": "2025-12-01T00:58:32+00:00",
+    "published": "2025-12-01T00:28:04+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46102202\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46101996\">Comments</a>"
   },
   {
     "title": "Algorithms for Optimization [pdf]",
@@ -64,14 +72,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46101492\">Comments</a>"
   },
   {
-    "title": "Bricklink suspends Marketplace operations in 35 countries",
-    "link": "https://jaysbrickblog.com/news/bricklink-suspends-marketplace-operations-in-35-countries/",
-    "source": "Hacker News",
-    "published": "2025-11-30T22:53:08+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46101263\">Comments</a>"
-  },
-  {
     "title": "A Love Letter to FreeBSD",
     "link": "https://www.tara.sh/posts/2025/2025-11-25_freebsd_letter/",
     "source": "Hacker News",
@@ -80,36 +80,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46100892\">Comments</a>"
   },
   {
-    "title": "How to run phones while being struck by suicide drones",
-    "link": "https://nasa.cx/hn/posts/how-to-run-hundreds-of-phones-while-being-struck-by-suicide-drones/",
-    "source": "Hacker News",
-    "published": "2025-11-30T20:49:49+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46100282\">Comments</a>"
-  },
-  {
-    "title": "Program-of-Thought Prompting Outperforms Chain-of-Thought by 15% (2022)",
-    "link": "https://arxiv.org/abs/2211.12588",
-    "source": "Hacker News",
-    "published": "2025-11-30T18:34:52+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46099108\">Comments</a>"
-  },
-  {
     "title": "Writing a good Claude.md",
     "link": "https://www.humanlayer.dev/blog/writing-a-good-claude-md",
     "source": "Hacker News",
     "published": "2025-11-30T17:56:43+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46098838\">Comments</a>"
-  },
-  {
-    "title": "LLVM-MOS \u2013 Clang LLVM fork targeting the 6502",
-    "link": "https://llvm-mos.org/wiki/Welcome",
-    "source": "Hacker News",
-    "published": "2025-11-30T17:02:48+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46098359\">Comments</a>"
   },
   {
     "title": "GitHub to Codeberg: my experience",
@@ -152,11 +128,35 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46072521\">Comments</a>"
   },
   {
+    "title": "Engineers repurpose a mosquito proboscis to create a 3D printing nozzle",
+    "link": "https://techxplore.com/news/2025-11-repurpose-mosquito-proboscis-3d-nozzle.html",
+    "source": "Hacker News",
+    "published": "2025-11-26T22:38:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46063145\">Comments</a>"
+  },
+  {
+    "title": "We've Detected Lightning on Mars",
+    "link": "https://gizmodo.com/weve-detected-lightning-on-mars-for-the-first-time-2000691996",
+    "source": "Hacker News",
+    "published": "2025-11-26T19:26:43+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46061390\">Comments</a>"
+  },
+  {
     "title": "NVMe driver for Windows 2000, targeting both x86 and Alpha AXP platforms",
     "link": "https://github.com/techomancer/nvme2k",
     "source": "Hacker News",
     "published": "2025-11-25T21:35:29+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46051077\">Comments</a>"
+  },
+  {
+    "title": "N-Body Simulator \u2013 Interactive 3 Body Problem and Gravitational Physics",
+    "link": "https://trisolarchaos.com/?pr=lagrange&n=3&s=5.0&so=0.01&im=verlet&dt=5.00e-4&rt=1.0e-6&at=1.0e-8&bs=0.50&sf=0&sv=0&cm=free&kt=1&st=1&ag=0&tl=1500&cp=0.0000,0.0000,10.0000&ct=0.0000,0.0000,0.0000",
+    "source": "Hacker News",
+    "published": "2025-11-25T13:35:22+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46045643\">Comments</a>"
   }
 ]
