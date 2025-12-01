@@ -1,5 +1,61 @@
 [
   {
+    "title": "Better Auth (YC X25) Is Hiring",
+    "link": "https://www.ycombinator.com/companies/better-auth/jobs/eKk5nLt-developer-relation-engineer",
+    "source": "Hacker News",
+    "published": "2025-12-01T17:01:18+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46109802\">Comments</a>"
+  },
+  {
+    "title": "A New AI Winter Is Coming",
+    "link": "https://taranis.ie/llms-are-a-failure-a-new-ai-winter-is-coming/",
+    "source": "Hacker News",
+    "published": "2025-12-01T16:42:15+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46109534\">Comments</a>"
+  },
+  {
+    "title": "ImAnim: Modern animation capabilities to ImGui applications",
+    "link": "https://github.com/soufianekhiat/ImAnim",
+    "source": "Hacker News",
+    "published": "2025-12-01T16:11:15+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46109080\">Comments</a>"
+  },
+  {
+    "title": "Ask HN: Who is hiring? (December 2025)",
+    "link": "https://news.ycombinator.com/item?id=46108941",
+    "source": "Hacker News",
+    "published": "2025-12-01T16:01:26+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46108941\">Comments</a>"
+  },
+  {
+    "title": "Ask HN: Who wants to be hired? (December 2025)",
+    "link": "https://news.ycombinator.com/item?id=46108940",
+    "source": "Hacker News",
+    "published": "2025-12-01T16:01:26+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46108940\">Comments</a>"
+  },
+  {
+    "title": "Google unkills JPEG XL?",
+    "link": "https://tonisagrista.com/blog/2025/google-unkills-jpegxl/",
+    "source": "Hacker News",
+    "published": "2025-12-01T15:28:49+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46108563\">Comments</a>"
+  },
+  {
+    "title": "The Penicillin Myth",
+    "link": "https://www.asimov.press/p/penicillin-myth",
+    "source": "Hacker News",
+    "published": "2025-12-01T14:13:06+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46107658\">Comments</a>"
+  },
+  {
     "title": "Cartographers Have Been Hiding Covert Illustrations Inside of Switzerland's Maps",
     "link": "https://eyeondesign.aiga.org/for-decades-cartographers-have-been-hiding-covert-illustrations-inside-of-switzerlands-official-maps/",
     "source": "Hacker News",
@@ -32,14 +88,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46106132\">Comments</a>"
   },
   {
-    "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning",
-    "link": "https://huggingface.co/deepseek-ai/DeepSeek-Math-V2",
-    "source": "Hacker News",
-    "published": "2025-12-01T08:54:31+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46105079\">Comments</a>"
-  },
-  {
     "title": "Games using anti-cheats and their compatibility with GNU/Linux or Wine/Proton",
     "link": "https://areweanticheatyet.com/",
     "source": "Hacker News",
@@ -56,44 +104,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46103858\">Comments</a>"
   },
   {
-    "title": "SmartTube Compromised",
-    "link": "https://www.aftvnews.com/smarttubes-official-apk-was-compromised-with-malware-what-you-should-do-if-you-use-it/",
-    "source": "Hacker News",
-    "published": "2025-12-01T05:01:01+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103657\">Comments</a>"
-  },
-  {
     "title": "Search tool that only returns content created before ChatGPT's public release",
     "link": "https://tegabrain.com/Slop-Evader",
     "source": "Hacker News",
     "published": "2025-12-01T04:06:06+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46103376\">Comments</a>"
-  },
-  {
-    "title": "X210Ai is a new motherboard to upgrade ThinkPad X201/200",
-    "link": "https://www.tpart.net/about-x210ai/",
-    "source": "Hacker News",
-    "published": "2025-12-01T03:12:29+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46103097\">Comments</a>"
-  },
-  {
-    "title": "Advent of Sysadmin 2025",
-    "link": "https://sadservers.com/advent",
-    "source": "Hacker News",
-    "published": "2025-12-01T01:17:28+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46102347\">Comments</a>"
-  },
-  {
-    "title": "Algorithms for Optimization [pdf]",
-    "link": "https://algorithmsbook.com/optimization/files/optimization.pdf",
-    "source": "Hacker News",
-    "published": "2025-11-30T23:21:32+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46101492\">Comments</a>"
   },
   {
     "title": "A Love Letter to FreeBSD",
@@ -112,14 +128,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46098838\">Comments</a>"
   },
   {
-    "title": "Advent of Code 2025",
-    "link": "https://adventofcode.com/2025/about",
-    "source": "Hacker News",
-    "published": "2025-11-30T13:07:15+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46096337\">Comments</a>"
-  },
-  {
     "title": "Detection of triboelectric discharges during dust events on Mars",
     "link": "https://gizmodo.com/weve-detected-lightning-on-mars-for-the-first-time-2000691996",
     "source": "Hacker News",
@@ -136,20 +144,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46045876\">Comments</a>"
   },
   {
-    "title": "N-Body Simulator \u2013 Interactive 3 Body Problem and Gravitational Physics",
-    "link": "https://trisolarchaos.com/?pr=lagrange&n=3&s=5.0&so=0.01&im=verlet&dt=5.00e-4&rt=1.0e-6&at=1.0e-8&bs=0.50&sf=0&sv=0&cm=free&kt=1&st=1&ag=0&tl=1500&cp=0.0000,0.0000,10.0000&ct=0.0000,0.0000,0.0000",
+    "title": "Isn't WSL2 just a VM?",
+    "link": "https://ssg.dev/isnt-wsl2-just-a-vm/",
     "source": "Hacker News",
-    "published": "2025-11-25T13:35:22+00:00",
+    "published": "2025-11-24T20:50:54+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46045643\">Comments</a>"
-  },
-  {
-    "title": "Victorian-style lines for the web: Elements of identical width",
-    "link": "https://jacobfilipp.com/victorian-line/",
-    "source": "Hacker News",
-    "published": "2025-11-24T16:00:26+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46035507\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46039140\">Comments</a>"
   },
   {
     "title": "Trifold is a tool to quickly and cheaply host static websites using a CDN",
