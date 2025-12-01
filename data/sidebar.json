@@ -1,11 +1,43 @@
 [
   {
-    "title": "How to run phones while being struck by suicide drones",
-    "link": "https://nasa.cx/hn/posts/how-to-run-hundreds-of-phones-while-being-struck-by-suicide-drones/",
+    "title": "Algorithms for Optimization [pdf]",
+    "link": "https://algorithmsbook.com/optimization/files/optimization.pdf",
     "source": "Hacker News",
-    "published": "2025-11-30T20:49:49+00:00",
+    "published": "2025-11-30T23:21:32+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46100282\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46101492\">Comments</a>"
+  },
+  {
+    "title": "Bricklink suspends Marketplace operations in 35 countries (developing story)",
+    "link": "https://jaysbrickblog.com/news/bricklink-suspends-marketplace-operations-in-35-countries/",
+    "source": "Hacker News",
+    "published": "2025-11-30T22:53:08+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46101263\">Comments</a>"
+  },
+  {
+    "title": "A Love Letter to FreeBSD",
+    "link": "https://www.tara.sh/posts/2025/2025-11-25_freebsd_letter/",
+    "source": "Hacker News",
+    "published": "2025-11-30T22:05:07+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46100892\">Comments</a>"
+  },
+  {
+    "title": "\"Boobs check\" \u2013 Technique to verify if sites behind CDN are hosted in Iran",
+    "link": "https://twitter.com/hkashfi/status/1995109785679573167",
+    "source": "Hacker News",
+    "published": "2025-11-30T20:54:43+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46100323\">Comments</a>"
+  },
+  {
+    "title": "People keep flocking to Linux, not just to escape Windows",
+    "link": "https://www.zdnet.com/article/why-people-keep-flocking-to-linux-in-2025-and-its-not-just-to-escape-windows/",
+    "source": "Hacker News",
+    "published": "2025-11-30T20:14:12+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46099985\">Comments</a>"
   },
   {
     "title": "Program-of-Thought Prompting Outperforms Chain-of-Thought by 15% (2022)",
@@ -16,23 +48,15 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46099108\">Comments</a>"
   },
   {
-    "title": "NixOS 25.11 Released",
-    "link": "https://nixos.org/blog/announcements/2025/nixos-2511/",
+    "title": "There is No Quintic Formula [video]",
+    "link": "https://www.youtube.com/watch?v=9HIy5dJE-zQ",
     "source": "Hacker News",
-    "published": "2025-11-30T18:21:45+00:00",
+    "published": "2025-11-30T18:15:37+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46099022\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46098979\">Comments</a>"
   },
   {
-    "title": "Don't push AI down our throats",
-    "link": "https://gpt3experiments.substack.com/p/dont-push-ai-down-our-throats",
-    "source": "Hacker News",
-    "published": "2025-11-30T18:17:13+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46098992\">Comments</a>"
-  },
-  {
-    "title": "Writing a Good Claude.md",
+    "title": "Writing a good Claude.md",
     "link": "https://www.humanlayer.dev/blog/writing-a-good-claude-md",
     "source": "Hacker News",
     "published": "2025-11-30T17:56:43+00:00",
@@ -64,15 +88,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46098359\">Comments</a>"
   },
   {
-    "title": "RetailReady (YC W24) Is Hiring Associate Product Manager",
-    "link": "https://www.ycombinator.com/companies/retailready/jobs/KPKDu3D-associate-product-manager",
-    "source": "Hacker News",
-    "published": "2025-11-30T17:01:24+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46098336\">Comments</a>"
-  },
-  {
-    "title": "GitHub to Codeberg: My Experience",
+    "title": "GitHub to Codeberg: my experience",
     "link": "https://eldred.fr/blog/forge-migration/",
     "source": "Hacker News",
     "published": "2025-11-30T16:12:13+00:00",
@@ -80,12 +96,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46097829\">Comments</a>"
   },
   {
-    "title": "Modern cars are spying on you. Here's what you can do about it",
-    "link": "https://apnews.com/article/auto-car-privacy-3674ce59c9b30f2861d29178a31e6ab7",
+    "title": "The Thinking Game Film \u2013 Google DeepMind documentary",
+    "link": "https://thinkinggamefilm.com",
     "source": "Hacker News",
-    "published": "2025-11-30T15:52:41+00:00",
+    "published": "2025-11-30T16:07:11+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46097624\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46097773\">Comments</a>"
   },
   {
     "title": "Migrating Dillo from GitHub",
@@ -120,20 +136,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46095585\">Comments</a>"
   },
   {
-    "title": "Show HN: Boing",
-    "link": "https://boing.greg.technology/",
+    "title": "Stop Hacklore \u2013 An Open Letter",
+    "link": "https://www.hacklore.org/letter",
     "source": "Hacker News",
-    "published": "2025-11-30T03:46:35+00:00",
+    "published": "2025-11-26T15:55:48+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46093473\">Comments</a>"
-  },
-  {
-    "title": "Finding the grain of sand in a heap of Salt",
-    "link": "https://blog.cloudflare.com/finding-the-grain-of-sand-in-a-heap-of-salt/",
-    "source": "Hacker News",
-    "published": "2025-11-27T07:40:43+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46066746\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46058670\">Comments</a>"
   },
   {
     "title": "Show HN: Fixing Google Nano Banana Pixel Art with Rust",
@@ -150,13 +158,5 @@
     "published": "2025-11-26T01:27:16+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46053076\">Comments</a>"
-  },
-  {
-    "title": "A Second Look at Geolocation and Starlink",
-    "link": "https://www.potaroo.net/ispcol/2025-11/starlinkgeo2.html",
-    "source": "Hacker News",
-    "published": "2025-11-25T16:37:31+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46047562\">Comments</a>"
   }
 ]
