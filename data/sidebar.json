@@ -1,6 +1,30 @@
 [
   {
-    "title": "What Will Enter the Public Domain in 2026?",
+    "title": "Frequently Asked Unicycling Questions",
+    "link": "https://vale.rocks/posts/unicycle-faq",
+    "source": "Hacker News",
+    "published": "2025-12-02T05:27:18+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46117900\">Comments</a>"
+  },
+  {
+    "title": "Beej's Guide to Learning Computer Science",
+    "link": "https://beej.us/guide/bglcs/html/split/",
+    "source": "Hacker News",
+    "published": "2025-12-02T03:47:11+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46117280\">Comments</a>"
+  },
+  {
+    "title": "Decreasing Certificate Lifetimes to 45 Days",
+    "link": "https://letsencrypt.org/2025/12/02/from-90-to-45.html",
+    "source": "Hacker News",
+    "published": "2025-12-02T03:24:44+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46117126\">Comments</a>"
+  },
+  {
+    "title": "What will enter the public domain in 2026?",
     "link": "https://publicdomainreview.org/features/entering-the-public-domain/2026/",
     "source": "Hacker News",
     "published": "2025-12-02T03:23:10+00:00",
@@ -16,12 +40,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46116724\">Comments</a>"
   },
   {
-    "title": "Around The World, Part 27: Planting trees",
-    "link": "https://frozenfractal.com/blog/2025/11/28/around-the-world-27-planting-trees/",
+    "title": "Notes on Bhutan",
+    "link": "https://apropos.substack.com/p/notes-on-bhutan",
     "source": "Hacker News",
-    "published": "2025-12-02T00:36:15+00:00",
+    "published": "2025-12-02T01:30:15+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46115729\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46116179\">Comments</a>"
   },
   {
     "title": "Arcee Trinity Mini: US-Trained Moe Model",
@@ -54,14 +78,6 @@
     "published": "2025-12-01T22:20:33+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46114122\">Comments</a>"
-  },
-  {
-    "title": "Instagram chief orders staff back to the office five days a week in 2026",
-    "link": "https://www.businessinsider.com/instagram-chief-adam-mosseri-announces-five-day-office-return-2025-12",
-    "source": "Hacker News",
-    "published": "2025-12-01T20:55:56+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46113092\">Comments</a>"
   },
   {
     "title": "Ghostty compiled to WASM with xterm.js API compatibility",
@@ -104,28 +120,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46108437\">Comments</a>"
   },
   {
-    "title": "The Penicillin Myth",
-    "link": "https://www.asimov.press/p/penicillin-myth",
-    "source": "Hacker News",
-    "published": "2025-12-01T14:13:06+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46107658\">Comments</a>"
-  },
-  {
     "title": "Cartographers have been hiding illustrations inside Switzerland\u2019s maps (2020)",
     "link": "https://eyeondesign.aiga.org/for-decades-cartographers-have-been-hiding-covert-illustrations-inside-of-switzerlands-official-maps/",
     "source": "Hacker News",
     "published": "2025-12-01T13:41:15+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46107282\">Comments</a>"
-  },
-  {
-    "title": "Why xor eax, eax?",
-    "link": "https://xania.org/202512/01-xor-eax-eax",
-    "source": "Hacker News",
-    "published": "2025-12-01T12:22:35+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46106556\">Comments</a>"
   },
   {
     "title": "India orders smartphone makers to preload state-owned cyber safety app",
@@ -136,12 +136,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46104193\">Comments</a>"
   },
   {
-    "title": "Tested: 1981 Datsun 280ZX Turbo (1981)",
-    "link": "https://www.caranddriver.com/reviews/a69529696/1981-datsun-280-zx-turbo-archive-test/",
+    "title": "Tom Stoppard has died",
+    "link": "https://www.bbc.com/news/articles/c74xe49q7vlo",
     "source": "Hacker News",
-    "published": "2025-11-29T19:43:59+00:00",
+    "published": "2025-11-29T22:03:33+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46090184\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46091211\">Comments</a>"
   },
   {
     "title": "Codex, Opus, Gemini try to build Counter Strike",
@@ -152,11 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46080835\">Comments</a>"
   },
   {
-    "title": "Cloud-Init on Raspberry Pi OS",
-    "link": "https://www.raspberrypi.com/news/cloud-init-on-raspberry-pi-os/",
+    "title": "10 years of writing a blog nobody reads",
+    "link": "https://flowtwo.io/post/on-10-years-of-writing-a-blog-nobody-reads",
     "source": "Hacker News",
-    "published": "2025-11-27T18:39:11+00:00",
+    "published": "2025-11-27T16:39:35+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46072016\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46070883\">Comments</a>"
   }
 ]
