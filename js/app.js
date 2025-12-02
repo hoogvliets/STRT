@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         news: [],
         ball: [],
         sidebar: [],
+        widgets: [], // Array of widget objects
 
         // Active context
         get activeFeed() {
@@ -27,9 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
             favorites: [],
             hidden: [],
             theme: 'light',
-
         },
-        currentView: 'home'
+        currentView: 'home',
+        currentWidgetId: null, // For tracking which widget is being edited
+        draggedWidget: null // For drag and drop
     };
 
     // DOM Elements
@@ -56,15 +58,40 @@ document.addEventListener('DOMContentLoaded', () => {
     const feedTemplate = document.getElementById('feed-item-template');
     const sidebarTemplate = document.getElementById('sidebar-item-template');
 
+    // Widget elements
+    const widgetsGrid = document.getElementById('widgets-grid');
+    const widgetModal = document.getElementById('widget-modal');
+    const linkModal = document.getElementById('link-modal');
+    const widgetTypeSelect = document.getElementById('widget-type');
+    const widgetTitleInput = document.getElementById('widget-title');
+    const widgetLocationInput = document.getElementById('widget-location');
+    const weatherConfig = document.getElementById('weather-config');
+    const saveWidgetBtn = document.getElementById('save-widget-btn');
+    const cancelWidgetBtn = document.getElementById('cancel-widget-btn');
+    const linkTitleInput = document.getElementById('link-title');
+    const linkUrlInput = document.getElementById('link-url');
+    const saveLinkBtn = document.getElementById('save-link-btn');
+    const cancelLinkBtn = document.getElementById('cancel-link-btn');
+
+    // Widget templates
+    const bookmarksTemplate = document.getElementById('widget-bookmarks-template');
+    const notesTemplate = document.getElementById('widget-notes-template');
+    const weatherTemplate = document.getElementById('widget-weather-template');
+    const bookmarkLinkTemplate = document.getElementById('bookmark-link-template');
+    const weatherHourlyTemplate = document.getElementById('weather-hourly-item-template');
+
     // Initialization
     init();
 
     function init() {
         loadSettings();
+        loadWidgets();
         applyTheme();
 
         setupEventListeners();
+        setupWidgetListeners();
         fetchData();
+        renderWidgets();
 
         // Initial view
         switchView('home');
@@ -101,6 +128,39 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Scroll both columns
                 feedContainer.scrollTop += e.deltaY;
                 sidebarContainer.scrollTop += e.deltaY;
+            }
+        });
+    }
+
+    function setupWidgetListeners() {
+        // Widget type change
+        widgetTypeSelect.addEventListener('change', (e) => {
+            if (e.target.value === 'weather') {
+                weatherConfig.classList.remove('hidden');
+            } else {
+                weatherConfig.classList.add('hidden');
+            }
+        });
+
+        // Save widget
+        saveWidgetBtn.addEventListener('click', saveWidget);
+        cancelWidgetBtn.addEventListener('click', closeWidgetModal);
+
+        // Save link
+        saveLinkBtn.addEventListener('click', saveLink);
+        cancelLinkBtn.addEventListener('click', closeLinkModal);
+
+        // Close modal on clicking outside or X button
+        document.querySelectorAll('.modal-close').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const modal = e.target.closest('.modal');
+                modal.classList.add('hidden');
+            });
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target.classList.contains('modal')) {
+                e.target.classList.add('hidden');
             }
         });
     }
@@ -473,6 +533,525 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.remove('read');
         }
         saveSettings();
+    }
+
+    // --- Widget Management ---
+
+    function loadWidgets() {
+        const saved = localStorage.getItem('widgets-data');
+        if (saved) {
+            state.widgets = JSON.parse(saved);
+        }
+    }
+
+    function saveWidgets() {
+        localStorage.setItem('widgets-data', JSON.stringify(state.widgets));
+    }
+
+    function openWidgetModal() {
+        widgetModal.classList.remove('hidden');
+        widgetTitleInput.value = '';
+        widgetLocationInput.value = '';
+        widgetTypeSelect.value = 'bookmarks';
+        weatherConfig.classList.add('hidden');
+    }
+
+    function closeWidgetModal() {
+        widgetModal.classList.add('hidden');
+    }
+
+    function saveWidget() {
+        const type = widgetTypeSelect.value;
+        const title = widgetTitleInput.value.trim();
+        const location = widgetLocationInput.value.trim();
+
+        if (!title) {
+            alert('Please enter a widget title');
+            return;
+        }
+
+        const widget = {
+            id: Date.now().toString(),
+            type,
+            title,
+            location: type === 'weather' ? location : null,
+            links: type === 'bookmarks' ? [] : null,
+            notes: type === 'notes' ? '' : null
+        };
+
+        state.widgets.push(widget);
+        saveWidgets();
+        renderWidgets();
+        closeWidgetModal();
+
+        // Fetch weather if needed
+        if (type === 'weather' && location) {
+            fetchWeather(widget.id, location);
+        }
+    }
+
+    function deleteWidget(widgetId) {
+        if (confirm('Are you sure you want to delete this widget?')) {
+            state.widgets = state.widgets.filter(w => w.id !== widgetId);
+            saveWidgets();
+            renderWidgets();
+        }
+    }
+
+    function openLinkModal(widgetId) {
+        state.currentWidgetId = widgetId;
+        linkModal.classList.remove('hidden');
+        linkTitleInput.value = '';
+        linkUrlInput.value = '';
+    }
+
+    function closeLinkModal() {
+        linkModal.classList.add('hidden');
+        state.currentWidgetId = null;
+    }
+
+    function saveLink() {
+        const title = linkTitleInput.value.trim();
+        let url = linkUrlInput.value.trim();
+
+        if (!title || !url) {
+            alert('Please enter both title and URL');
+            return;
+        }
+
+        // Ensure URL has a protocol
+        if (!url.match(/^https?:\/\//i)) {
+            url = 'https://' + url;
+        }
+
+        const widget = state.widgets.find(w => w.id === state.currentWidgetId);
+        if (widget && widget.links) {
+            widget.links.push({ id: Date.now().toString(), title, url });
+            saveWidgets();
+            renderWidgets();
+            closeLinkModal();
+        }
+    }
+
+    function deleteLink(widgetId, linkId) {
+        const widget = state.widgets.find(w => w.id === widgetId);
+        if (widget && widget.links) {
+            widget.links = widget.links.filter(l => l.id !== linkId);
+            saveWidgets();
+            renderWidgets();
+        }
+    }
+
+    function updateNotes(widgetId, notes) {
+        const widget = state.widgets.find(w => w.id === widgetId);
+        if (widget) {
+            widget.notes = notes;
+            saveWidgets();
+        }
+    }
+
+    function renderWidgets() {
+        if (!widgetsGrid) {
+            console.error('widgetsGrid element not found');
+            return;
+        }
+
+        widgetsGrid.innerHTML = '';
+
+        state.widgets.forEach(widget => {
+            let template, clone, widgetEl;
+
+            if (widget.type === 'bookmarks') {
+                clone = bookmarksTemplate.content.cloneNode(true);
+                widgetEl = clone.querySelector('.widget');
+                widgetEl.dataset.widgetId = widget.id;
+
+                clone.querySelector('.widget-title').textContent = widget.title;
+
+                // Render links
+                const linksList = clone.querySelector('.bookmarks-list');
+                if (widget.links && widget.links.length > 0) {
+                    widget.links.forEach(link => {
+                        const linkClone = bookmarkLinkTemplate.content.cloneNode(true);
+                        const linkEl = linkClone.querySelector('.bookmark-link');
+                        linkEl.dataset.linkId = link.id;
+
+                        const anchor = linkClone.querySelector('.bookmark-link-text');
+                        anchor.textContent = link.title;
+                        anchor.href = link.url;
+
+                        // Add favicon
+                        const favicon = linkClone.querySelector('.bookmark-favicon');
+                        const faviconUrl = getFaviconUrl(link.url);
+                        favicon.src = faviconUrl;
+                        favicon.onerror = () => {
+                            // Fallback to a generic link icon if favicon fails to load
+                            favicon.style.display = 'none';
+                        };
+
+                        const deleteBtn = linkClone.querySelector('.link-delete-btn');
+                        deleteBtn.onclick = () => deleteLink(widget.id, link.id);
+
+                        linksList.appendChild(linkClone);
+                    });
+                } else {
+                    linksList.innerHTML = '<div class="empty-links">No links yet</div>';
+                }
+
+                // Add link button
+                const addLinkBtn = clone.querySelector('.add-link-btn');
+                addLinkBtn.onclick = () => openLinkModal(widget.id);
+
+                // Edit title button
+                const editTitleBtn = clone.querySelector('.edit-title-btn');
+                editTitleBtn.onclick = () => editWidgetTitle(widget.id);
+
+            } else if (widget.type === 'notes') {
+                clone = notesTemplate.content.cloneNode(true);
+                widgetEl = clone.querySelector('.widget');
+                widgetEl.dataset.widgetId = widget.id;
+
+                clone.querySelector('.widget-title').textContent = widget.title;
+
+                const textarea = clone.querySelector('.notes-textarea');
+                textarea.value = widget.notes || '';
+
+                // Auto-resize textarea after it's added to DOM
+                textarea.addEventListener('input', (e) => {
+                    updateNotes(widget.id, e.target.value);
+                    autoResizeTextarea(e.target);
+                });
+
+                // Edit title button
+                const editTitleBtn = clone.querySelector('.edit-title-btn');
+                editTitleBtn.onclick = () => editWidgetTitle(widget.id);
+
+            } else if (widget.type === 'weather') {
+                clone = weatherTemplate.content.cloneNode(true);
+                widgetEl = clone.querySelector('.widget');
+                widgetEl.dataset.widgetId = widget.id;
+
+                clone.querySelector('.widget-title').textContent = widget.title;
+
+                const locationEl = clone.querySelector('.weather-location');
+                const currentTempEl = clone.querySelector('.weather-current-temp');
+                const descriptionEl = clone.querySelector('.weather-description');
+                const highLowEl = clone.querySelector('.weather-high-low');
+                const hourlyForecast = clone.querySelector('.hourly-forecast');
+
+                if (widget.weather) {
+                    locationEl.textContent = widget.location;
+                    currentTempEl.textContent = `${Math.round(widget.weather.current.temp)}°`;
+                    descriptionEl.textContent = widget.weather.current.description || 'Clear';
+                    highLowEl.textContent = `H:${Math.round(widget.weather.daily.high)}° L:${Math.round(widget.weather.daily.low)}°`;
+
+                    // Render hourly forecast
+                    widget.weather.hourly.forEach(hour => {
+                        const hourClone = weatherHourlyTemplate.content.cloneNode(true);
+                        hourClone.querySelector('.hourly-time').textContent = hour.time;
+                        hourClone.querySelector('.hourly-temp').textContent = `${Math.round(hour.temp)}°`;
+
+                        // Weather icon based on weather code
+                        const iconEl = hourClone.querySelector('.hourly-icon');
+                        const code = hour.weathercode;
+
+                        // WMO Weather interpretation codes
+                        if (code === 0) {
+                            // Clear sky
+                            iconEl.innerHTML = `
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            `;
+                            iconEl.setAttribute('title', 'Clear');
+                        } else if (code >= 1 && code <= 3) {
+                            // Partly cloudy / Cloudy
+                            iconEl.innerHTML = `
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                                </svg>
+                            `;
+                            iconEl.setAttribute('title', code === 3 ? 'Overcast' : 'Partly Cloudy');
+                        } else if (code >= 45 && code <= 48) {
+                            // Fog
+                            iconEl.innerHTML = `
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19h6"></path>
+                                    <path d="M9 15h10"></path>
+                                    <path d="M5 11h14"></path>
+                                </svg>
+                            `;
+                            iconEl.setAttribute('title', 'Foggy');
+                        } else if ((code >= 51 && code <= 67) || (code >= 80 && code <= 82)) {
+                            // Rain
+                            iconEl.innerHTML = `
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="8" y1="19" x2="8" y2="21"></line>
+                                    <line x1="8" y1="13" x2="8" y2="15"></line>
+                                    <line x1="16" y1="19" x2="16" y2="21"></line>
+                                    <line x1="16" y1="13" x2="16" y2="15"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="12" y1="15" x2="12" y2="17"></line>
+                                    <path d="M20 16.58A5 5 0 0 0 18 7h-1.26A8 8 0 1 0 4 15.25"></path>
+                                </svg>
+                            `;
+                            iconEl.setAttribute('title', `Rain ${hour.precipitation > 0 ? `(${hour.precipitation}mm)` : ''}`);
+                        } else if ((code >= 71 && code <= 77) || (code >= 85 && code <= 86)) {
+                            // Snow
+                            iconEl.innerHTML = `
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20 17.58A5 5 0 0 0 18 8h-1.26A8 8 0 1 0 4 16.25"></path>
+                                    <line x1="8" y1="16" x2="8" y2="16"></line>
+                                    <line x1="8" y1="20" x2="8" y2="20"></line>
+                                    <line x1="12" y1="18" x2="12" y2="18"></line>
+                                    <line x1="12" y1="22" x2="12" y2="22"></line>
+                                    <line x1="16" y1="16" x2="16" y2="16"></line>
+                                    <line x1="16" y1="20" x2="16" y2="20"></line>
+                                </svg>
+                            `;
+                            iconEl.setAttribute('title', 'Snow');
+                        } else if (code >= 95) {
+                            // Thunderstorm (95, 96, 99)
+                            iconEl.innerHTML = `
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M19 16.9A5 5 0 0 0 18 7h-1.26a8 8 0 1 0-11.62 9"></path>
+                                    <polyline points="13 11 9 17 15 17 11 23"></polyline>
+                                </svg>
+                            `;
+                            iconEl.setAttribute('title', 'Thunderstorm');
+                        } else {
+                            // Default to cloudy for any unhandled codes
+                            iconEl.innerHTML = `
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                                </svg>
+                            `;
+                            iconEl.setAttribute('title', 'Cloudy');
+                        }
+
+                        hourlyForecast.appendChild(hourClone);
+                    });
+                } else {
+                    locationEl.textContent = widget.location || 'Loading...';
+                    currentTempEl.textContent = '--°';
+                    descriptionEl.textContent = 'Loading...';
+                    highLowEl.textContent = 'H:-- L:--';
+                }
+
+                // Edit location button
+                const editLocationBtn = clone.querySelector('.edit-location-btn');
+                editLocationBtn.onclick = () => editWeatherLocation(widget.id);
+
+                // Edit title button
+                const editTitleBtn = clone.querySelector('.edit-title-btn');
+                editTitleBtn.onclick = () => editWidgetTitle(widget.id);
+            }
+
+            // Delete widget button
+            const deleteBtn = clone.querySelector('.delete-widget-btn');
+            deleteBtn.onclick = () => deleteWidget(widget.id);
+
+            // Drag and drop
+            widgetEl.addEventListener('dragstart', handleDragStart);
+            widgetEl.addEventListener('dragend', handleDragEnd);
+            widgetEl.addEventListener('dragover', handleDragOver);
+            widgetEl.addEventListener('drop', handleDrop);
+
+            widgetsGrid.appendChild(clone);
+        });
+
+        // Add the "Add Widget" button at the end
+        const addWidgetCard = document.createElement('div');
+        addWidgetCard.className = 'add-widget-card';
+        addWidgetCard.innerHTML = `
+            <button class="add-widget-btn-inline">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                <span>Add Widget</span>
+            </button>
+        `;
+        const addBtn = addWidgetCard.querySelector('.add-widget-btn-inline');
+        if (addBtn) {
+            addBtn.onclick = openWidgetModal;
+        }
+        widgetsGrid.appendChild(addWidgetCard);
+        console.log('Add Widget button rendered, widgets count:', state.widgets.length);
+
+        // Auto-resize all notes textareas after DOM is updated
+        requestAnimationFrame(() => {
+            document.querySelectorAll('.notes-textarea').forEach(textarea => {
+                autoResizeTextarea(textarea);
+            });
+        });
+    }
+
+    function autoResizeTextarea(textarea) {
+        textarea.style.height = 'auto';
+        textarea.style.height = textarea.scrollHeight + 'px';
+    }
+
+    function getFaviconUrl(url) {
+        try {
+            const urlObj = new URL(url);
+            // Use Google's favicon service as a reliable fallback
+            return `https://www.google.com/s2/favicons?domain=${urlObj.hostname}&sz=32`;
+        } catch (e) {
+            // Return a default icon if URL is invalid
+            return 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>';
+        }
+    }
+
+    function editWidgetTitle(widgetId) {
+        const widget = state.widgets.find(w => w.id === widgetId);
+        if (!widget) return;
+
+        const newTitle = prompt('Enter new widget title:', widget.title || '');
+        if (newTitle && newTitle.trim()) {
+            widget.title = newTitle.trim();
+            saveWidgets();
+            renderWidgets();
+        }
+    }
+
+    function editWeatherLocation(widgetId) {
+        const widget = state.widgets.find(w => w.id === widgetId);
+        if (!widget) return;
+
+        const newLocation = prompt('Enter new location:', widget.location || '');
+        if (newLocation && newLocation.trim()) {
+            widget.location = newLocation.trim();
+            widget.weather = null; // Reset weather data
+            saveWidgets();
+            renderWidgets();
+            fetchWeather(widgetId, newLocation.trim());
+        }
+    }
+
+    // Drag and drop handlers
+    function handleDragStart(e) {
+        state.draggedWidget = e.currentTarget.dataset.widgetId;
+        e.currentTarget.style.opacity = '0.5';
+    }
+
+    function handleDragEnd(e) {
+        e.currentTarget.style.opacity = '1';
+        state.draggedWidget = null;
+    }
+
+    function handleDragOver(e) {
+        e.preventDefault();
+        e.dataTransfer.dropEffect = 'move';
+    }
+
+    function handleDrop(e) {
+        e.preventDefault();
+        const targetWidgetId = e.currentTarget.dataset.widgetId;
+        const draggedWidgetId = state.draggedWidget;
+
+        if (draggedWidgetId && targetWidgetId && draggedWidgetId !== targetWidgetId) {
+            const draggedIndex = state.widgets.findIndex(w => w.id === draggedWidgetId);
+            const targetIndex = state.widgets.findIndex(w => w.id === targetWidgetId);
+
+            // Swap positions
+            const temp = state.widgets[draggedIndex];
+            state.widgets[draggedIndex] = state.widgets[targetIndex];
+            state.widgets[targetIndex] = temp;
+
+            saveWidgets();
+            renderWidgets();
+        }
+    }
+
+    // Weather API (using Open-Meteo - free, no API key needed)
+    async function fetchWeather(widgetId, location) {
+        try {
+            // First, geocode the location
+            const geoRes = await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(location)}&count=1`);
+            const geoData = await geoRes.json();
+
+            if (!geoData.results || geoData.results.length === 0) {
+                console.error('Location not found');
+                return;
+            }
+
+            const { latitude, longitude } = geoData.results[0];
+
+            // Fetch weather with hourly and daily data
+            const weatherRes = await fetch(
+                `https://api.open-meteo.com/v1/forecast?` +
+                `latitude=${latitude}&longitude=${longitude}&` +
+                `current_weather=true&` +
+                `hourly=temperature_2m,precipitation,weathercode&` +
+                `daily=temperature_2m_max,temperature_2m_min&` +
+                `timezone=auto`
+            );
+            const weatherData = await weatherRes.json();
+
+            // Get current hour index
+            const now = new Date();
+            const currentHour = now.getHours();
+
+            // Get next 4 hours of data
+            const hourlyData = [];
+            for (let i = 0; i < 4; i++) {
+                const hourIndex = currentHour + i;
+                if (hourIndex < weatherData.hourly.temperature_2m.length) {
+                    const hourTime = new Date(weatherData.hourly.time[hourIndex]);
+                    hourlyData.push({
+                        time: hourTime.getHours() + ':00',
+                        temp: weatherData.hourly.temperature_2m[hourIndex],
+                        precipitation: weatherData.hourly.precipitation[hourIndex] || 0,
+                        weathercode: weatherData.hourly.weathercode[hourIndex]
+                    });
+                }
+            }
+
+            // Get weather description based on current conditions
+            const currentWeather = weatherData.current_weather;
+            let description = 'Clear';
+            if (currentWeather.weathercode) {
+                // WMO Weather interpretation codes
+                const code = currentWeather.weathercode;
+                if (code === 0) description = 'Clear';
+                else if (code <= 3) description = 'Partly Cloudy';
+                else if (code <= 48) description = 'Foggy';
+                else if (code <= 67) description = 'Rainy';
+                else if (code <= 77) description = 'Snowy';
+                else if (code <= 82) description = 'Rainy';
+                else if (code <= 86) description = 'Snowy';
+                else description = 'Stormy';
+            }
+
+            // Update widget
+            const widget = state.widgets.find(w => w.id === widgetId);
+            if (widget) {
+                widget.weather = {
+                    current: {
+                        temp: weatherData.current_weather.temperature,
+                        description: description
+                    },
+                    daily: {
+                        high: weatherData.daily.temperature_2m_max[0],
+                        low: weatherData.daily.temperature_2m_min[0]
+                    },
+                    hourly: hourlyData
+                };
+                saveWidgets();
+                renderWidgets();
+            }
+        } catch (error) {
+            console.error('Error fetching weather:', error);
+        }
     }
 
     // --- Settings & Theme ---
