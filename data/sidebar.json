@@ -1,5 +1,37 @@
 [
   {
+    "title": "Zig's new plan for asynchronous programs",
+    "link": "https://lwn.net/SubscriberLink/1046084/4c048ee008e1c70e/",
+    "source": "Hacker News",
+    "published": "2025-12-02T14:31:16+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46121539\">Comments</a>"
+  },
+  {
+    "title": "Proximity to coworkers increases long-run development, lowers short-term output",
+    "link": "https://pallais.scholars.harvard.edu/publications/power-proximity-coworkers-training-tomorrow-or-productivity-today",
+    "source": "Hacker News",
+    "published": "2025-12-02T14:01:05+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46121243\">Comments</a>"
+  },
+  {
+    "title": "Python Data Science Handbook",
+    "link": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+    "source": "Hacker News",
+    "published": "2025-12-02T12:38:28+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46120611\">Comments</a>"
+  },
+  {
+    "title": "A series of vignettes from my childhood and early career",
+    "link": "https://www.jasonscheirer.com/weblog/vignettes/",
+    "source": "Hacker News",
+    "published": "2025-12-02T12:28:34+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46120549\">Comments</a>"
+  },
+  {
     "title": "Addressing the adding situation",
     "link": "https://xania.org/202512/02-adding-integers",
     "source": "Hacker News",
@@ -40,22 +72,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46118722\">Comments</a>"
   },
   {
-    "title": "Rootless Pings in Rust",
-    "link": "https://bou.ke/blog/rust-ping/",
-    "source": "Hacker News",
-    "published": "2025-12-02T07:01:03+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46118432\">Comments</a>"
-  },
-  {
-    "title": "Why Replicate is joining Cloudflare",
-    "link": "https://blog.cloudflare.com/why-replicate-joining-cloudflare/",
-    "source": "Hacker News",
-    "published": "2025-12-02T05:40:39+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46117993\">Comments</a>"
-  },
-  {
     "title": "Apple Releases Open Weights Video Model",
     "link": "https://starflow-v.github.io",
     "source": "Hacker News",
@@ -78,22 +94,6 @@
     "published": "2025-12-02T02:35:47+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46116724\">Comments</a>"
-  },
-  {
-    "title": "After Windows Update, Password icon invisible, click where it used to be",
-    "link": "https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93",
-    "source": "Hacker News",
-    "published": "2025-12-02T02:12:14+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46116567\">Comments</a>"
-  },
-  {
-    "title": "Ghostty compiled to WASM with xterm.js API compatibility",
-    "link": "https://github.com/coder/ghostty-web",
-    "source": "Hacker News",
-    "published": "2025-12-01T18:17:02+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46110842\">Comments</a>"
   },
   {
     "title": "DeepSeek-v3.2: Pushing the frontier of open large language models [pdf]",
@@ -136,27 +136,27 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46091211\">Comments</a>"
   },
   {
-    "title": "Wacky Fun Physics Ideas",
-    "link": "https://scottlocklin.wordpress.com/2025/11/22/wacky-fun-physics-ideas/",
+    "title": "URL in C (2011)",
+    "link": "https://susam.net/url-in-c.html",
     "source": "Hacker News",
-    "published": "2025-11-29T05:02:06+00:00",
+    "published": "2025-11-27T07:42:39+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46085279\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46066764\">Comments</a>"
   },
   {
-    "title": "Codex, Opus, Gemini try to build Counter Strike",
-    "link": "https://www.instantdb.com/essays/agents_building_counterstrike",
+    "title": "An LED panel that shows the aviation around you",
+    "link": "https://github.com/AxisNimble/TheFlightWall_OSS",
     "source": "Hacker News",
-    "published": "2025-11-28T17:41:01+00:00",
+    "published": "2025-11-27T07:22:31+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46080835\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46066640\">Comments</a>"
   },
   {
-    "title": "Invisible details of interaction design (2023)",
-    "link": "https://rauno.me/craft/interaction-design",
+    "title": "Learn to code music in the browser with strudel.cc (Free and open-source)",
+    "link": "https://terryds.notion.site/Learning-Music-with-Strudel-2ac98431b24180deb890cc7de667ea92",
     "source": "Hacker News",
-    "published": "2025-11-26T10:24:56+00:00",
+    "published": "2025-11-26T00:09:19+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46056022\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46052478\">Comments</a>"
   }
 ]
