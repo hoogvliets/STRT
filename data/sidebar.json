@@ -1,43 +1,35 @@
 [
   {
-    "title": "Kohler Can Access Pictures from \"End-to-End Encrypted\" Toilet Camera",
-    "link": "https://varlogsimon.leaflet.pub/3m6zrw6k2bs2p?interactionDrawer=quotes",
+    "title": "Sending DMARC reports is somewhat hazardous",
+    "link": "https://utcc.utoronto.ca/~cks/space/blog/spam/DMARCSendingReportsProblems",
     "source": "Hacker News",
-    "published": "2025-12-03T02:06:25+00:00",
+    "published": "2025-12-03T05:05:34+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46129476\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46130506\">Comments</a>"
   },
   {
-    "title": "DOOM could have had PC Speaker Music",
-    "link": "https://lenowo.org/viewtopic.php?t=45",
+    "title": "Interview with RollerCoaster Tycoon's Creator, Chris Sawyer (2024)",
+    "link": "https://medium.com/atari-club/interview-with-rollercoaster-tycoons-creator-chris-sawyer-684a0efb0f13",
     "source": "Hacker News",
-    "published": "2025-12-02T23:19:07+00:00",
+    "published": "2025-12-03T04:32:16+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46128286\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46130335\">Comments</a>"
   },
   {
-    "title": "Exploring Large HTML Documents on the Web",
-    "link": "https://calendar.perfplanet.com/2025/exploring-large-html-documents-on-the-web/",
+    "title": "Understanding ECDSA",
+    "link": "https://avidthinker.github.io/2025/11/28/understanding-ecdsa/",
     "source": "Hacker News",
-    "published": "2025-12-02T22:32:45+00:00",
+    "published": "2025-12-03T04:13:41+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46127868\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46130233\">Comments</a>"
   },
   {
-    "title": "Ecosia: The greenest AI is here",
-    "link": "https://blog.ecosia.org/ecosia-ai/",
+    "title": "Japanese game devs face font dilemma as license increases from $380 to $20k",
+    "link": "https://www.gamesindustry.biz/japanese-devs-face-font-licensing-dilemma-as-leading-provider-increases-annual-plan-price-from-380-to-20000",
     "source": "Hacker News",
-    "published": "2025-12-02T21:14:38+00:00",
+    "published": "2025-12-03T04:03:56+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46126964\">Comments</a>"
-  },
-  {
-    "title": "Delty (YC X25) Is Hiring",
-    "link": "https://www.ycombinator.com/companies/delty/jobs/aPWMaiq-full-stack-software-engineer",
-    "source": "Hacker News",
-    "published": "2025-12-02T21:00:59+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46126822\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46130187\">Comments</a>"
   },
   {
     "title": "Paged Out",
@@ -78,14 +70,6 @@
     "published": "2025-12-02T18:05:44+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46124267\">Comments</a>"
-  },
-  {
-    "title": "100k TPS over a billion rows: the unreasonable effectiveness of SQLite",
-    "link": "https://andersmurphy.com/2025/12/02/100000-tps-over-a-billion-rows-the-unreasonable-effectiveness-of-sqlite.html",
-    "source": "Hacker News",
-    "published": "2025-12-02T17:59:53+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46124205\">Comments</a>"
   },
   {
     "title": "School cell phone bans and student achievement",
@@ -136,12 +120,28 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46094460\">Comments</a>"
   },
   {
-    "title": "Practical Intro to Operational Transformation",
-    "link": "https://archive.casouri.cc/note/2025/practical-intro-ot/",
+    "title": "AI Agents Break Rules Under Everyday Pressure",
+    "link": "https://spectrum.ieee.org/ai-agents-safety",
     "source": "Hacker News",
-    "published": "2025-11-26T10:57:32+00:00",
+    "published": "2025-11-27T10:52:15+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46056181\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46067995\">Comments</a>"
+  },
+  {
+    "title": "Load ZX Spectrum \u2013 first Museum dedicated to our first personal computer",
+    "link": "https://loadzx.com/en/",
+    "source": "Hacker News",
+    "published": "2025-11-26T19:02:31+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46061133\">Comments</a>"
+  },
+  {
+    "title": "All Sources of DirectX 12 Documentation",
+    "link": "https://asawicki.info/news_1794_all_sources_of_directx_12_documentation",
+    "source": "Hacker News",
+    "published": "2025-11-26T04:47:50+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46054295\">Comments</a>"
   },
   {
     "title": "Learning music with Strudel",
