@@ -1,19 +1,43 @@
 [
   {
+    "title": "Congressional lawmakers 47% pts better at picking stocks",
+    "link": "https://www.nber.org/papers/w34524",
+    "source": "Hacker News",
+    "published": "2025-12-03T13:50:10+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46134443\">Comments</a>"
+  },
+  {
+    "title": "Helldivers 2 devs slash install size from 154GB to 23GB",
+    "link": "https://www.tomshardware.com/video-games/pc-gaming/helldivers-2-install-size-slashed-from-154gb-to-just-23gb-85-percent-reduction-accomplished-by-de-duplicating-game-data-an-optimization-for-older-mechanical-hard-drives",
+    "source": "Hacker News",
+    "published": "2025-12-03T13:20:58+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46134178\">Comments</a>"
+  },
+  {
+    "title": "You Can't Fool the Optimizer",
+    "link": "https://xania.org/202512/03-more-adding-integers",
+    "source": "Hacker News",
+    "published": "2025-12-03T12:14:34+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46133622\">Comments</a>"
+  },
+  {
+    "title": "The \"Mad Men\" in 4K on HBO Max Debacle",
+    "link": "http://fxrant.blogspot.com/2025/12/the-mad-men-in-4k-on-hbo-max-debacle.html",
+    "source": "Hacker News",
+    "published": "2025-12-03T11:50:00+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46133422\">Comments</a>"
+  },
+  {
     "title": "Zig quits GitHub, says Microsoft's AI obsession has ruined the service",
     "link": "https://www.theregister.com/2025/12/02/zig_quits_github_microsoft_ai_obsession/",
     "source": "Hacker News",
     "published": "2025-12-03T07:52:37+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46131406\">Comments</a>"
-  },
-  {
-    "title": "Accepting US car standards would risk European lives",
-    "link": "https://etsc.eu/accepting-us-car-standards-would-risk-european-lives-warn-cities-and-civil-society/",
-    "source": "Hacker News",
-    "published": "2025-12-03T07:41:51+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46131330\">Comments</a>"
   },
   {
     "title": "Researchers Find Microbe Capable of Producing Oxygen from Martian Soil",
@@ -38,14 +62,6 @@
     "published": "2025-12-03T04:32:16+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46130335\">Comments</a>"
-  },
-  {
-    "title": "Understanding ECDSA",
-    "link": "https://avidthinker.github.io/2025/11/28/understanding-ecdsa/",
-    "source": "Hacker News",
-    "published": "2025-12-03T04:13:41+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46130233\">Comments</a>"
   },
   {
     "title": "Paged Out",
@@ -80,22 +96,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46121870\">Comments</a>"
   },
   {
-    "title": "Zig's new plan for asynchronous programs",
-    "link": "https://lwn.net/SubscriberLink/1046084/4c048ee008e1c70e/",
-    "source": "Hacker News",
-    "published": "2025-12-02T14:31:16+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46121539\">Comments</a>"
-  },
-  {
-    "title": "Qwen3-VL can scan two-hour videos and pinpoint nearly every detail",
-    "link": "https://the-decoder.com/qwen3-vl-can-scan-two-hour-videos-and-pinpoint-nearly-every-detail/",
-    "source": "Hacker News",
-    "published": "2025-11-30T07:27:25+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46094606\">Comments</a>"
-  },
-  {
     "title": "I designed and printed a custom nose guard to help my dog with DLE",
     "link": "https://snoutcover.com/billie-story",
     "source": "Hacker News",
@@ -104,12 +104,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46094460\">Comments</a>"
   },
   {
-    "title": "Mathematics is hard for mathematicians to understand too",
-    "link": "https://www.science.org/doi/10.1126/science.aec9014",
+    "title": "Optimizations in C++ compilers: a practical journey",
+    "link": "https://queue.acm.org/detail.cfm?id=3372264",
     "source": "Hacker News",
-    "published": "2025-11-27T23:05:54+00:00",
+    "published": "2025-11-28T21:42:02+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46073978\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46083014\">Comments</a>"
+  },
+  {
+    "title": "Mission Critical Advanced Scheduling (ALAP/ASAP) System",
+    "link": "https://github.com/rodmena-limited/scriptplan",
+    "source": "Hacker News",
+    "published": "2025-11-28T05:50:20+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46075873\">Comments</a>"
   },
   {
     "title": "Trying Out C++26 Executors",
@@ -144,19 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46054467\">Comments</a>"
   },
   {
-    "title": "Learning music with Strudel",
-    "link": "https://terryds.notion.site/Learning-Music-with-Strudel-2ac98431b24180deb890cc7de667ea92",
+    "title": "A Look at Rust from 2012",
+    "link": "https://purplesyringa.moe/blog/a-look-at-rust-from-2012/",
     "source": "Hacker News",
-    "published": "2025-11-26T00:09:19+00:00",
+    "published": "2025-11-25T21:12:36+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46052478\">Comments</a>"
-  },
-  {
-    "title": "What, if anything, is universal to music cognition? (2024)",
-    "link": "https://www.nature.com/articles/s41562-023-01800-9",
-    "source": "Hacker News",
-    "published": "2025-11-25T21:15:05+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46050884\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46050855\">Comments</a>"
   }
 ]
