@@ -1,11 +1,75 @@
 [
   {
-    "title": "NextJS Security Vulnerability",
-    "link": "https://nextjs.org/blog/CVE-2025-66478",
+    "title": "Show HN: I analyzed 8k near-death experiences with AI and made them listenable",
+    "link": "https://www.noeticmap.com/",
     "source": "Hacker News",
-    "published": "2025-12-04T11:14:04+00:00",
+    "published": "2025-12-04T14:25:51+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46146266\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147989\">Comments</a>"
+  },
+  {
+    "title": "Transparent Leadership Beats Servant Leadership",
+    "link": "https://entropicthoughts.com/transparent-leadership-beats-servant-leadership",
+    "source": "Hacker News",
+    "published": "2025-12-04T13:40:00+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147540\">Comments</a>"
+  },
+  {
+    "title": "Human hair grows through 'pulling' not pushing, study shows",
+    "link": "https://phys.org/news/2025-12-human-hair.html",
+    "source": "Hacker News",
+    "published": "2025-12-04T13:22:35+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147371\">Comments</a>"
+  },
+  {
+    "title": "RAM is so expensive, Samsung won't even sell it to Samsung",
+    "link": "https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html",
+    "source": "Hacker News",
+    "published": "2025-12-04T13:20:07+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147353\">Comments</a>"
+  },
+  {
+    "title": "Functional Quadtrees",
+    "link": "https://lbjgruppen.com/en/posts/functional-quadtree-clojure",
+    "source": "Hacker News",
+    "published": "2025-12-04T13:18:38+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147341\">Comments</a>"
+  },
+  {
+    "title": "Imo.im \u2013 Instant Messenger",
+    "link": "https://imo.im/",
+    "source": "Hacker News",
+    "published": "2025-12-04T12:25:47+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46146877\">Comments</a>"
+  },
+  {
+    "title": "Japanese Four-Cylinder Engine Is So Reliable Still in Production After 25 Years",
+    "link": "https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/",
+    "source": "Hacker News",
+    "published": "2025-12-04T12:09:43+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46146740\">Comments</a>"
+  },
+  {
+    "title": "I ignore the spotlight as a staff engineer",
+    "link": "https://lalitm.com/software-engineering-outside-the-spotlight/",
+    "source": "Hacker News",
+    "published": "2025-12-04T11:36:36+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46146451\">Comments</a>"
+  },
+  {
+    "title": "30 years ago today \"Netscape and Sun announce JavaScript\"",
+    "link": "https://web.archive.org/web/20070916144913/http://wp.netscape.com/newsref/pr/newsrelease67.html",
+    "source": "Hacker News",
+    "published": "2025-12-04T11:32:00+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46146406\">Comments</a>"
   },
   {
     "title": "Building optimistic UI in Rails (and learn custom elements)",
@@ -24,14 +88,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46146133\">Comments</a>"
   },
   {
-    "title": "Tunnl.gg",
-    "link": "https://tunnl.gg",
-    "source": "Hacker News",
-    "published": "2025-12-04T10:15:53+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46145902\">Comments</a>"
-  },
-  {
     "title": "Unreal Tournament 2004 is back",
     "link": "https://old.reddit.com/r/unrealtournament/comments/1pdbe69/breaking_unreal_tournament_2004_is_back/",
     "source": "Hacker News",
@@ -46,22 +102,6 @@
     "published": "2025-12-04T09:01:55+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46145365\">Comments</a>"
-  },
-  {
-    "title": "Elites could shape mass preferences as AI reduces persuasion costs",
-    "link": "https://arxiv.org/abs/2512.04047",
-    "source": "Hacker News",
-    "published": "2025-12-04T08:38:17+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46145180\">Comments</a>"
-  },
-  {
-    "title": "Saturn (YC S24) Is Hiring Senior AI Engineer",
-    "link": "https://www.ycombinator.com/companies/saturn/jobs/R9s9o5f-senior-ai-engineer",
-    "source": "Hacker News",
-    "published": "2025-12-04T07:00:51+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46144613\">Comments</a>"
   },
   {
     "title": "Uncloud - Tool for deploying containerised apps across servers without k8s",
@@ -80,22 +120,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46142100\">Comments</a>"
   },
   {
-    "title": "Show HN: I built a dashboard to compare mortgage rates across 120 credit unions",
-    "link": "https://finfam.app/blog/credit-union-mortgages",
-    "source": "Hacker News",
-    "published": "2025-12-03T20:35:27+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46139761\">Comments</a>"
-  },
-  {
-    "title": "Ghostty is now non-profit",
-    "link": "https://mitchellh.com/writing/ghostty-non-profit",
-    "source": "Hacker News",
-    "published": "2025-12-03T18:40:06+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46138238\">Comments</a>"
-  },
-  {
     "title": "Micron Announces Exit from Crucial Consumer Business",
     "link": "https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business",
     "source": "Hacker News",
@@ -104,44 +128,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46137783\">Comments</a>"
   },
   {
-    "title": "Reverse engineering a $1B Legal AI tool exposed 100k+ confidential files",
-    "link": "https://alexschapiro.com/security/vulnerability/2025/12/02/filevine-api-100k",
-    "source": "Hacker News",
-    "published": "2025-12-03T17:44:33+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46137514\">Comments</a>"
-  },
-  {
-    "title": "1D Conway's Life glider found, 3.7B cells long",
-    "link": "https://conwaylife.com/forums/viewtopic.php?&p=222136#p222136",
-    "source": "Hacker News",
-    "published": "2025-12-03T17:24:49+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46137253\">Comments</a>"
-  },
-  {
-    "title": "RCE Vulnerability in React and Next.js",
-    "link": "https://github.com/vercel/next.js/security/advisories/GHSA-9qr9-h5gf-34mp",
-    "source": "Hacker News",
-    "published": "2025-12-03T16:00:23+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46136026\">Comments</a>"
-  },
-  {
-    "title": "Valve reveals it\u2019s the architect behind a push to bring Windows games to Arm",
-    "link": "https://www.theverge.com/report/820656/valve-interview-arm-gaming-steamos-pierre-loup-griffais",
-    "source": "Hacker News",
-    "published": "2025-12-02T20:33:10+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46126446\">Comments</a>"
-  },
-  {
     "title": "Show HN: Walrus \u2013 a Kafka alternative written in Rust",
     "link": "https://github.com/nubskr/walrus",
     "source": "Hacker News",
     "published": "2025-12-01T15:28:13+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46108557\">Comments</a>"
+  },
+  {
+    "title": "A lost Amazon world just reappeared in Bolivia",
+    "link": "https://www.sciencedaily.com/releases/2025/11/251130205421.htm",
+    "source": "Hacker News",
+    "published": "2025-12-01T07:30:46+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46104539\">Comments</a>"
   },
   {
     "title": "Interop and MathML Core",
