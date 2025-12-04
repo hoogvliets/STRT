@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
             titleLink.href = item.link;
             titleLink.onclick = (e) => handleLinkClick(e, id, card);
 
-            clone.querySelector('.card-summary').textContent = item.summary;
+            clone.querySelector('.card-summary').textContent = stripHtml(item.summary);
             clone.querySelector('.author').textContent = item.author;
 
             // Image
@@ -489,6 +489,13 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (e) {
             return '';
         }
+    }
+
+    function stripHtml(html) {
+        if (!html) return '';
+        const tmp = document.createElement('DIV');
+        tmp.innerHTML = html;
+        return tmp.textContent || tmp.innerText || '';
     }
 
     // --- User Actions ---
