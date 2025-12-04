@@ -1,5 +1,45 @@
 [
   {
+    "title": "Plane crashed after 3D-printed part collapsed",
+    "link": "https://www.bbc.com/news/articles/c1w932vqye0o",
+    "source": "Hacker News",
+    "published": "2025-12-04T20:56:08+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46152941\">Comments</a>"
+  },
+  {
+    "title": "The RAM shortage comes for us all",
+    "link": "https://www.jeffgeerling.com/blog/2025/ram-shortage-comes-us-all",
+    "source": "Hacker News",
+    "published": "2025-12-04T19:16:11+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46151578\">Comments</a>"
+  },
+  {
+    "title": "Hammersmith Bridge \u2013 Where did 25,000 vehicles go?",
+    "link": "https://nickmaini.substack.com/p/hammersmith-bridge",
+    "source": "Hacker News",
+    "published": "2025-12-04T18:52:22+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46151335\">Comments</a>"
+  },
+  {
+    "title": "Why are 38 percent of Stanford students saying they're disabled?",
+    "link": "https://reason.com/2025/12/04/why-are-38-percent-of-stanford-students-saying-theyre-disabled/",
+    "source": "Hacker News",
+    "published": "2025-12-04T18:04:07+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46150715\">Comments</a>"
+  },
+  {
+    "title": "PyTogether: Collaborative lightweight real-time Python IDE for teachers/learners",
+    "link": "https://github.com/SJRiz/pytogether",
+    "source": "Hacker News",
+    "published": "2025-12-04T17:43:07+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46150447\">Comments</a>"
+  },
+  {
     "title": "Converge (YC S23) is hiring a martech expert in NYC",
     "link": "https://www.runconverge.com/careers/technical-customer-success-manager",
     "source": "Hacker News",
@@ -14,14 +54,6 @@
     "published": "2025-12-04T16:58:35+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46149813\">Comments</a>"
-  },
-  {
-    "title": "The End of the Train-Test Split",
-    "link": "https://folio.benguzovsky.com/train-test",
-    "source": "Hacker News",
-    "published": "2025-12-04T16:53:49+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46149740\">Comments</a>"
   },
   {
     "title": "Launch HN: Browser Buddy (YC W24) \u2013 A recommendation system for Internet writing",
@@ -48,23 +80,15 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46149066\">Comments</a>"
   },
   {
-    "title": "Bootloader Unlock Wall of Shame",
-    "link": "https://github.com/zenfyrdev/bootloader-unlock-wall-of-shame",
+    "title": "Microsoft drops AI sales targets in half after salespeople miss their quotas",
+    "link": "https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/",
     "source": "Hacker News",
-    "published": "2025-12-04T15:57:21+00:00",
+    "published": "2025-12-04T15:31:52+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46149019\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46148748\">Comments</a>"
   },
   {
-    "title": "Proxmox Datacenter Manager 1.0 available",
-    "link": "https://www.proxmox.com/en/about/company-details/press-releases/proxmox-datacenter-manager-1-0",
-    "source": "Hacker News",
-    "published": "2025-12-04T15:31:12+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46148744\">Comments</a>"
-  },
-  {
-    "title": "Show HN: OnlyRecipe 2.0 \u2013 I added all features HN requested \u2013 4 years later",
+    "title": "Show HN: Onlyrecipe 2.0 \u2013 I added all features HN requested \u2013 4 years later",
     "link": "https://onlyrecipeapp.com/?url=https://www.allrecipes.com/turkish-pasta-recipe-8754903",
     "source": "Hacker News",
     "published": "2025-12-04T15:06:08+00:00",
@@ -72,12 +96,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46148460\">Comments</a>"
   },
   {
-    "title": "Transparent Leadership Beats Servant Leadership",
+    "title": "Transparent leadership beats servant leadership",
     "link": "https://entropicthoughts.com/transparent-leadership-beats-servant-leadership",
     "source": "Hacker News",
     "published": "2025-12-04T13:40:00+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46147540\">Comments</a>"
+  },
+  {
+    "title": "Fighting the age-gated internet",
+    "link": "https://www.wired.com/story/age-verification-is-sweeping-the-us-activists-are-fighting-back/",
+    "source": "Hacker News",
+    "published": "2025-12-04T13:34:27+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147493\">Comments</a>"
   },
   {
     "title": "Functional Quadtrees",
@@ -86,14 +118,6 @@
     "published": "2025-12-04T13:18:38+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46147341\">Comments</a>"
-  },
-  {
-    "title": "Japanese Four-Cylinder Engine Is So Reliable Still in Production After 25 Years",
-    "link": "https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/",
-    "source": "Hacker News",
-    "published": "2025-12-04T12:09:43+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46146740\">Comments</a>"
   },
   {
     "title": "I ignore the spotlight as a staff engineer",
@@ -120,43 +144,19 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46145365\">Comments</a>"
   },
   {
-    "title": "Uncloud - Tool for deploying containerised apps across servers without k8s",
-    "link": "https://uncloud.run/",
+    "title": "How elites could shape mass preferences as AI reduces persuasion costs",
+    "link": "https://arxiv.org/abs/2512.04047",
     "source": "Hacker News",
-    "published": "2025-12-04T06:02:23+00:00",
+    "published": "2025-12-04T08:38:17+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46144275\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46145180\">Comments</a>"
   },
   {
-    "title": "What Is \"Open Recursion\"?",
-    "link": "https://journal.stuffwithstuff.com/2013/08/26/what-is-open-recursion/",
+    "title": "Yawning abyss of the decimal labyrinth",
+    "link": "https://oh4.co/site/numogrammaticism.html",
     "source": "Hacker News",
-    "published": "2025-12-02T14:37:55+00:00",
+    "published": "2025-11-27T21:24:10+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46121619\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Walrus \u2013 a Kafka alternative written in Rust",
-    "link": "https://github.com/nubskr/walrus",
-    "source": "Hacker News",
-    "published": "2025-12-01T15:28:13+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46108557\">Comments</a>"
-  },
-  {
-    "title": "A lost Amazon world just reappeared in Bolivia",
-    "link": "https://www.sciencedaily.com/releases/2025/11/251130205421.htm",
-    "source": "Hacker News",
-    "published": "2025-12-01T07:30:46+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46104539\">Comments</a>"
-  },
-  {
-    "title": "Show HN: MTXT \u2013 Music Text Format",
-    "link": "https://github.com/Daninet/mtxt",
-    "source": "Hacker News",
-    "published": "2025-11-30T10:21:34+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46095474\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46073346\">Comments</a>"
   }
 ]
