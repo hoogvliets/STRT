@@ -1,5 +1,61 @@
 [
   {
+    "title": "Kea DHCP: Modern, open source DHCPv4 and DHCPv6 server",
+    "link": "https://www.isc.org/kea/",
+    "source": "Hacker News",
+    "published": "2025-12-03T23:58:04+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46142000\">Comments</a>"
+  },
+  {
+    "title": "Acme, a brief history of one of the protocols which has changed the Internet",
+    "link": "https://blog.brocas.org/2025/12/01/ACME-a-brief-history-of-one-of-the-protocols-which-has-changed-the-Internet-Security/",
+    "source": "Hacker News",
+    "published": "2025-12-03T23:28:34+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46141745\">Comments</a>"
+  },
+  {
+    "title": "Greeting Vocalizations in Domestic Cats Are More Frequent with Male Caregivers",
+    "link": "https://onlinelibrary.wiley.com/doi/10.1111/eth.70033",
+    "source": "Hacker News",
+    "published": "2025-12-03T21:56:37+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46140753\">Comments</a>"
+  },
+  {
+    "title": "8086 Microcode Browser",
+    "link": "https://nand2mario.github.io/posts/2025/8086_microcode_browser/",
+    "source": "Hacker News",
+    "published": "2025-12-03T21:16:11+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46140244\">Comments</a>"
+  },
+  {
+    "title": "Chips for the Rest of Us",
+    "link": "https://engineering.nyu.edu/about/unconventional-engineer/chips-for-us",
+    "source": "Hacker News",
+    "published": "2025-12-03T20:57:02+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46140038\">Comments</a>"
+  },
+  {
+    "title": "Checked-size array parameters in C",
+    "link": "https://lwn.net/SubscriberLink/1046840/3eb9029084cc9e1e/",
+    "source": "Hacker News",
+    "published": "2025-12-03T20:37:08+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46139782\">Comments</a>"
+  },
+  {
+    "title": "Show HN: I built a dashboard to compare mortgage rates across 120 credit unions",
+    "link": "https://finfam.app/blog/credit-union-mortgages",
+    "source": "Hacker News",
+    "published": "2025-12-03T20:35:27+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46139761\">Comments</a>"
+  },
+  {
     "title": "Everyone in Seattle hates AI",
     "link": "https://jonready.com/blog/posts/everyone-in-seattle-hates-ai.html",
     "source": "Hacker News",
@@ -32,14 +88,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46137783\">Comments</a>"
   },
   {
-    "title": "Prompt Injection via Poetry",
-    "link": "https://www.wired.com/story/poems-can-trick-ai-into-helping-you-make-a-nuclear-weapon/",
-    "source": "Hacker News",
-    "published": "2025-12-03T18:01:11+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46137746\">Comments</a>"
-  },
-  {
     "title": "Launch HN: Phind 3 (YC S22) \u2013 Every answer is a mini-app",
     "link": "https://news.ycombinator.com/item?id=46137548",
     "source": "Hacker News",
@@ -62,14 +110,6 @@
     "published": "2025-12-03T17:24:49+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46137253\">Comments</a>"
-  },
-  {
-    "title": "Rocketable (YC W25) is hiring a founding engineer to automate software companies",
-    "link": "https://www.ycombinator.com/companies/rocketable/jobs/CArgzmX-founding-engineer-automation-platform",
-    "source": "Hacker News",
-    "published": "2025-12-03T17:01:18+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46136918\">Comments</a>"
   },
   {
     "title": "RCE Vulnerability in React and Next.js",
@@ -96,38 +136,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46135627\">Comments</a>"
   },
   {
-    "title": "Show HN: Fresh \u2013 A new terminal editor built in Rust",
-    "link": "https://sinelaw.github.io/fresh/",
-    "source": "Hacker News",
-    "published": "2025-12-03T14:45:26+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46135067\">Comments</a>"
-  },
-  {
-    "title": "\u201cCaptain Gains\u201d on Capitol Hill",
-    "link": "https://www.nber.org/papers/w34524",
-    "source": "Hacker News",
-    "published": "2025-12-03T13:50:10+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46134443\">Comments</a>"
-  },
-  {
-    "title": "You can't fool the optimizer",
-    "link": "https://xania.org/202512/03-more-adding-integers",
-    "source": "Hacker News",
-    "published": "2025-12-03T12:14:34+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46133622\">Comments</a>"
-  },
-  {
-    "title": "Anthropic taps IPO lawyers as it races OpenAI to go public",
-    "link": "https://www.ft.com/content/3254fa30-5bdb-4c30-8560-7cd7ebbefc5f",
-    "source": "Hacker News",
-    "published": "2025-12-03T09:53:27+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46132531\">Comments</a>"
-  },
-  {
     "title": "Valve reveals it\u2019s the architect behind a push to bring Windows games to Arm",
     "link": "https://www.theverge.com/report/820656/valve-interview-arm-gaming-steamos-pierre-loup-griffais",
     "source": "Hacker News",
@@ -150,13 +158,5 @@
     "published": "2025-11-27T19:04:56+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46072280\">Comments</a>"
-  },
-  {
-    "title": "R packages for data science",
-    "link": "https://tidyverse.org/",
-    "source": "Hacker News",
-    "published": "2025-11-26T12:18:40+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46056708\">Comments</a>"
   }
 ]
