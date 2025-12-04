@@ -75,10 +75,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Widget templates
     const bookmarksTemplate = document.getElementById('widget-bookmarks-template');
+    const launchpadTemplate = document.getElementById('widget-launchpad-template');
     const notesTemplate = document.getElementById('widget-notes-template');
     const weatherTemplate = document.getElementById('widget-weather-template');
+    const todoTemplate = document.getElementById('widget-todo-template');
     const bookmarkLinkTemplate = document.getElementById('bookmark-link-template');
+    const launchpadItemTemplate = document.getElementById('launchpad-item-template');
     const weatherHourlyTemplate = document.getElementById('weather-hourly-item-template');
+    const todoItemTemplate = document.getElementById('todo-item-template');
 
     // Initialization
     init();
@@ -540,7 +544,13 @@ document.addEventListener('DOMContentLoaded', () => {
     function loadWidgets() {
         const saved = localStorage.getItem('widgets-data');
         if (saved) {
-            state.widgets = JSON.parse(saved);
+            try {
+                state.widgets = JSON.parse(saved);
+                console.log('Loaded widgets:', state.widgets);
+            } catch (error) {
+                console.error('Error loading widgets:', error);
+                state.widgets = [];
+            }
         }
     }
 
@@ -576,7 +586,9 @@ document.addEventListener('DOMContentLoaded', () => {
             title,
             location: type === 'weather' ? location : null,
             links: type === 'bookmarks' ? [] : null,
-            notes: type === 'notes' ? '' : null
+            sites: type === 'launchpad' ? [] : null,
+            notes: type === 'notes' ? '' : null,
+            todos: type === 'todo' ? [] : null
         };
 
         state.widgets.push(widget);
@@ -600,6 +612,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function openLinkModal(widgetId) {
         state.currentWidgetId = widgetId;
+        const widget = state.widgets.find(w => w.id === widgetId);
+        const modalTitle = document.getElementById('link-modal-title');
+        const linkTitleLabel = linkTitleInput.previousElementSibling;
+
+        if (widget && widget.type === 'launchpad') {
+            modalTitle.textContent = 'Add Site';
+            // Hide title field for launchpad
+            linkTitleLabel.style.display = 'none';
+            linkTitleInput.style.display = 'none';
+        } else {
+            modalTitle.textContent = 'Add Link';
+            // Show title field for bookmarks
+            linkTitleLabel.style.display = 'block';
+            linkTitleInput.style.display = 'block';
+        }
         linkModal.classList.remove('hidden');
         linkTitleInput.value = '';
         linkUrlInput.value = '';
@@ -611,12 +638,22 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function saveLink() {
+        const widget = state.widgets.find(w => w.id === state.currentWidgetId);
         const title = linkTitleInput.value.trim();
         let url = linkUrlInput.value.trim();
 
-        if (!title || !url) {
-            alert('Please enter both title and URL');
-            return;
+        // For launchpad, only URL is required
+        if (widget && widget.type === 'launchpad') {
+            if (!url) {
+                alert('Please enter a URL');
+                return;
+            }
+        } else {
+            // For bookmarks, both title and URL are required
+            if (!title || !url) {
+                alert('Please enter both title and URL');
+                return;
+            }
         }
 
         // Ensure URL has a protocol
@@ -624,9 +661,15 @@ document.addEventListener('DOMContentLoaded', () => {
             url = 'https://' + url;
         }
 
-        const widget = state.widgets.find(w => w.id === state.currentWidgetId);
-        if (widget && widget.links) {
-            widget.links.push({ id: Date.now().toString(), title, url });
+        if (widget) {
+            if (widget.links) {
+                widget.links.push({ id: Date.now().toString(), title, url });
+            } else if (widget.sites) {
+                // For launchpad, use domain as title fallback
+                const urlObj = new URL(url);
+                const domain = urlObj.hostname.replace('www.', '');
+                widget.sites.push({ id: Date.now().toString(), title: title || domain, url });
+            }
             saveWidgets();
             renderWidgets();
             closeLinkModal();
@@ -635,8 +678,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function deleteLink(widgetId, linkId) {
         const widget = state.widgets.find(w => w.id === widgetId);
-        if (widget && widget.links) {
-            widget.links = widget.links.filter(l => l.id !== linkId);
+        if (widget) {
+            if (widget.links) {
+                widget.links = widget.links.filter(l => l.id !== linkId);
+            } else if (widget.sites) {
+                widget.sites = widget.sites.filter(s => s.id !== linkId);
+            }
             saveWidgets();
             renderWidgets();
         }
@@ -650,7 +697,46 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function addTodo(widgetId) {
+        const todoText = prompt('Enter task:');
+        if (todoText && todoText.trim()) {
+            const widget = state.widgets.find(w => w.id === widgetId);
+            if (widget && widget.todos) {
+                const todo = {
+                    id: Date.now().toString(),
+                    text: todoText.trim(),
+                    completed: false
+                };
+                widget.todos.push(todo);
+                saveWidgets();
+                renderWidgets();
+            }
+        }
+    }
+
+    function toggleTodo(widgetId, todoId) {
+        const widget = state.widgets.find(w => w.id === widgetId);
+        if (widget && widget.todos) {
+            const todo = widget.todos.find(t => t.id === todoId);
+            if (todo) {
+                todo.completed = !todo.completed;
+                saveWidgets();
+                renderWidgets();
+            }
+        }
+    }
+
+    function deleteTodo(widgetId, todoId) {
+        const widget = state.widgets.find(w => w.id === widgetId);
+        if (widget && widget.todos) {
+            widget.todos = widget.todos.filter(t => t.id !== todoId);
+            saveWidgets();
+            renderWidgets();
+        }
+    }
+
     function renderWidgets() {
+        console.log('renderWidgets called, widgets count:', state.widgets.length);
         if (!widgetsGrid) {
             console.error('widgetsGrid element not found');
             return;
@@ -661,6 +747,7 @@ document.addEventListener('DOMContentLoaded', () => {
         state.widgets.forEach(widget => {
             let template, clone, widgetEl;
 
+            try {
             if (widget.type === 'bookmarks') {
                 clone = bookmarksTemplate.content.cloneNode(true);
                 widgetEl = clone.querySelector('.widget');
@@ -705,6 +792,57 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Edit title button
                 const editTitleBtn = clone.querySelector('.edit-title-btn');
                 editTitleBtn.onclick = () => editWidgetTitle(widget.id);
+
+            } else if (widget.type === 'launchpad') {
+                clone = launchpadTemplate.content.cloneNode(true);
+                widgetEl = clone.querySelector('.widget');
+                widgetEl.dataset.widgetId = widget.id;
+
+                clone.querySelector('.widget-title').textContent = widget.title;
+
+                // Render sites in 3x3 grid
+                const launchpadGrid = clone.querySelector('.launchpad-grid');
+                if (widget.sites && widget.sites.length > 0) {
+                    widget.sites.forEach(site => {
+                        const siteClone = launchpadItemTemplate.content.cloneNode(true);
+                        const siteEl = siteClone.querySelector('.launchpad-item');
+
+                        siteEl.href = site.url;
+
+                        // Add large favicon
+                        const favicon = siteClone.querySelector('.launchpad-favicon');
+                        const faviconUrl = getLargeFaviconUrl(site.url);
+                        favicon.src = faviconUrl;
+                        favicon.alt = site.title;
+                        favicon.onerror = () => {
+                            // Fallback to default icon
+                            favicon.style.display = 'none';
+                            const iconDiv = siteClone.querySelector('.launchpad-icon');
+                            iconDiv.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg>`;
+                        };
+
+                        const deleteBtn = siteClone.querySelector('.launchpad-delete-btn');
+                        deleteBtn.onclick = (e) => {
+                            e.preventDefault();
+                            deleteLink(widget.id, site.id);
+                        };
+
+                        launchpadGrid.appendChild(siteClone);
+                    });
+                } else {
+                    launchpadGrid.innerHTML = '<div class="empty-launchpad">No sites yet</div>';
+                }
+
+                // Add site button
+                const addSiteBtn = clone.querySelector('.add-site-btn');
+                addSiteBtn.onclick = () => openLinkModal(widget.id);
+
+                // Edit title button
+                const editTitleBtn2 = clone.querySelector('.edit-title-btn');
+                editTitleBtn2.onclick = () => editWidgetTitle(widget.id);
 
             } else if (widget.type === 'notes') {
                 clone = notesTemplate.content.cloneNode(true);
@@ -853,6 +991,43 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Edit title button
                 const editTitleBtn = clone.querySelector('.edit-title-btn');
                 editTitleBtn.onclick = () => editWidgetTitle(widget.id);
+            } else if (widget.type === 'todo') {
+                clone = todoTemplate.content.cloneNode(true);
+                widgetEl = clone.querySelector('.widget');
+                widgetEl.dataset.widgetId = widget.id;
+
+                clone.querySelector('.widget-title').textContent = widget.title;
+
+                const todoList = clone.querySelector('.todo-list');
+                if (widget.todos && widget.todos.length > 0) {
+                    widget.todos.forEach(todo => {
+                        const todoClone = todoItemTemplate.content.cloneNode(true);
+
+                        const checkbox = todoClone.querySelector('.todo-checkbox');
+                        checkbox.checked = todo.completed;
+                        checkbox.onchange = () => toggleTodo(widget.id, todo.id);
+
+                        const text = todoClone.querySelector('.todo-text');
+                        text.textContent = todo.text;
+                        if (todo.completed) {
+                            text.style.textDecoration = 'line-through';
+                            text.style.opacity = '0.6';
+                        }
+
+                        const deleteBtn = todoClone.querySelector('.todo-delete-btn');
+                        deleteBtn.onclick = () => deleteTodo(widget.id, todo.id);
+
+                        todoList.appendChild(todoClone);
+                    });
+                } else {
+                    todoList.innerHTML = '<div class="empty-todos">No tasks yet</div>';
+                }
+
+                const addTodoBtn = clone.querySelector('.add-todo-btn');
+                addTodoBtn.onclick = () => addTodo(widget.id);
+
+                const editTitleBtn3 = clone.querySelector('.edit-title-btn');
+                editTitleBtn3.onclick = () => editWidgetTitle(widget.id);
             }
 
             // Delete widget button
@@ -860,12 +1035,17 @@ document.addEventListener('DOMContentLoaded', () => {
             deleteBtn.onclick = () => deleteWidget(widget.id);
 
             // Drag and drop
-            widgetEl.addEventListener('dragstart', handleDragStart);
-            widgetEl.addEventListener('dragend', handleDragEnd);
-            widgetEl.addEventListener('dragover', handleDragOver);
-            widgetEl.addEventListener('drop', handleDrop);
+            if (widgetEl) {
+                widgetEl.addEventListener('dragstart', handleDragStart);
+                widgetEl.addEventListener('dragend', handleDragEnd);
+                widgetEl.addEventListener('dragover', handleDragOver);
+                widgetEl.addEventListener('drop', handleDrop);
+            }
 
             widgetsGrid.appendChild(clone);
+            } catch (error) {
+                console.error('Error rendering widget:', widget.type, error);
+            }
         });
 
         // Add the "Add Widget" button at the end
@@ -905,6 +1085,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const urlObj = new URL(url);
             // Use Google's favicon service as a reliable fallback
             return `https://www.google.com/s2/favicons?domain=${urlObj.hostname}&sz=32`;
+        } catch (e) {
+            // Return a default icon if URL is invalid
+            return 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>';
+        }
+    }
+
+    function getLargeFaviconUrl(url) {
+        try {
+            const urlObj = new URL(url);
+            // Use Google's favicon service with larger size for launchpad
+            return `https://www.google.com/s2/favicons?domain=${urlObj.hostname}&sz=64`;
         } catch (e) {
             // Return a default icon if URL is invalid
             return 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>';
