@@ -1,11 +1,51 @@
 [
   {
+    "title": "Perl's Decline Was Cultural",
+    "link": "https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical",
+    "source": "Hacker News",
+    "published": "2025-12-06T17:42:07+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46175112\">Comments</a>"
+  },
+  {
+    "title": "Show HN: SFX \u2013 A language where 0.1 and 0.2 = 0.3 and Context is first-class",
+    "link": "https://github.com/roriau0422/sfex-lang",
+    "source": "Hacker News",
+    "published": "2025-12-06T17:13:03+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46174878\">Comments</a>"
+  },
+  {
+    "title": "Infisical (YC W23) Is Hiring Engineers to Build the Modern OSS Security Stack",
+    "link": "https://www.ycombinator.com/companies/infisical/jobs/2pwGcK9-senior-full-stack-engineer-us-canada",
+    "source": "Hacker News",
+    "published": "2025-12-06T17:01:53+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46174789\">Comments</a>"
+  },
+  {
+    "title": "HTML as an Accessible Format for Papers",
+    "link": "https://info.arxiv.org/about/accessible_HTML.html",
+    "source": "Hacker News",
+    "published": "2025-12-06T14:59:52+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46173825\">Comments</a>"
+  },
+  {
     "title": "Tiny Core Linux: a 23 MB Linux distro with graphical desktop",
     "link": "http://www.tinycorelinux.net/",
     "source": "Hacker News",
     "published": "2025-12-06T14:18:42+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46173547\">Comments</a>"
+  },
+  {
+    "title": "GrapheneOS is the only Android OS providing full security patches",
+    "link": "https://grapheneos.social/@GrapheneOS/115647408229616018",
+    "source": "Hacker News",
+    "published": "2025-12-06T13:58:31+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46173407\">Comments</a>"
   },
   {
     "title": "How I discovered a hidden microphone on a Chinese NanoKVM",
@@ -32,60 +72,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46172167\">Comments</a>"
   },
   {
-    "title": "Schizophrenia sufferer mistakes smart fridge ad for psychotic episode",
-    "link": "https://old.reddit.com/r/LegalAdviceUK/comments/1pc7999/my_schizophrenic_sister_hospitalised_herself/",
-    "source": "Hacker News",
-    "published": "2025-12-06T07:31:07+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46171425\">Comments</a>"
-  },
-  {
-    "title": "Wolfram Compute Services",
-    "link": "https://writings.stephenwolfram.com/2025/12/instant-supercompute-launching-wolfram-compute-services/",
-    "source": "Hacker News",
-    "published": "2025-12-06T07:21:42+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46171394\">Comments</a>"
-  },
-  {
-    "title": "Infracost (YC W21) is hiring Sr Node Eng to make $600B/yr cloud spend proactive",
-    "link": "https://www.ycombinator.com/companies/infracost/jobs/Sr9rmHs-senior-product-engineer-node-js",
-    "source": "Hacker News",
-    "published": "2025-12-06T07:00:14+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46171311\">Comments</a>"
-  },
-  {
     "title": "PalmOS on FisherPrice Pixter Toy",
     "link": "https://dmitry.gr/?r=05.Projects&proj=27.%20rePalm#pixter",
     "source": "Hacker News",
     "published": "2025-12-06T03:17:44+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46170309\">Comments</a>"
-  },
-  {
-    "title": "Have I been Flocked? \u2013 Check if your license plate is being watched",
-    "link": "https://haveibeenflocked.com/",
-    "source": "Hacker News",
-    "published": "2025-12-06T03:16:35+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46170302\">Comments</a>"
-  },
-  {
-    "title": "Leaving Intel",
-    "link": "https://www.brendangregg.com/blog//2025-12-05/leaving-intel.html",
-    "source": "Hacker News",
-    "published": "2025-12-05T21:27:04+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46167552\">Comments</a>"
-  },
-  {
-    "title": "Gemini 3 Pro: the frontier of vision AI",
-    "link": "https://blog.google/technology/developers/gemini-3-pro-vision/",
-    "source": "Hacker News",
-    "published": "2025-12-05T16:15:10+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46163308\">Comments</a>"
   },
   {
     "title": "Cloudflare outage on December 5, 2025",
@@ -120,6 +112,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46123720\">Comments</a>"
   },
   {
+    "title": "Detecting AV1-encoded videos with Python",
+    "link": "https://alexwlchan.net/2025/detecting-av1-videos/",
+    "source": "Hacker News",
+    "published": "2025-12-02T15:29:09+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46122168\">Comments</a>"
+  },
+  {
     "title": "The Absent Silence (2010)",
     "link": "https://www.ursulakleguin.com/blog/3-the-absent-silence",
     "source": "Hacker News",
@@ -128,20 +128,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46120764\">Comments</a>"
   },
   {
-    "title": "Divine D native Linux open-source mobile system \u2013 Rev. 1.1 Hardware Architecture",
-    "link": "https://docs.dawndrums.tn/blog/dd-rev1.1-arch/",
+    "title": "Z-Image: Powerful and highly efficient image generation model with 6B parameters",
+    "link": "https://github.com/Tongyi-MAI/Z-Image",
     "source": "Hacker News",
-    "published": "2025-12-01T22:15:53+00:00",
+    "published": "2025-11-30T11:36:34+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46114064\">Comments</a>"
-  },
-  {
-    "title": "Making tiny 0.1cc two stroke engine from scratch",
-    "link": "https://youtu.be/nKVq9u52A-c?si=KVY6AK7tsudqnbJN",
-    "source": "Hacker News",
-    "published": "2025-11-30T17:34:46+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46098655\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46095817\">Comments</a>"
   },
   {
     "title": "Self-hosting my photos with Immich",
@@ -150,6 +142,14 @@
     "published": "2025-11-30T09:11:40+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46095087\">Comments</a>"
+  },
+  {
+    "title": "Mapping Amazing: Bee Maps",
+    "link": "https://maphappenings.com/2025/11/06/bee-maps/",
+    "source": "Hacker News",
+    "published": "2025-11-30T08:50:01+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46094989\">Comments</a>"
   },
   {
     "title": "The unexpected effectiveness of one-shot decompilation with Claude",
