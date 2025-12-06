@@ -1,5 +1,21 @@
 [
   {
+    "title": "How America's \"truck-driver shortage\" made the industry a hellscape",
+    "link": "https://www.freightwaves.com/news/how-americas-trucking-industry-became-a-hellscape",
+    "source": "Hacker News",
+    "published": "2025-12-06T10:53:56+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46172312\">Comments</a>"
+  },
+  {
+    "title": "Ask HN: How many people got VPNs in response to laws like UK Online Safety Act?",
+    "link": "https://news.ycombinator.com/item?id=46171921",
+    "source": "Hacker News",
+    "published": "2025-12-06T09:28:59+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46171921\">Comments</a>"
+  },
+  {
     "title": "Schizophrenia sufferer mistakes smart fridge ad for psychotic episode",
     "link": "https://old.reddit.com/r/LegalAdviceUK/comments/1pc7999/my_schizophrenic_sister_hospitalised_herself/",
     "source": "Hacker News",
@@ -24,14 +40,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46171311\">Comments</a>"
   },
   {
-    "title": "Albert Michelson's Harmonic Analyzer (2014) [pdf]",
-    "link": "https://engineerguy.com/fourier/pdfs/albert-michelsons-harmonic-analyzer.pdf",
-    "source": "Hacker News",
-    "published": "2025-12-06T03:21:46+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46170332\">Comments</a>"
-  },
-  {
     "title": "PalmOS on FisherPrice Pixter Toy",
     "link": "https://dmitry.gr/?r=05.Projects&proj=27.%20rePalm#pixter",
     "source": "Hacker News",
@@ -46,14 +54,6 @@
     "published": "2025-12-06T03:16:35+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46170302\">Comments</a>"
-  },
-  {
-    "title": "Extra Instructions Of The 65XX Series CPU (1996)",
-    "link": "http://www.ffd2.com/fridge/docs/6502-NMOS.extra.opcodes",
-    "source": "Hacker News",
-    "published": "2025-12-06T00:38:50+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46169330\">Comments</a>"
   },
   {
     "title": "Adenosine on the common path of rapid antidepressant action: The coffee paradox",
@@ -128,20 +128,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46126380\">Comments</a>"
   },
   {
-    "title": "PC-Man (IBM PC 1983) and the spark of childhood wonder",
+    "title": "PC-Man and the spark of childhood wonder",
     "link": "https://intotheverticalblank.com/2025/12/02/interview-greg-kuperberg/",
     "source": "Hacker News",
     "published": "2025-12-02T17:09:44+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46123518\">Comments</a>"
-  },
-  {
-    "title": "Idempotency keys for exactly-once processing",
-    "link": "https://www.morling.dev/blog/on-idempotency-keys/",
-    "source": "Hacker News",
-    "published": "2025-12-01T12:07:33+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46106411\">Comments</a>"
   },
   {
     "title": "Making tiny 0.1cc two stroke engine from scratch",
@@ -158,5 +150,13 @@
     "published": "2025-11-30T09:11:40+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46095087\">Comments</a>"
+  },
+  {
+    "title": "Aurora: The Linux-based ultimate workstation",
+    "link": "https://getaurora.dev/en",
+    "source": "Hacker News",
+    "published": "2025-11-30T07:24:00+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46094589\">Comments</a>"
   }
 ]
