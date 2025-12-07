@@ -1,6 +1,30 @@
 [
   {
-    "title": "I Tried and Failed to Rebuild the 1996 Space Jam Website with Claude",
+    "title": "Syncthing-Android have had a change of owner/maintainer",
+    "link": "https://github.com/researchxxl/syncthing-android/issues/16",
+    "source": "Hacker News",
+    "published": "2025-12-07T20:15:26+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46184730\">Comments</a>"
+  },
+  {
+    "title": "A geothermal amoeba sets a new upper temperature limit for eukaryotes",
+    "link": "https://www.biorxiv.org/content/10.1101/2025.11.24.690213v1.full",
+    "source": "Hacker News",
+    "published": "2025-12-07T19:26:08+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46184303\">Comments</a>"
+  },
+  {
+    "title": "Estimates are difficult for developers and product owners",
+    "link": "https://thorsell.io/2025/12/07/estimates.html",
+    "source": "Hacker News",
+    "published": "2025-12-07T19:17:17+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46184229\">Comments</a>"
+  },
+  {
+    "title": "I failed to recreate the 1996 Space Jam Website with Claude",
     "link": "https://j0nah.com/i-failed-to-recreate-the-1996-space-jam-website-with-claude/",
     "source": "Hacker News",
     "published": "2025-12-07T17:18:54+00:00",
@@ -16,22 +40,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46183091\">Comments</a>"
   },
   {
-    "title": "The AI Wildfire Is Coming. It's Going to Be Painful and Healthy",
-    "link": "https://ceodinner.substack.com/p/the-ai-wildfire-is-coming-its-going",
-    "source": "Hacker News",
-    "published": "2025-12-07T16:43:38+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46183011\">Comments</a>"
-  },
-  {
-    "title": "Locks in PostgreSQL",
-    "link": "https://habr.com/en/companies/postgrespro/articles/504498/",
-    "source": "Hacker News",
-    "published": "2025-12-07T15:42:02+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46182496\">Comments</a>"
-  },
-  {
     "title": "Scala 3 slowed us down?",
     "link": "https://kmaliszewski9.github.io/scala/2025/12/07/scala3-slowdown.html",
     "source": "Hacker News",
@@ -40,7 +48,23 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46182202\">Comments</a>"
   },
   {
-    "title": "Goodbye, Microsoft: Schleswig-Holstein Relies on Open Source and Saves Millions",
+    "title": "Nested Learning: A new ML paradigm for continual learning",
+    "link": "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/",
+    "source": "Hacker News",
+    "published": "2025-12-07T14:47:02+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46182031\">Comments</a>"
+  },
+  {
+    "title": "Dollar-stores overcharge cash-strapped customers while promising low prices",
+    "link": "https://www.theguardian.com/us-news/2025/dec/03/customers-pay-more-rising-dollar-store-costs",
+    "source": "Hacker News",
+    "published": "2025-12-07T14:37:21+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181962\">Comments</a>"
+  },
+  {
+    "title": "The state of Schleswig-Holstein is consistently relying on open source",
     "link": "https://www.heise.de/en/news/Goodbye-Microsoft-Schleswig-Holstein-relies-on-Open-Source-and-saves-millions-11105459.html",
     "source": "Hacker News",
     "published": "2025-12-07T13:21:24+00:00",
@@ -48,7 +72,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46181491\">Comments</a>"
   },
   {
-    "title": "At least 50 hallucinated citations found in ICLR 2026 submissions",
+    "title": "Over fifty new hallucinations in ICLR 2026 submissions",
     "link": "https://gptzero.me/news/iclr-2026/",
     "source": "Hacker News",
     "published": "2025-12-07T13:16:26+00:00",
@@ -62,14 +86,6 @@
     "published": "2025-12-07T12:31:53+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46181268\">Comments</a>"
-  },
-  {
-    "title": "How the Disappearance of Flight 19 Fueled the Legend of the Bermuda Triangle",
-    "link": "https://www.smithsonianmag.com/history/how-the-disappearance-of-flight-19-a-navy-squadron-lost-in-1945-fueled-the-legend-of-the-bermuda-triangle-180987759/",
-    "source": "Hacker News",
-    "published": "2025-12-07T12:25:04+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46181237\">Comments</a>"
   },
   {
     "title": "Google Titans architecture, helping AI have long-term memory",
@@ -112,30 +128,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46177645\">Comments</a>"
   },
   {
-    "title": "Screenshots from developers: 2002 vs. 2015 (2015)",
-    "link": "https://anders.unix.se/2015/12/10/screenshots-from-developers--2002-vs.-2015/",
-    "source": "Hacker News",
-    "published": "2025-12-06T21:55:09+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46176905\">Comments</a>"
-  },
-  {
-    "title": "The past was not that cute",
-    "link": "https://juliawise.net/the-past-was-not-that-cute/",
-    "source": "Hacker News",
-    "published": "2025-12-06T21:53:35+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46176893\">Comments</a>"
-  },
-  {
-    "title": "GrapheneOS is the only Android OS providing full security patches",
-    "link": "https://grapheneos.social/@GrapheneOS/115647408229616018",
-    "source": "Hacker News",
-    "published": "2025-12-06T13:58:31+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46173407\">Comments</a>"
-  },
-  {
     "title": "Building a Toast Component",
     "link": "https://emilkowal.ski/ui/building-a-toast-component",
     "source": "Hacker News",
@@ -158,5 +150,13 @@
     "published": "2025-12-01T18:57:21+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46111448\">Comments</a>"
+  },
+  {
+    "title": "Build a DIY magnetometer with a couple of seasoning bottles",
+    "link": "https://spectrum.ieee.org/listen-to-protons-diy-magnetometer",
+    "source": "Hacker News",
+    "published": "2025-11-29T12:04:34+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46086923\">Comments</a>"
   }
 ]
