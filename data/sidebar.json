@@ -1,6 +1,30 @@
 [
   {
-    "title": "The Universal Weight Subspace Hypothesis",
+    "title": "The Lost Machine Automats and Self-Service Cafeterias of NYC (2023)",
+    "link": "https://www.untappedcities.com/automats-cafeterias-nyc/",
+    "source": "Hacker News",
+    "published": "2025-12-09T00:51:31+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46199950\">Comments</a>"
+  },
+  {
+    "title": "Scientific and Technical Amateur Radio",
+    "link": "https://destevez.net/",
+    "source": "Hacker News",
+    "published": "2025-12-09T00:50:32+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46199935\">Comments</a>"
+  },
+  {
+    "title": "Horses: AI progress is steady. Human equivalence is sudden",
+    "link": "https://andyljones.com/posts/horses.html",
+    "source": "Hacker News",
+    "published": "2025-12-09T00:26:35+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46199723\">Comments</a>"
+  },
+  {
+    "title": "The universal weight subspace hypothesis",
     "link": "https://arxiv.org/abs/2512.05117",
     "source": "Hacker News",
     "published": "2025-12-09T00:16:46+00:00",
@@ -48,38 +72,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46196105\">Comments</a>"
   },
   {
-    "title": "Deep dive on Nvidia circular funding",
-    "link": "https://philippeoger.com/pages/deep-dive-into-nvidias-virtuous-cycle",
-    "source": "Hacker News",
-    "published": "2025-12-08T18:48:27+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46196076\">Comments</a>"
-  },
-  {
-    "title": "AI should only run as fast as we can catch up",
-    "link": "https://higashi.blog/2025/12/07/ai-verification/",
-    "source": "Hacker News",
-    "published": "2025-12-08T17:38:34+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46195198\">Comments</a>"
-  },
-  {
-    "title": "Launch HN: Nia (YC S25) \u2013 Give better context to coding agents",
-    "link": "https://www.trynia.ai/",
-    "source": "Hacker News",
-    "published": "2025-12-08T17:10:14+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46194828\">Comments</a>"
-  },
-  {
-    "title": "A series of tricks and techniques I learned doing tiny GLSL demos",
-    "link": "https://blog.pkh.me/p/48-a-series-of-tricks-and-techniques-i-learned-doing-tiny-glsl-demos.html",
-    "source": "Hacker News",
-    "published": "2025-12-08T16:44:42+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46194477\">Comments</a>"
-  },
-  {
     "title": "Hunting for North Korean Fiber Optic Cables",
     "link": "https://nkinternet.com/2025/12/08/hunting-for-north-korean-fiber-optic-cables/",
     "source": "Hacker News",
@@ -112,14 +104,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46192846\">Comments</a>"
   },
   {
-    "title": "Paramount launches hostile bid for Warner Bros",
-    "link": "https://www.cnbc.com/2025/12/08/paramount-skydance-hostile-bid-wbd-netflix.html",
-    "source": "Hacker News",
-    "published": "2025-12-08T14:16:34+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46192459\">Comments</a>"
-  },
-  {
     "title": "Microsoft increases Office 365 and Microsoft 365 license prices",
     "link": "https://office365itpros.com/2025/12/08/microsoft-365-pricing-increase/",
     "source": "Hacker News",
@@ -136,14 +120,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46192130\">Comments</a>"
   },
   {
-    "title": "Microsoft Download Center Archive",
-    "link": "https://legacyupdate.net/download-center/",
-    "source": "Hacker News",
-    "published": "2025-12-05T19:33:28+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46166178\">Comments</a>"
-  },
-  {
     "title": "Show HN: Fanfa \u2013 Interactive and animated Mermaid diagrams",
     "link": "https://fanfa.dev/",
     "source": "Hacker News",
@@ -152,11 +128,35 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46147329\">Comments</a>"
   },
   {
-    "title": "Amp, Inc. \u2013 Amp is spinning out of Sourcegraph",
-    "link": "https://ampcode.com/news/amp-inc",
+    "title": "Cassette tapes are making a comeback?",
+    "link": "https://theconversation.com/cassette-tapes-are-making-a-comeback-yes-really-268108",
     "source": "Hacker News",
-    "published": "2025-12-02T18:33:00+00:00",
+    "published": "2025-12-04T04:30:25+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46124649\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46143818\">Comments</a>"
+  },
+  {
+    "title": "OSHW: Small tablet based on RK3568 and AMOLED screen",
+    "link": "https://oshwhub.com/oglggc/rui-xin-wei-rk3568-si-ceng-jia-li-chuang-mian-fei-gong-yi",
+    "source": "Hacker News",
+    "published": "2025-12-03T16:19:53+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46136277\">Comments</a>"
+  },
+  {
+    "title": "Everything that is wrong in museums starts with wall labels",
+    "link": "https://www.aaronland.info/weblog/2025/11/20/cafeteria/",
+    "source": "Hacker News",
+    "published": "2025-12-03T00:03:21+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46128639\">Comments</a>"
+  },
+  {
+    "title": "Latency Profiling in Python: From Code Bottlenecks to Observability",
+    "link": "https://quant.engineering/latency-profiling-in-python.html",
+    "source": "Hacker News",
+    "published": "2025-12-02T12:55:31+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46120732\">Comments</a>"
   }
 ]
