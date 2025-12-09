@@ -1,19 +1,51 @@
 [
   {
-    "title": "Show HN: Detail, a Bug Finder",
-    "link": "https://detail.dev/",
+    "title": "Django: What's new in 6.0 \u2013 Adam Johnson",
+    "link": "https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/",
     "source": "Hacker News",
-    "published": "2025-12-09T17:35:35+00:00",
+    "published": "2025-12-09T20:33:14+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46207852\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46210240\">Comments</a>"
   },
   {
-    "title": "How Private Equity Is Changing Housing",
-    "link": "https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/",
+    "title": "We Need to Die",
+    "link": "https://willllliam.com/blog/why-we-need-to-die/",
     "source": "Hacker News",
-    "published": "2025-12-09T17:26:33+00:00",
+    "published": "2025-12-09T20:21:06+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46207727\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46210095\">Comments</a>"
+  },
+  {
+    "title": "Agentic AI Foundation",
+    "link": "https://block.xyz/inside/block-anthropic-and-openai-launch-the-agentic-ai-foundation",
+    "source": "Hacker News",
+    "published": "2025-12-09T20:00:39+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46209846\">Comments</a>"
+  },
+  {
+    "title": "10 Years of Let's Encrypt",
+    "link": "https://letsencrypt.org/2025/12/09/10-years",
+    "source": "Hacker News",
+    "published": "2025-12-09T18:54:55+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46208962\">Comments</a>"
+  },
+  {
+    "title": "So you want to speak at software conferences?",
+    "link": "https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html",
+    "source": "Hacker News",
+    "published": "2025-12-09T18:42:27+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46208773\">Comments</a>"
+  },
+  {
+    "title": "The stack circuitry of the Intel 8087 floating point chip, reverse-engineered",
+    "link": "https://www.righto.com/2025/12/8087-stack-circuitry.html",
+    "source": "Hacker News",
+    "published": "2025-12-09T18:16:44+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46208409\">Comments</a>"
   },
   {
     "title": "If you're going to vibe code, why not do it in C?",
@@ -32,6 +64,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46207464\">Comments</a>"
   },
   {
+    "title": "Donating the Model Context Protocol and Establishing the Agentic AI Foundation",
+    "link": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+    "source": "Hacker News",
+    "published": "2025-12-09T17:05:42+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46207425\">Comments</a>"
+  },
+  {
     "title": "Clearspace (YC W23) Is Hiring a Founding Designer",
     "link": "https://www.ycombinator.com/companies/clearspace/jobs/yamWTLr-founding-designer-at-clearspace",
     "source": "Hacker News",
@@ -41,7 +81,7 @@
   },
   {
     "title": "Launch HN: Mentat (YC F24) \u2013 Controlling LLMs with Runtime Intervention",
-    "link": "https://playground.ctgt.ai",
+    "link": "https://news.ycombinator.com/item?id=46207017",
     "source": "Hacker News",
     "published": "2025-12-09T16:37:55+00:00",
     "author": "Hacker News",
@@ -56,12 +96,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46206531\">Comments</a>"
   },
   {
-    "title": "AI needs more power than the grid can deliver \u2013 supersonic tech can fix that",
-    "link": "https://boomsupersonic.com/flyby/ai-needs-more-power-than-the-grid-can-deliver-supersonic-tech-can-fix-that",
+    "title": "Pebble Index 01 \u2013 External memory for your brain",
+    "link": "https://repebble.com/blog/meet-pebble-index-01-external-memory-for-your-brain",
     "source": "Hacker News",
-    "published": "2025-12-09T15:51:32+00:00",
+    "published": "2025-12-09T15:03:09+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46206277\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46205661\">Comments</a>"
   },
   {
     "title": "Show HN: Gemini Pro 3 hallucinates the HN front page 10 years from now",
@@ -96,14 +136,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46205437\">Comments</a>"
   },
   {
-    "title": "Show HN: AlgoDrill \u2013 Interactive drills to stop forgetting LeetCode patterns",
-    "link": "https://algodrill.io",
-    "source": "Hacker News",
-    "published": "2025-12-09T11:09:06+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46203581\">Comments</a>"
-  },
-  {
     "title": "The Joy of Playing Grandia, on Sega Saturn",
     "link": "https://www.segasaturnshiro.com/2025/11/27/the-joy-of-playing-grandia-on-sega-saturn/",
     "source": "Hacker News",
@@ -120,43 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46202921\">Comments</a>"
   },
   {
-    "title": "Icons in Menus Everywhere \u2013 Send Help",
-    "link": "https://blog.jim-nielsen.com/2025/icons-in-menus/",
-    "source": "Hacker News",
-    "published": "2025-12-08T19:44:00+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46196688\">Comments</a>"
-  },
-  {
-    "title": "AWS Trainium3 Deep Dive \u2013 A Potential Challenger Approaching",
-    "link": "https://newsletter.semianalysis.com/p/aws-trainium3-deep-dive-a-potential",
-    "source": "Hacker News",
-    "published": "2025-12-04T19:19:05+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46151600\">Comments</a>"
-  },
-  {
-    "title": "Transformers know more than they can tell: Learning the Collatz sequence",
-    "link": "https://www.arxiv.org/pdf/2511.10811",
-    "source": "Hacker News",
-    "published": "2025-12-03T17:50:17+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46137596\">Comments</a>"
-  },
-  {
     "title": "LLM from scratch, part 28 \u2013 training a base model from scratch on an RTX 3090",
     "link": "https://www.gilesthomas.com/2025/12/llm-from-scratch-28-training-a-base-model-from-scratch",
     "source": "Hacker News",
     "published": "2025-12-02T18:17:48+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46124425\">Comments</a>"
-  },
-  {
-    "title": "Constructing the Word's First JPEG XL MD5 Hash Quine",
-    "link": "https://stackchk.fail/blog/jxl_hashquine_writeup",
-    "source": "Hacker News",
-    "published": "2025-12-01T22:44:15+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46114440\">Comments</a>"
   }
 ]
