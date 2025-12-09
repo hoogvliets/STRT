@@ -1,5 +1,16 @@
 [
   {
+    "title": "Building MCP servers in the real world",
+    "summary": "How engineers and teams use MCP servers: from debugging to working with legacy systems, & giving non-devs more access. Details from 40+ devs &#8211; with some surprises",
+    "link": "https://newsletter.pragmaticengineer.com/p/mcp-deepdive",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-12-09T16:52:37+00:00",
+    "image": "https://substack-post-media.s3.amazonaws.com/public/images/a6d395a2-edb6-4bb7-b8e4-ffb982935b52_1594x1106.png",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/mcp-deepdive"
+  },
+  {
     "title": "Stop Converting Documents to Text. You're Doing It Wrong.",
     "summary": "How to work with multimodal agents: images, PDFs, audio, and... text.",
     "link": "https://www.decodingai.com/p/stop-converting-documents-to-text",
