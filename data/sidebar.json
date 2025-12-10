@@ -1,27 +1,99 @@
 [
   {
-    "title": "How Much Wealth an AI Stock Market Crash Could Destroy",
-    "link": "https://www.economist.com/interactive/graphic-detail/2025/11/05/how-much-wealth-would-be-destroyed-by-an-ai-stockmarket-crash",
+    "title": "Is It a Bubble? By Howard Marks",
+    "link": "https://www.oaktreecapital.com/insights/memo/is-it-a-bubble",
     "source": "Hacker News",
-    "published": "2025-12-10T14:59:47+00:00",
+    "published": "2025-12-10T17:30:43+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46218419\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220640\">Comments</a>"
   },
   {
-    "title": "The New Kindle Scribes Are Great, but Not Great Enough",
-    "link": "https://www.wired.com/review/kindle-scribe-colorsoft-2025/",
+    "title": "Auto-grading decade-old Hacker News discussions with hindsight",
+    "link": "https://karpathy.bearblog.dev/auto-grade-hn/",
     "source": "Hacker News",
-    "published": "2025-12-10T14:39:05+00:00",
+    "published": "2025-12-10T17:23:53+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46218202\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220540\">Comments</a>"
   },
   {
-    "title": "New benchmark shows top LLMs struggle in real mental health care",
-    "link": "https://swordhealth.com/newsroom/sword-introduces-mindeval",
+    "title": "Valve: HDMI Forum Continues to Block HDMI 2.1 for Linux",
+    "link": "https://www.heise.de/en/news/Valve-HDMI-Forum-Continues-to-Block-HDMI-2-1-for-Linux-11107440.html",
     "source": "Hacker News",
-    "published": "2025-12-10T13:39:16+00:00",
+    "published": "2025-12-10T17:20:06+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46217578\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220488\">Comments</a>"
+  },
+  {
+    "title": "9 Mothers (YC X26) Is Hiring",
+    "link": "https://app.dover.com/jobs/9mothers",
+    "source": "Hacker News",
+    "published": "2025-12-10T17:00:22+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220211\">Comments</a>"
+  },
+  {
+    "title": "DeepSeek uses banned Nvidia chips for AI model, report says",
+    "link": "https://finance.yahoo.com/news/china-deepseek-uses-banned-nvidia-131207746.html",
+    "source": "Hacker News",
+    "published": "2025-12-10T16:34:52+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46219853\">Comments</a>"
+  },
+  {
+    "title": "Qwen3-Omni-Flash-2025-12-01\uff1aa next-generation native multimodal large model",
+    "link": "https://qwen.ai/blog?id=qwen3-omni-flash-20251201",
+    "source": "Hacker News",
+    "published": "2025-12-10T16:13:38+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46219538\">Comments</a>"
+  },
+  {
+    "title": "Launch HN: InspectMind (YC W24) \u2013 AI agent for reviewing construction drawings",
+    "link": "https://news.ycombinator.com/item?id=46219386",
+    "source": "Hacker News",
+    "published": "2025-12-10T16:05:03+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46219386\">Comments</a>"
+  },
+  {
+    "title": "Size of Life",
+    "link": "https://neal.fun/size-of-life/",
+    "source": "Hacker News",
+    "published": "2025-12-10T16:02:57+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46219346\">Comments</a>"
+  },
+  {
+    "title": "Qualcomm acquires RISC-V focused Ventana Micro Systems",
+    "link": "https://www.qualcomm.com/news/releases/2025/12/qualcomm-acquires-ventana-micro-systems--deepening-risc-v-cpu-ex",
+    "source": "Hacker News",
+    "published": "2025-12-10T15:30:46+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46218800\">Comments</a>"
+  },
+  {
+    "title": "RoboCrop: Teaching robots how to pick tomatoes",
+    "link": "https://phys.org/news/2025-12-robocrop-robots-tomatoes.html",
+    "source": "Hacker News",
+    "published": "2025-12-10T15:29:14+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46218782\">Comments</a>"
+  },
+  {
+    "title": "COM Like a Bomb: Rust Outlook Add-in",
+    "link": "https://tritium.legal/blog/outlook",
+    "source": "Hacker News",
+    "published": "2025-12-10T15:10:36+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46218538\">Comments</a>"
+  },
+  {
+    "title": "Factor 0.101 now available",
+    "link": "https://re.factorcode.org/2025/12/factor-0-101-now-available.html",
+    "source": "Hacker News",
+    "published": "2025-12-10T11:33:31+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46216583\">Comments</a>"
   },
   {
     "title": "Revisiting \"Let's Build a Compiler\"",
@@ -32,95 +104,39 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46214693\">Comments</a>"
   },
   {
-    "title": "Rust in the kernel is no longer experimental",
-    "link": "https://lwn.net/Articles/1049831/",
+    "title": "Australia begins enforcing world-first teen social media ban",
+    "link": "https://www.reuters.com/legal/litigation/australia-social-media-ban-takes-effect-world-first-2025-12-09/",
     "source": "Hacker News",
-    "published": "2025-12-10T03:15:24+00:00",
+    "published": "2025-12-09T18:12:29+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46213585\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46208348\">Comments</a>"
   },
   {
-    "title": "Django: what\u2019s new in 6.0",
-    "link": "https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/",
+    "title": "Why the Sanitizer API is just `setHTML()`",
+    "link": "https://frederikbraun.de/why-sethtml.html",
     "source": "Hacker News",
-    "published": "2025-12-09T20:33:14+00:00",
+    "published": "2025-12-08T22:37:28+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46210240\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46198606\">Comments</a>"
   },
   {
-    "title": "If you're going to vibe code, why not do it in C?",
-    "link": "https://stephenramsay.net/posts/vibe-coding.html",
+    "title": "Volcanic eruptions set off a chain of events that brought Black Death to Europe",
+    "link": "https://www.cam.ac.uk/stories/volcanoes-black-death",
     "source": "Hacker News",
-    "published": "2025-12-09T17:11:09+00:00",
+    "published": "2025-12-06T04:31:42+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46207505\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46170707\">Comments</a>"
   },
   {
-    "title": "PeerTube is recognized as a digital public good by Digital Public Goods Alliance",
-    "link": "https://www.digitalpublicgoods.net/r/peertube",
+    "title": "Typewriter Plotters (2022)",
+    "link": "https://biosrhythm.com/?p=2143",
     "source": "Hacker News",
-    "published": "2025-12-09T17:08:37+00:00",
+    "published": "2025-12-05T15:34:49+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46207464\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46162643\">Comments</a>"
   },
   {
-    "title": "Bruno Simon \u2013 3D Portfolio",
-    "link": "https://bruno-simon.com/",
-    "source": "Hacker News",
-    "published": "2025-12-09T16:06:58+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46206531\">Comments</a>"
-  },
-  {
-    "title": "Pebble Index 01 \u2013 External memory for your brain",
-    "link": "https://repebble.com/blog/meet-pebble-index-01-external-memory-for-your-brain",
-    "source": "Hacker News",
-    "published": "2025-12-09T15:03:09+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46205661\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Gemini Pro 3 hallucinates the HN front page 10 years from now",
-    "link": "https://dosaygo-studio.github.io/hn-front-page-2035/news",
-    "source": "Hacker News",
-    "published": "2025-12-09T15:00:38+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46205632\">Comments</a>"
-  },
-  {
-    "title": "Mistral releases Devstral2 and Mistral Vibe CLI",
-    "link": "https://mistral.ai/news/devstral-2-vibe-cli",
-    "source": "Hacker News",
-    "published": "2025-12-09T14:45:01+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46205437\">Comments</a>"
-  },
-  {
-    "title": "Tech for Small vs. Big Firms",
-    "link": "https://lexifina.com/blog/technology-for-firms-big-and-small",
-    "source": "Hacker News",
-    "published": "2025-12-06T06:28:01+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46171184\">Comments</a>"
-  },
-  {
-    "title": "Amazon EC2 M9g Instances",
-    "link": "https://aws.amazon.com/ec2/instance-types/m9g/",
-    "source": "Hacker News",
-    "published": "2025-12-06T05:36:48+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46171008\">Comments</a>"
-  },
-  {
-    "title": "When a video codec wins an Emmy",
-    "link": "https://blog.mozilla.org/en/mozilla/av1-video-codec-wins-emmy/",
-    "source": "Hacker News",
-    "published": "2025-12-05T17:15:01+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46164197\">Comments</a>"
-  },
-  {
-    "title": "Map of All the Buildings in the World",
+    "title": "Map of all the buildings in the world",
     "link": "https://gizmodo.com/literally-a-map-showing-all-the-buildings-in-the-world-2000694696",
     "source": "Hacker News",
     "published": "2025-12-04T22:43:33+00:00",
@@ -128,35 +144,19 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46154220\">Comments</a>"
   },
   {
-    "title": "Rust: Proof of Concept, Not Replacement",
-    "link": "https://files.neoon.com/rust-game-over-203X.html",
+    "title": "Super-Flat ASTs",
+    "link": "https://jhwlr.io/super-flat-ast/",
     "source": "Hacker News",
-    "published": "2025-12-04T15:55:30+00:00",
+    "published": "2025-12-04T18:01:09+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46148995\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46150677\">Comments</a>"
   },
   {
-    "title": "Putting email in its place with Emacs and Mu4e",
-    "link": "https://eamonnsullivan.co.uk/posts-output/email-setup/2025-12-3-putting-email-in-its-place/",
+    "title": "Golang's big miss on memory arenas",
+    "link": "https://avittig.medium.com/golangs-big-miss-on-memory-arenas-f1375524cc90",
     "source": "Hacker News",
-    "published": "2025-12-03T21:42:48+00:00",
+    "published": "2025-12-04T01:10:28+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46140579\">Comments</a>"
-  },
-  {
-    "title": "Running Linux on a RiscPC \u2013 why is it so hard?",
-    "link": "https://thejpster.org.uk/blog/blog-2025-12-02/",
-    "source": "Hacker News",
-    "published": "2025-12-02T23:48:19+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46128523\">Comments</a>"
-  },
-  {
-    "title": "Cloth Simulation",
-    "link": "https://cloth.mikail-khan.com/",
-    "source": "Hacker News",
-    "published": "2025-12-02T22:44:37+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46127981\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46142589\">Comments</a>"
   }
 ]

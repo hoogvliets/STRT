@@ -1,5 +1,16 @@
 [
   {
+    "title": "Frictionless: why great developer experience can help teams win in the \u2018AI age\u2019",
+    "summary": "Exclusive excerpts from the newly-released book &#8216;Frictionless&#8217;, by Nicole Forsgren and Abi Noda.",
+    "link": "https://newsletter.pragmaticengineer.com/p/frictionless-why-great-developer",
+    "author": "Gergely Orosz",
+    "source": "The Pragmatic Engineer",
+    "published": "2025-12-10T16:43:11+00:00",
+    "image": "https://substackcdn.com/image/fetch/$s_!NYjO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F833e5a4f-29ac-4c27-8a3a-e4a82bdf03ea_1600x1200.jpeg",
+    "tags": [],
+    "id": "https://newsletter.pragmaticengineer.com/p/frictionless-why-great-developer"
+  },
+  {
     "title": "Building MCP servers in the real world",
     "summary": "How engineers and teams use MCP servers: from debugging to working with legacy systems, & giving non-devs more access. Details from 40+ devs &#8211; with some surprises",
     "link": "https://newsletter.pragmaticengineer.com/p/mcp-deepdive",
