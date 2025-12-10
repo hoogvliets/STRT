@@ -1,51 +1,35 @@
 [
   {
-    "title": "Dependable C",
-    "link": "https://dependablec.org/",
+    "title": "Stop Breaking TLS",
+    "link": "https://www.markround.com/blog/2025/12/09/stop-breaking-tls/",
     "source": "Hacker News",
-    "published": "2025-12-10T04:29:30+00:00",
+    "published": "2025-12-10T07:06:55+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46214091\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46214950\">Comments</a>"
   },
   {
-    "title": "'Source available' is not open source (and that's okay)",
-    "link": "https://dri.es/source-available-is-not-open-source-and-that-is-okay",
+    "title": "Revisiting \"Let's Build a Compiler\"",
+    "link": "https://eli.thegreenplace.net/2025/revisiting-lets-build-a-compiler/",
     "source": "Hacker News",
-    "published": "2025-12-10T03:33:14+00:00",
+    "published": "2025-12-10T06:22:19+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46213709\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46214693\">Comments</a>"
   },
   {
-    "title": "The end of the kernel Rust experiment",
+    "title": "Are the Three Musketeers allergic to muskets?(2014)",
+    "link": "https://www.ox.ac.uk/news/arts-blog/are-three-musketeers-allergic-muskets",
+    "source": "Hacker News",
+    "published": "2025-12-10T06:08:50+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46214617\">Comments</a>"
+  },
+  {
+    "title": "Rust in the kernel is no longer experimental",
     "link": "https://lwn.net/Articles/1049831/",
     "source": "Hacker News",
     "published": "2025-12-10T03:15:24+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46213585\">Comments</a>"
-  },
-  {
-    "title": "Post-transformer inference: 224\u00d7 compression of Llama-70B with improved accuracy",
-    "link": "https://zenodo.org/records/17873275",
-    "source": "Hacker News",
-    "published": "2025-12-10T01:25:00+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46212969\">Comments</a>"
-  },
-  {
-    "title": "Linux CVEs, more than you ever wanted to know",
-    "link": "http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/",
-    "source": "Hacker News",
-    "published": "2025-12-09T22:47:36+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46211802\">Comments</a>"
-  },
-  {
-    "title": "Qt, Linux and everything: Debugging Qt WebAssembly",
-    "link": "http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html",
-    "source": "Hacker News",
-    "published": "2025-12-09T21:19:37+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46210806\">Comments</a>"
   },
   {
     "title": "Django: what\u2019s new in 6.0",
@@ -70,14 +54,6 @@
     "published": "2025-12-09T18:42:27+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46208773\">Comments</a>"
-  },
-  {
-    "title": "The stack circuitry of the Intel 8087 floating point chip, reverse-engineered",
-    "link": "https://www.righto.com/2025/12/8087-stack-circuitry.html",
-    "source": "Hacker News",
-    "published": "2025-12-09T18:16:44+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46208409\">Comments</a>"
   },
   {
     "title": "If you're going to vibe code, why not do it in C?",
@@ -136,6 +112,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46205437\">Comments</a>"
   },
   {
+    "title": "Distributed ID Formats Are Architectural Commitments, Not Just Data Types",
+    "link": "https://piljoong.dev/posts/distributed-id-generation-complicated/",
+    "source": "Hacker News",
+    "published": "2025-12-06T09:13:02+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46171844\">Comments</a>"
+  },
+  {
     "title": "When a video codec wins an Emmy",
     "link": "https://blog.mozilla.org/en/mozilla/av1-video-codec-wins-emmy/",
     "source": "Hacker News",
@@ -158,5 +142,21 @@
     "published": "2025-12-05T01:22:29+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46155740\">Comments</a>"
+  },
+  {
+    "title": "Putting email in its place with Emacs and Mu4e",
+    "link": "https://eamonnsullivan.co.uk/posts-output/email-setup/2025-12-3-putting-email-in-its-place/",
+    "source": "Hacker News",
+    "published": "2025-12-03T21:42:48+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46140579\">Comments</a>"
+  },
+  {
+    "title": "Cloth Simulation",
+    "link": "https://cloth.mikail-khan.com/",
+    "source": "Hacker News",
+    "published": "2025-12-02T22:44:37+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46127981\">Comments</a>"
   }
 ]
