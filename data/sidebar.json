@@ -1,11 +1,43 @@
 [
   {
-    "title": "Is It a Bubble? By Howard Marks",
-    "link": "https://www.oaktreecapital.com/insights/memo/is-it-a-bubble",
+    "title": "Apple Services Experiencing Outage",
+    "link": "https://www.apple.com/support/systemstatus/",
     "source": "Hacker News",
-    "published": "2025-12-10T17:30:43+00:00",
+    "published": "2025-12-10T20:47:15+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220640\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46223577\">Comments</a>"
+  },
+  {
+    "title": "Super Mario 64 for the PS1",
+    "link": "https://github.com/malucard/sm64-psx",
+    "source": "Hacker News",
+    "published": "2025-12-10T18:58:55+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46221925\">Comments</a>"
+  },
+  {
+    "title": "Terrain Diffusion: A Diffusion-Based Successor to Perlin Noise",
+    "link": "https://arxiv.org/abs/2512.08309",
+    "source": "Hacker News",
+    "published": "2025-12-10T18:37:27+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46221594\">Comments</a>"
+  },
+  {
+    "title": "Show HN: A 2-row, 16-key keyboard designed for smartphones",
+    "link": "https://k-keyboard.com/Why-QWERTY-mini",
+    "source": "Hacker News",
+    "published": "2025-12-10T17:49:28+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220902\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Automated license plate reader coverage in the USA",
+    "link": "https://alpranalysis.com",
+    "source": "Hacker News",
+    "published": "2025-12-10T17:42:30+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220794\">Comments</a>"
   },
   {
     "title": "Auto-grading decade-old Hacker News discussions with hindsight",
@@ -64,14 +96,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46219346\">Comments</a>"
   },
   {
-    "title": "Qualcomm acquires RISC-V focused Ventana Micro Systems",
-    "link": "https://www.qualcomm.com/news/releases/2025/12/qualcomm-acquires-ventana-micro-systems--deepening-risc-v-cpu-ex",
-    "source": "Hacker News",
-    "published": "2025-12-10T15:30:46+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46218800\">Comments</a>"
-  },
-  {
     "title": "RoboCrop: Teaching robots how to pick tomatoes",
     "link": "https://phys.org/news/2025-12-robocrop-robots-tomatoes.html",
     "source": "Hacker News",
@@ -80,28 +104,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46218782\">Comments</a>"
   },
   {
-    "title": "COM Like a Bomb: Rust Outlook Add-in",
-    "link": "https://tritium.legal/blog/outlook",
-    "source": "Hacker News",
-    "published": "2025-12-10T15:10:36+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46218538\">Comments</a>"
-  },
-  {
     "title": "Factor 0.101 now available",
     "link": "https://re.factorcode.org/2025/12/factor-0-101-now-available.html",
     "source": "Hacker News",
     "published": "2025-12-10T11:33:31+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46216583\">Comments</a>"
-  },
-  {
-    "title": "Revisiting \"Let's Build a Compiler\"",
-    "link": "https://eli.thegreenplace.net/2025/revisiting-lets-build-a-compiler/",
-    "source": "Hacker News",
-    "published": "2025-12-10T06:22:19+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46214693\">Comments</a>"
   },
   {
     "title": "Australia begins enforcing world-first teen social media ban",
@@ -120,14 +128,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46198606\">Comments</a>"
   },
   {
-    "title": "Volcanic eruptions set off a chain of events that brought Black Death to Europe",
-    "link": "https://www.cam.ac.uk/stories/volcanoes-black-death",
-    "source": "Hacker News",
-    "published": "2025-12-06T04:31:42+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46170707\">Comments</a>"
-  },
-  {
     "title": "Typewriter Plotters (2022)",
     "link": "https://biosrhythm.com/?p=2143",
     "source": "Hacker News",
@@ -136,12 +136,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46162643\">Comments</a>"
   },
   {
-    "title": "Map of all the buildings in the world",
-    "link": "https://gizmodo.com/literally-a-map-showing-all-the-buildings-in-the-world-2000694696",
+    "title": "Scientists create ultra fast memory using light",
+    "link": "https://www.isi.edu/news/81186/scientists-create-ultra-fast-memory-using-light/",
     "source": "Hacker News",
-    "published": "2025-12-04T22:43:33+00:00",
+    "published": "2025-12-04T18:11:21+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46154220\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46150797\">Comments</a>"
   },
   {
     "title": "Super-Flat ASTs",
@@ -152,11 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46150677\">Comments</a>"
   },
   {
-    "title": "Golang's big miss on memory arenas",
-    "link": "https://avittig.medium.com/golangs-big-miss-on-memory-arenas-f1375524cc90",
+    "title": "Gundam is just the same as Jane Austen but happens to include giant mech suits",
+    "link": "https://eli.li/gundam-is-just-the-same-as-jane-austen-but-happens-to-include-giant-mech-suits",
     "source": "Hacker News",
-    "published": "2025-12-04T01:10:28+00:00",
+    "published": "2025-12-02T16:55:36+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46142589\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46123310\">Comments</a>"
   }
 ]
