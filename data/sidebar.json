@@ -1,5 +1,21 @@
 [
   {
+    "title": "Dependable C",
+    "link": "https://dependablec.org/",
+    "source": "Hacker News",
+    "published": "2025-12-10T04:29:30+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46214091\">Comments</a>"
+  },
+  {
+    "title": "'Source available' is not open source (and that's okay)",
+    "link": "https://dri.es/source-available-is-not-open-source-and-that-is-okay",
+    "source": "Hacker News",
+    "published": "2025-12-10T03:33:14+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46213709\">Comments</a>"
+  },
+  {
     "title": "The end of the kernel Rust experiment",
     "link": "https://lwn.net/Articles/1049831/",
     "source": "Hacker News",
@@ -8,28 +24,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46213585\">Comments</a>"
   },
   {
-    "title": "NYC congestion pricing cuts air pollution by a fifth in six months",
-    "link": "https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/",
-    "source": "Hacker News",
-    "published": "2025-12-10T02:58:45+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46213504\">Comments</a>"
-  },
-  {
-    "title": "Making macOS Bearable",
-    "link": "https://seg6.space/posts/making-macos-bearable/",
-    "source": "Hacker News",
-    "published": "2025-12-10T02:37:34+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46213385\">Comments</a>"
-  },
-  {
     "title": "Post-transformer inference: 224\u00d7 compression of Llama-70B with improved accuracy",
     "link": "https://zenodo.org/records/17873275",
     "source": "Hacker News",
     "published": "2025-12-10T01:25:00+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46212969\">Comments</a>"
+  },
+  {
+    "title": "Linux CVEs, more than you ever wanted to know",
+    "link": "http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/",
+    "source": "Hacker News",
+    "published": "2025-12-09T22:47:36+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46211802\">Comments</a>"
   },
   {
     "title": "Qt, Linux and everything: Debugging Qt WebAssembly",
@@ -150,13 +158,5 @@
     "published": "2025-12-05T01:22:29+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46155740\">Comments</a>"
-  },
-  {
-    "title": "Operando interlayer expansion of curved graphene for dense supercapacitors",
-    "link": "https://www.nature.com/articles/s41467-025-63485-0",
-    "source": "Hacker News",
-    "published": "2025-12-04T14:26:30+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147996\">Comments</a>"
   }
 ]
