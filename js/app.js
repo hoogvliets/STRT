@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
         navNews.classList.toggle('active', viewName === 'news');
         navBall.classList.toggle('active', viewName === 'ball');
 
-        // Show/hide views
+        // Show/hide all views
         const viewConfig = document.getElementById('view-config');
         viewHome.classList.toggle('hidden', viewName !== 'home');
         viewTech.classList.toggle('hidden', viewName !== 'tech');
