@@ -1,17 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
     // State
     const state = {
-        tech: [],
-        news: [],
-        ball: [],
+        feedPages: [], // Array of {id, name, order, feedSources, data}
         sidebar: [],
         widgets: [], // Array of widget objects
 
         // Active context
         get activeFeed() {
-            if (this.currentView === 'news') return this.news;
-            if (this.currentView === 'ball') return this.ball;
-            return this.tech;
+            const page = this.feedPages.find(p => p.id === this.currentView);
+            return page ? page.data : [];
         },
 
         filteredFeed: [],
@@ -197,29 +194,132 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    /**
+     * Dynamically render navigation buttons from feedPages
+     */
+    function renderNavigation() {
+        const navContainer = document.querySelector('.main-nav');
+        if (!navContainer) {
+            console.error('Navigation container not found');
+            return;
+        }
+
+        // Clear existing nav buttons
+        navContainer.innerHTML = '';
+
+        // Sort pages by order
+        const sortedPages = [...state.feedPages].sort((a, b) => a.order - b.order);
+
+        // Create button for each feed page
+        sortedPages.forEach(page => {
+            const button = document.createElement('button');
+            button.id = `nav-${page.id}`;
+            button.className = 'nav-item';
+            button.textContent = page.name;
+            button.addEventListener('click', () => {
+                console.log(`${page.name} clicked`);
+                switchView(page.id);
+            });
+
+            // Set active state if this is the current view
+            if (state.currentView === page.id) {
+                button.classList.add('active');
+            }
+
+            navContainer.appendChild(button);
+        });
+
+        console.log('Navigation rendered with', sortedPages.length, 'pages');
+    }
+
+    /**
+     * Create a feed view container dynamically if it doesn't exist
+     */
+    function createFeedView(pageId) {
+        console.log(`createFeedView called for ${pageId}`);
+        const existingView = document.getElementById(`view-${pageId}`);
+        if (existingView) {
+            console.log(`View already exists for ${pageId}`);
+            return existingView;
+        }
+
+        const view = document.createElement('div');
+        view.id = `view-${pageId}`;
+        view.className = 'view-section hidden';
+        view.innerHTML = `
+            <main class="main-layout">
+                <section class="feed-column" id="${pageId}-feed-container"></section>
+                <aside class="sidebar-column">
+                    <h2>Hacker News</h2>
+                    <div id="${pageId}-sidebar-container"></div>
+                </aside>
+            </main>
+        `;
+
+        const appContainer = document.querySelector('.app-container');
+        if (!appContainer) {
+            console.error('App container not found!');
+            return null;
+        }
+
+        appContainer.appendChild(view);
+        console.log(`✓ Created view container for ${pageId}, feed container id: ${pageId}-feed-container`);
+
+        // Verify the container was created
+        const feedContainer = document.getElementById(`${pageId}-feed-container`);
+        console.log(`Feed container exists: ${!!feedContainer}`);
+
+        return view;
+    }
+
     function switchView(viewName) {
         console.log('switchView called:', viewName);
         state.currentView = viewName;
 
-        // Update active navigation link
+        // Update active navigation link - dynamically find nav buttons
         navHome.classList.toggle('active', viewName === 'home');
-        navTech.classList.toggle('active', viewName === 'tech');
-        navNews.classList.toggle('active', viewName === 'news');
-        navBall.classList.toggle('active', viewName === 'ball');
+        document.querySelectorAll('.nav-item').forEach(btn => {
+            const btnId = btn.id.replace('nav-', '');
+            btn.classList.toggle('active', btnId === viewName);
+        });
 
-        // Show/hide all views
+        // Check if this is a feed page view
+        const isFeedPage = state.feedPages.some(p => p.id === viewName);
+
+        // Show/hide views
         const viewConfig = document.getElementById('view-config');
+
+        // Always hide home view unless it's active
         viewHome.classList.toggle('hidden', viewName !== 'home');
-        viewTech.classList.toggle('hidden', viewName !== 'tech');
-        viewNews.classList.toggle('hidden', viewName !== 'news');
-        viewBall.classList.toggle('hidden', viewName !== 'ball');
+
+        // Hide or show config view
         if (viewConfig) {
             viewConfig.classList.toggle('hidden', viewName !== 'config');
+            // Render feeds manager when showing config view
+            if (viewName === 'config') {
+                renderFeedsManager();
+            }
         }
+
+        // Handle feed page views
+        state.feedPages.forEach(page => {
+            let viewElement = document.getElementById(`view-${page.id}`);
+
+            // Create view if it doesn't exist
+            if (!viewElement && page.id === viewName) {
+                viewElement = createFeedView(page.id);
+            }
+
+            // Show/hide based on active view
+            if (viewElement) {
+                viewElement.classList.toggle('hidden', page.id !== viewName);
+            }
+        });
 
         // Toggle source filter visibility
         if (sourceFilter) {
-            if (viewName === 'tech' || viewName === 'news' || viewName === 'ball') {
+            if (isFeedPage) {
                 sourceFilter.style.display = 'inline-block';
                 // Reset and populate filter for the new view
                 state.filters.source = 'all';
@@ -451,47 +551,178 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- End RSS Feed Loading Functions ---
-
-    async function fetchData() {
-        console.log('fetchData called - loading configs and RSS feeds');
-
+    /**
+     * Load feed page configuration from new YAML format
+     */
+    async function loadFeedPageConfig() {
         try {
-            // Load YAML configs in parallel
+            const response = await fetch('config/feed-pages.yaml');
+            if (!response.ok) {
+                console.log('feed-pages.yaml not found, will attempt migration from legacy config');
+                return null;
+            }
+            const yamlText = await response.text();
+            const config = jsyaml.load(yamlText);
+
+            // Convert to state format
+            return config.pages.map(page => ({
+                id: page.id,
+                name: page.name,
+                order: page.order,
+                feedSources: page.sources || [],
+                data: []
+            }));
+        } catch (error) {
+            console.error('Failed to load feed-pages.yaml:', error);
+            return null;
+        }
+    }
+
+    /**
+     * Initialize feed pages - load config or migrate from legacy
+     */
+    async function initializeFeedPages() {
+        // Try to load from localStorage first
+        const cached = localStorage.getItem('feed-pages-config');
+        if (cached) {
+            try {
+                const pages = JSON.parse(cached);
+                // Ensure each page has a data field
+                pages.forEach(page => {
+                    if (!page.data) {
+                        page.data = [];
+                    }
+                });
+                console.log('Loaded feed pages from localStorage');
+                return pages;
+            } catch (error) {
+                console.error('Failed to parse cached feed pages:', error);
+            }
+        }
+
+        // Try new format
+        let pages = await loadFeedPageConfig();
+
+        // If new format doesn't exist, migrate from legacy
+        if (!pages) {
+            console.log('Migrating from legacy config files...');
             const [techFeeds, newsFeeds, ballFeeds] = await Promise.all([
                 loadFeedConfig('config/tech-feed.yaml'),
                 loadFeedConfig('config/news-feed.yaml'),
                 loadFeedConfig('config/ball-feed.yaml')
             ]);
 
-            console.log('Config loaded:', {
-                tech: techFeeds.length,
-                news: newsFeeds.length,
-                ball: ballFeeds.length
-            });
+            pages = [
+                { id: 'tech', name: 'Tech', order: 0, feedSources: techFeeds, data: [] },
+                { id: 'news', name: 'News', order: 1, feedSources: newsFeeds, data: [] },
+                { id: 'ball', name: 'Ball', order: 2, feedSources: ballFeeds, data: [] }
+            ];
 
-            // Fetch and parse RSS feeds in parallel
-            const [techPosts, newsPosts, ballPosts, sidebarPosts] = await Promise.all([
-                fetchAllFeeds(techFeeds, 'tech'),
-                fetchAllFeeds(newsFeeds, 'news'),
-                fetchAllFeeds(ballFeeds, 'ball'),
-                fetchHackerNews()
+            console.log('Migration complete, saving to localStorage');
+        }
+
+        // Save to localStorage for future use
+        saveFeedPageConfig(pages);
+        return pages;
+    }
+
+    /**
+     * Save feed page configuration to localStorage
+     */
+    function saveFeedPageConfig(pages = state.feedPages) {
+        try {
+            // Only save structure, not data
+            const toSave = pages.map(page => ({
+                id: page.id,
+                name: page.name,
+                order: page.order,
+                feedSources: page.feedSources
+            }));
+            localStorage.setItem('feed-pages-config', JSON.stringify(toSave));
+            console.log('Feed pages config saved to localStorage');
+        } catch (error) {
+            console.error('Failed to save feed pages config:', error);
+        }
+    }
+
+    /**
+     * Fetch all feeds for a single feed page
+     */
+    async function fetchFeedPage(page) {
+        console.log(`Fetching feeds for ${page.name}...`);
+
+        if (!page.feedSources || page.feedSources.length === 0) {
+            console.log(`No feeds configured for ${page.name}`);
+            page.data = [];
+            return;
+        }
+
+        // Fetch all feeds in parallel
+        const results = await Promise.allSettled(
+            page.feedSources.map(url => fetchSingleFeed(url))
+        );
+
+        // Log results for debugging
+        results.forEach((result, index) => {
+            const url = page.feedSources[index];
+            if (result.status === 'fulfilled') {
+                console.log(`✓ ${url}: ${result.value.length} posts`);
+            } else {
+                console.error(`✗ ${url}: ${result.reason}`);
+            }
+        });
+
+        // Flatten and filter successful results
+        const allPosts = results
+            .filter(r => r.status === 'fulfilled')
+            .flatMap(r => r.value);
+
+        // Deduplicate by link
+        const uniquePosts = deduplicatePosts(allPosts);
+
+        // Sort by date (newest first)
+        uniquePosts.sort((a, b) => {
+            const dateA = new Date(a.published || 0);
+            const dateB = new Date(b.published || 0);
+            return dateB - dateA;
+        });
+
+        // Apply 60-day retention
+        const cutoffDate = new Date();
+        cutoffDate.setDate(cutoffDate.getDate() - 60);
+
+        page.data = uniquePosts.filter(post => {
+            const postDate = new Date(post.published);
+            return postDate >= cutoffDate;
+        });
+
+        console.log(`${page.name}: ${page.data.length} posts loaded`);
+    }
+
+    // --- End RSS Feed Loading Functions ---
+
+    async function fetchData() {
+        console.log('fetchData called - loading feed pages');
+
+        try {
+            // Initialize feed pages (load config or migrate from legacy)
+            state.feedPages = await initializeFeedPages();
+
+            console.log('Feed pages loaded:', state.feedPages.map(p => `${p.name} (${p.feedSources.length} sources)`));
+
+            // Fetch all feed pages and sidebar in parallel
+            const fetchPromises = state.feedPages.map(page => fetchFeedPage(page));
+            await Promise.all([
+                ...fetchPromises,
+                fetchHackerNews().then(posts => { state.sidebar = posts; })
             ]);
 
-            // Update state
-            state.tech = techPosts;
-            state.news = newsPosts;
-            state.ball = ballPosts;
-            state.sidebar = sidebarPosts;
+            console.log('All feeds loaded:', state.feedPages.map(p => `${p.name}: ${p.data.length} posts`));
 
-            console.log('Feeds loaded:', {
-                tech: state.tech.length,
-                news: state.news.length,
-                ball: state.ball.length,
-                sidebar: state.sidebar.length
-            });
+            // Render navigation with new feed pages
+            renderNavigation();
 
-            // Initial render if we are on a feed view (though init starts at home)
+            // Initial render if we are on a feed view
             if (state.currentView !== 'home') {
                 console.log('Initial render for view:', state.currentView);
                 applyFilters();
@@ -512,10 +743,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderFeed(append = false) {
         console.log('renderFeed called', { view: state.currentView, append });
-        let container;
-        if (state.currentView === 'news') container = newsFeedContainer;
-        else if (state.currentView === 'ball') container = ballFeedContainer;
-        else container = feedContainer;
+
+        // Dynamically find container for current view
+        const container = document.getElementById(`${state.currentView}-feed-container`);
 
         if (!container) {
             console.error('Container not found for view:', state.currentView);
@@ -602,23 +832,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderSidebar() {
-        [sidebarContainer, newsSidebarContainer, ballSidebarContainer].forEach(container => {
+        if (state.sidebar.length === 0) {
+            // Render "no updates" to all sidebar containers
+            state.feedPages.forEach(page => {
+                const container = document.getElementById(`${page.id}-sidebar-container`);
+                if (container) {
+                    container.innerHTML = '<div class="loading-indicator">No updates.</div>';
+                }
+            });
+            return;
+        }
+
+        // Render to all feed page sidebar containers
+        state.feedPages.forEach(page => {
+            const container = document.getElementById(`${page.id}-sidebar-container`);
             if (!container) return;
+
             container.innerHTML = '';
-            if (state.sidebar.length === 0) {
-                container.innerHTML = '<div class="loading-indicator">No updates.</div>';
-                return;
-            }
-        });
-
-        if (state.sidebar.length === 0) return;
-
-        // Create fragments for each container
-        // ... (omitted loop logic for brevity, same as before but applied to all containers)
-
-        [sidebarContainer, newsSidebarContainer, ballSidebarContainer].forEach(container => {
-            if (!container) return;
             const fragment = document.createDocumentFragment();
+
             state.sidebar.forEach(item => {
                 const id = item.link;
                 if (state.userSettings.hidden.includes(id)) return;
@@ -648,6 +880,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 fragment.appendChild(clone);
             });
+
             container.appendChild(fragment);
         });
     }
@@ -683,12 +916,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Logic & Helpers ---
 
     function applyFilters() {
-        // When showing favorites, combine ALL feeds (tech + news + ball)
+        // When showing favorites, combine ALL feeds from all pages
         let feedSource = state.activeFeed;
 
         if (state.filters.favoritesOnly) {
             // Combine all feeds for favorites view
-            feedSource = [...state.tech, ...state.news, ...state.ball];
+            feedSource = state.feedPages.flatMap(page => page.data);
         }
 
         state.filteredFeed = feedSource.filter(item => {
@@ -1538,6 +1771,287 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // --- Feed Management ---
+
+    function renderFeedsManager() {
+        const feedsList = document.getElementById('feeds-list');
+        if (!feedsList) return;
+
+        feedsList.innerHTML = '';
+
+        // Sort pages by order
+        const sortedPages = [...state.feedPages].sort((a, b) => a.order - b.order);
+
+        sortedPages.forEach((page, index) => {
+            const card = document.createElement('div');
+            card.className = 'feed-page-card';
+            card.dataset.pageId = page.id;
+
+            card.innerHTML = `
+                <div class="feed-page-header">
+                    <input class="feed-page-name" type="text" value="${page.name}" data-page-id="${page.id}" placeholder="Feed Name">
+                    <div class="feed-page-actions">
+                        ${index > 0 ? '<button class="move-up-btn icon-btn-small" title="Move up">↑</button>' : '<button class="move-up-btn icon-btn-small disabled" disabled title="Already at top">↑</button>'}
+                        ${index < sortedPages.length - 1 ? '<button class="move-down-btn icon-btn-small" title="Move down">↓</button>' : '<button class="move-down-btn icon-btn-small disabled" disabled title="Already at bottom">↓</button>'}
+                        ${state.feedPages.length > 1 ? '<button class="delete-page-btn icon-btn-small danger" title="Delete page">×</button>' : '<button class="delete-page-btn icon-btn-small disabled" disabled title="Cannot delete last page">×</button>'}
+                    </div>
+                </div>
+                <div class="feed-card-section">
+                    <h4 class="feed-section-label">RSS Feed Sources (${page.feedSources.length})</h4>
+                    <div class="feed-sources-list">
+                        ${page.feedSources.length === 0 ? '<p class="no-sources">No feeds configured yet. Add one below.</p>' : ''}
+                    </div>
+                </div>
+                <div class="feed-card-section">
+                    <h4 class="feed-section-label">Add New Feed</h4>
+                    <div class="add-source-section">
+                        <input type="url" class="add-source-input" placeholder="https://example.com/feed.xml" data-page-id="${page.id}">
+                        <button class="add-source-btn secondary-btn" data-page-id="${page.id}">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="12" y1="5" x2="12" y2="19"></line>
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                            </svg>
+                            Add Feed
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            // Add existing sources
+            const sourcesList = card.querySelector('.feed-sources-list');
+            page.feedSources.forEach(url => {
+                const sourceItem = document.createElement('div');
+                sourceItem.className = 'feed-source';
+                sourceItem.innerHTML = `
+                    <svg class="feed-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 11a9 9 0 0 1 9 9"></path>
+                        <path d="M4 4a16 16 0 0 1 16 16"></path>
+                        <circle cx="5" cy="19" r="1"></circle>
+                    </svg>
+                    <span class="feed-url" title="${url}">${url}</span>
+                    <button class="remove-source-btn icon-btn-small danger" data-page-id="${page.id}" data-url="${url}" title="Remove feed">×</button>
+                `;
+                sourcesList.appendChild(sourceItem);
+            });
+
+            feedsList.appendChild(card);
+        });
+
+        // Add event listeners
+        attachFeedsManagerListeners();
+    }
+
+    function attachFeedsManagerListeners() {
+        // Rename page
+        document.querySelectorAll('.feed-page-name').forEach(input => {
+            input.addEventListener('blur', (e) => {
+                const pageId = e.target.dataset.pageId;
+                const newName = e.target.value.trim();
+                if (newName) {
+                    renameFeedPage(pageId, newName);
+                }
+            });
+            input.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    e.target.blur();
+                }
+            });
+        });
+
+        // Move up
+        document.querySelectorAll('.move-up-btn:not(.disabled)').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const pageId = e.target.closest('.feed-page-card').dataset.pageId;
+                moveFeedPage(pageId, 'up');
+            });
+        });
+
+        // Move down
+        document.querySelectorAll('.move-down-btn:not(.disabled)').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const pageId = e.target.closest('.feed-page-card').dataset.pageId;
+                moveFeedPage(pageId, 'down');
+            });
+        });
+
+        // Delete page
+        document.querySelectorAll('.delete-page-btn:not(.disabled)').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const pageId = e.target.closest('.feed-page-card').dataset.pageId;
+                deleteFeedPage(pageId);
+            });
+        });
+
+        // Add source
+        document.querySelectorAll('.add-source-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const pageId = e.target.dataset.pageId;
+                const input = document.querySelector(`.add-source-input[data-page-id="${pageId}"]`);
+                const url = input.value.trim();
+                if (url) {
+                    addFeedSource(pageId, url);
+                    input.value = '';
+                }
+            });
+        });
+
+        // Add source on Enter key
+        document.querySelectorAll('.add-source-input').forEach(input => {
+            input.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    const pageId = e.target.dataset.pageId;
+                    const url = e.target.value.trim();
+                    if (url) {
+                        addFeedSource(pageId, url);
+                        e.target.value = '';
+                    }
+                }
+            });
+        });
+
+        // Remove source
+        document.querySelectorAll('.remove-source-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const pageId = e.target.dataset.pageId;
+                const url = e.target.dataset.url;
+                removeFeedSource(pageId, url);
+            });
+        });
+    }
+
+    function addFeedPage(name) {
+        if (state.feedPages.length >= 10) {
+            alert('Maximum 10 newsfeed tabs allowed');
+            return;
+        }
+
+        const newPage = {
+            id: `feed-${Date.now()}`,
+            name: name || `Feed ${state.feedPages.length + 1}`,
+            order: state.feedPages.length,
+            feedSources: [],
+            data: []
+        };
+
+        state.feedPages.push(newPage);
+        saveFeedPageConfig();
+        renderFeedsManager();
+        renderNavigation();
+        console.log('Added feed page:', newPage.name);
+    }
+
+    function deleteFeedPage(pageId) {
+        if (state.feedPages.length <= 1) {
+            alert('Cannot delete the last newsfeed tab');
+            return;
+        }
+
+        if (!confirm('Are you sure you want to delete this newsfeed tab?')) {
+            return;
+        }
+
+        state.feedPages = state.feedPages.filter(p => p.id !== pageId);
+
+        // Reorder remaining pages
+        state.feedPages.forEach((page, index) => {
+            page.order = index;
+        });
+
+        saveFeedPageConfig();
+        renderFeedsManager();
+        renderNavigation();
+
+        // Remove the view element if it exists
+        const viewElement = document.getElementById(`view-${pageId}`);
+        if (viewElement) {
+            viewElement.remove();
+        }
+
+        console.log('Deleted feed page:', pageId);
+    }
+
+    function renameFeedPage(pageId, newName) {
+        if (!newName || newName.length > 20) {
+            alert('Newsfeed tab name must be 1-20 characters');
+            return;
+        }
+
+        // Check for duplicate names
+        if (state.feedPages.some(p => p.id !== pageId && p.name === newName)) {
+            alert('A newsfeed tab with this name already exists');
+            return;
+        }
+
+        const page = state.feedPages.find(p => p.id === pageId);
+        if (page) {
+            page.name = newName;
+            saveFeedPageConfig();
+            renderFeedsManager();
+            renderNavigation();
+            console.log('Renamed feed page to:', newName);
+        }
+    }
+
+    function moveFeedPage(pageId, direction) {
+        const index = state.feedPages.findIndex(p => p.id === pageId);
+        if (index === -1) return;
+
+        const targetIndex = direction === 'up' ? index - 1 : index + 1;
+        if (targetIndex < 0 || targetIndex >= state.feedPages.length) return;
+
+        // Swap orders
+        const temp = state.feedPages[index].order;
+        state.feedPages[index].order = state.feedPages[targetIndex].order;
+        state.feedPages[targetIndex].order = temp;
+
+        // Sort by order
+        state.feedPages.sort((a, b) => a.order - b.order);
+
+        saveFeedPageConfig();
+        renderFeedsManager();
+        renderNavigation();
+        console.log('Moved feed page:', direction);
+    }
+
+    function addFeedSource(pageId, url) {
+        // Validate URL
+        try {
+            new URL(url);
+            if (!url.startsWith('http://') && !url.startsWith('https://')) {
+                throw new Error('Invalid protocol');
+            }
+        } catch (error) {
+            alert('Please enter a valid HTTP(S) URL');
+            return;
+        }
+
+        const page = state.feedPages.find(p => p.id === pageId);
+        if (!page) return;
+
+        // Check for duplicates
+        if (page.feedSources.includes(url)) {
+            alert('This feed URL is already added');
+            return;
+        }
+
+        page.feedSources.push(url);
+        saveFeedPageConfig();
+        renderFeedsManager();
+
+        // Optionally refetch feeds to load new source
+        console.log('Added feed source:', url);
+    }
+
+    function removeFeedSource(pageId, url) {
+        const page = state.feedPages.find(p => p.id === pageId);
+        if (!page) return;
+
+        page.feedSources = page.feedSources.filter(u => u !== url);
+        saveFeedPageConfig();
+        renderFeedsManager();
+        console.log('Removed feed source:', url);
+    }
+
     // --- Settings & Theme ---
 
     function loadSettings() {
@@ -1712,9 +2226,18 @@ document.addEventListener('DOMContentLoaded', () => {
             return widget;
         });
 
+        // Export feed pages (structure only, not data)
+        const feedPagesToExport = state.feedPages.map(page => ({
+            id: page.id,
+            name: page.name,
+            order: page.order,
+            sources: page.feedSources
+        }));
+
         const config = {
-            version: '1.0',
+            version: '2.0',
             exported: new Date().toISOString(),
+            feedPages: feedPagesToExport,
             widgets: widgetsToExport,
             settings: state.userSettings
         };
@@ -1735,26 +2258,69 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const config = yamlToObject(yamlText);
             console.log('Parsed YAML config:', config);
-            console.log('Widgets array:', config.widgets);
 
-            if (!config.widgets) {
-                alert('Invalid config file: missing widgets data');
+            // Handle version migration
+            const isV1 = !config.version || config.version === '1.0';
+            const isV2 = config.version === '2.0';
+
+            if (!isV1 && !isV2) {
+                alert('Unsupported config version: ' + config.version);
                 return;
             }
 
-            if (!Array.isArray(config.widgets)) {
-                alert('Invalid config file: widgets must be an array');
+            // Validate widgets
+            if (!config.widgets || !Array.isArray(config.widgets)) {
+                alert('Invalid config file: missing or invalid widgets data');
                 return;
             }
 
-            console.log('Number of widgets to import:', config.widgets.length);
+            // Handle feedPages (v2.0) or use current state (v1.0)
+            let feedPagesToImport = state.feedPages; // Keep current by default
 
-            if (confirm(`This will replace your current configuration with ${config.widgets.length} widget(s). Continue?`)) {
+            if (isV2 && config.feedPages) {
+                if (!Array.isArray(config.feedPages)) {
+                    alert('Invalid config file: feedPages must be an array');
+                    return;
+                }
+
+                // Convert to state format
+                feedPagesToImport = config.feedPages.map(page => ({
+                    id: page.id,
+                    name: page.name,
+                    order: page.order,
+                    feedSources: page.sources || [],
+                    data: []
+                }));
+
+                console.log('Feed pages to import:', feedPagesToImport.length);
+            }
+
+            const widgetCount = config.widgets.length;
+            const feedPageCount = feedPagesToImport.length;
+            const message = isV2
+                ? `This will replace your configuration with ${widgetCount} widget(s) and ${feedPageCount} feed page(s). Continue?`
+                : `This will import ${widgetCount} widget(s) (feed pages unchanged). Continue?`;
+
+            if (confirm(message)) {
+                // Import widgets
                 state.widgets = config.widgets;
+
+                // Import settings
                 if (config.settings) {
                     state.userSettings = { ...state.userSettings, ...config.settings };
                     applyTheme();
                 }
+
+                // Import feed pages (v2.0 only)
+                if (isV2 && config.feedPages) {
+                    state.feedPages = feedPagesToImport;
+                    saveFeedPageConfig();
+
+                    // Re-render navigation and fetch feeds
+                    renderNavigation();
+                    fetchData();
+                }
+
                 saveWidgets();
                 saveSettings();
                 renderWidgets();
@@ -1766,7 +2332,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
 
-                alert(`Configuration imported successfully! Loaded ${config.widgets.length} widget(s).`);
+                alert(`Configuration imported successfully! Loaded ${widgetCount} widget(s)` +
+                      (isV2 ? ` and ${feedPageCount} feed page(s)` : '') + '.');
             }
         } catch (error) {
             console.error('Error importing config:', error);
@@ -1784,8 +2351,18 @@ document.addEventListener('DOMContentLoaded', () => {
             return widget;
         });
 
+        // Export feed pages (structure only, not data)
+        const feedPagesToExport = state.feedPages.map(page => ({
+            id: page.id,
+            name: page.name,
+            order: page.order,
+            sources: page.feedSources
+        }));
+
         const config = {
-            version: '1.0',
+            version: '2.0',
+            exported: new Date().toISOString(),
+            feedPages: feedPagesToExport,
             widgets: widgetsToExport,
             settings: state.userSettings
         };
@@ -1819,6 +2396,25 @@ document.addEventListener('DOMContentLoaded', () => {
     if (configManagerBtn) {
         configManagerBtn.addEventListener('click', () => {
             switchView('config');
+        });
+    }
+
+    // Setup feeds manager listeners
+    const feedsManagerBtn = document.getElementById('feeds-manager-btn');
+    const addFeedPageBtn = document.getElementById('add-feed-page-btn');
+
+    if (feedsManagerBtn) {
+        feedsManagerBtn.addEventListener('click', () => {
+            switchView('config');
+        });
+    }
+
+    if (addFeedPageBtn) {
+        addFeedPageBtn.addEventListener('click', () => {
+            const name = prompt('Enter newsfeed tab name (max 20 characters):');
+            if (name && name.trim()) {
+                addFeedPage(name.trim());
+            }
         });
     }
 

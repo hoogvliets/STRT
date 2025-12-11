@@ -1,0 +1,26 @@
+version: '2.0'
+pages:
+  - id: tech
+    name: Tech
+    order: 0
+    sources:
+      - https://practicaldatamodeling.substack.com/feed
+      - https://newsletter.pragmaticengineer.com/feed
+      - https://marvelousmlops.substack.com/feed
+      - https://www.decodingai.com/feed
+      - https://mettlesome.substack.com/feed
+  - id: news
+    name: News
+    order: 1
+    sources:
+      - https://www.theguardian.com/uk/lifeandstyle/rss
+      - https://www.theguardian.com/lifeandstyle/health-and-wellbeing/rss
+      - https://www.theguardian.com/games/rss
+      - https://www.theguardian.com/uk/film/rss
+      - https://www.theguardian.com/music/rss
+      - https://www.theguardian.com/uk/travel/rss
+  - id: ball
+    name: Ball
+    order: 2
+    sources:
+      - https://basketball.realgm.com/rss/wiretap/0/0.xml

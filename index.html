@@ -66,6 +66,16 @@
                         </svg>
                     </button>
 
+                    <button id="feeds-manager-btn" class="icon-btn" aria-label="Manage feeds" title="Manage Feeds">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path d="M4 11a9 9 0 0 1 9 9"></path>
+                            <path d="M4 4a16 16 0 0 1 16 16"></path>
+                            <circle cx="5" cy="19" r="1"></circle>
+                        </svg>
+                    </button>
+
                     <button id="config-manager-btn" class="icon-btn" aria-label="Manage configuration" title="Manage Config">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -97,8 +107,8 @@
             <div class="config-manager">
                 <h2>Settings</h2>
 
+                <h3 class="config-section-title">Saving and exporting</h3>
                 <div class="config-info">
-                    <h3>Saving and exporting</h3>
                     <p>Your widgets are saved in your browser's local storage. You can export/import them as a YAML file to:</p>
                     <ul>
                         <li><strong>Backup</strong> your widgets and content</li>
@@ -119,7 +129,7 @@
                                     <polyline points="7 10 12 15 17 10"></polyline>
                                     <line x1="12" y1="15" x2="12" y2="3"></line>
                                 </svg>
-                                Export to File
+                                Export
                             </button>
                             <span class="button-separator">or</span>
                             <button id="copy-config-action" class="secondary-btn">
@@ -127,17 +137,14 @@
                                     <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
                                     <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
                                 </svg>
-                                Copy to Clipboard
+                                Copy
                             </button>
                         </div>
                     </div>
 
                     <div class="config-action-card warning">
                         <h3>Import Configuration</h3>
-                        <div class="warning-box">
-                            <strong>⚠️ Warning:</strong> Importing will replace ALL your current widgets and settings. Make sure to export your current configuration first if you want to keep it!
-                        </div>
-                        <p>Upload a YAML configuration file to restore your widgets.</p>
+                        <p>Upload a YAML configuration file to restore your widgets. This requires a previously exported backup.</p>
                         <div class="button-group">
                             <button id="import-config-action" class="primary-btn">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -145,7 +152,7 @@
                                     <polyline points="17 8 12 3 7 8"></polyline>
                                     <line x1="12" y1="3" x2="12" y2="15"></line>
                                 </svg>
-                                Import from File
+                                Import
                             </button>
                             <span class="button-separator">or</span>
                             <button id="paste-config-action" class="secondary-btn">
@@ -153,79 +160,40 @@
                                     <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
                                     <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
                                 </svg>
-                                Paste from Clipboard
+                                Paste
                             </button>
                         </div>
+                        <div class="warning-box">
+                            <strong>⚠️ Warning:</strong> Importing will replace ALL your current widgets and settings. Make sure to export your current configuration first if you want to keep it!
+                        </div>
                     </div>
+                </div>
+
+                <!-- Feed Pages Management Section -->
+                <div class="config-section">
+                    <h3 class="config-section-title">Manage newsfeeds</h3>
+                    <div class="config-info">
+                        <p>Customize your feed pages: create, rename, reorder, and manage RSS feeds. Changes are saved to your browser and included in exports.</p>
+                    </div>
+
+                    <div id="feeds-list" class="feeds-list">
+                        <!-- Feed page cards will be rendered dynamically -->
+                    </div>
+
+                    <button id="add-feed-page-btn" class="primary-btn add-feed-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                        </svg>
+                        Add newsfeed tab
+                    </button>
                 </div>
             </div>
         </div>
 
-        <div id="view-tech" class="view-section hidden">
-            <!-- Main Content -->
-            <main class="main-layout">
-                <!-- Feed Column -->
-                <section class="feed-column" id="feed-container">
-                    <!-- Feed items injected here -->
-                    <div class="loading-indicator">Loading feed...</div>
-                </section>
-
-                <!-- Sidebar (Hacker News) -->
-                <aside class="sidebar-column">
-                    <div class="sidebar-header">
-                        <h2>Hacker News</h2>
-                    </div>
-                    <div id="sidebar-container" class="sidebar-feed">
-                        <!-- Sidebar items injected here -->
-                        <div class="loading-indicator">Loading updates...</div>
-                    </div>
-                </aside>
-            </main>
-        </div>
-
-        <div id="view-news" class="view-section hidden">
-            <!-- Main Content -->
-            <main class="main-layout">
-                <!-- Feed Column -->
-                <section class="feed-column" id="news-feed-container">
-                    <!-- Feed items injected here -->
-                    <div class="loading-indicator">Loading feed...</div>
-                </section>
-
-                <!-- Sidebar (Hacker News) -->
-                <aside class="sidebar-column">
-                    <div class="sidebar-header">
-                        <h2>Hacker News</h2>
-                    </div>
-                    <div id="news-sidebar-container" class="sidebar-feed">
-                        <!-- Sidebar items injected here -->
-                        <div class="loading-indicator">Loading updates...</div>
-                    </div>
-                </aside>
-            </main>
-        </div>
-
-        <div id="view-ball" class="view-section hidden">
-            <!-- Main Content -->
-            <main class="main-layout">
-                <!-- Feed Column -->
-                <section class="feed-column" id="ball-feed-container">
-                    <!-- Feed items injected here -->
-                    <div class="loading-indicator">Loading feed...</div>
-                </section>
-
-                <!-- Sidebar (Hacker News) -->
-                <aside class="sidebar-column">
-                    <div class="sidebar-header">
-                        <h2>Hacker News</h2>
-                    </div>
-                    <div id="ball-sidebar-container" class="sidebar-feed">
-                        <!-- Sidebar items injected here -->
-                        <div class="loading-indicator">Loading updates...</div>
-                    </div>
-                </aside>
-            </main>
-        </div>
+        <!-- Feed page views are created dynamically by createFeedView() -->
     </div>
 
     <!-- Modals -->
