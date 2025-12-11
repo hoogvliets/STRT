@@ -1,5 +1,13 @@
 [
   {
+    "title": "Incomplete list of mistakes in the design of CSS",
+    "link": "https://wiki.csswg.org/ideas/mistakes",
+    "source": "Hacker News",
+    "published": "2025-12-11T04:20:52+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46227619\">Comments</a>"
+  },
+  {
     "title": "Patterns.dev",
     "link": "https://www.patterns.dev/",
     "source": "Hacker News",
@@ -22,14 +30,6 @@
     "published": "2025-12-10T20:29:12+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46223311\">Comments</a>"
-  },
-  {
-    "title": "The future of Terraform CDK",
-    "link": "https://github.com/hashicorp/terraform-cdk",
-    "source": "Hacker News",
-    "published": "2025-12-10T19:14:03+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46222165\">Comments</a>"
   },
   {
     "title": "Super Mario 64 for the PS1",
@@ -56,28 +56,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46220794\">Comments</a>"
   },
   {
-    "title": "Is it a bubble?",
-    "link": "https://www.oaktreecapital.com/insights/memo/is-it-a-bubble",
-    "source": "Hacker News",
-    "published": "2025-12-10T17:30:43+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220640\">Comments</a>"
-  },
-  {
     "title": "Auto-grading decade-old Hacker News discussions with hindsight",
     "link": "https://karpathy.bearblog.dev/auto-grade-hn/",
     "source": "Hacker News",
     "published": "2025-12-10T17:23:53+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46220540\">Comments</a>"
-  },
-  {
-    "title": "Valve: HDMI Forum Continues to Block HDMI 2.1 for Linux",
-    "link": "https://www.heise.de/en/news/Valve-HDMI-Forum-Continues-to-Block-HDMI-2-1-for-Linux-11107440.html",
-    "source": "Hacker News",
-    "published": "2025-12-10T17:20:06+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220488\">Comments</a>"
   },
   {
     "title": "Qwen3-Omni-Flash-2025-12-01\uff1aa next-generation native multimodal large model",
@@ -94,6 +78,14 @@
     "published": "2025-12-10T16:02:57+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46219346\">Comments</a>"
+  },
+  {
+    "title": "Show HN: Wirebrowser \u2013 A JavaScript debugger with breakpoint-driven heap search",
+    "link": "https://github.com/fcavallarin/wirebrowser",
+    "source": "Hacker News",
+    "published": "2025-12-10T14:30:43+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46218101\">Comments</a>"
   },
   {
     "title": "Common Lisp, ASDF, and Quicklisp: packaging explained",
@@ -128,6 +120,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46203343\">Comments</a>"
   },
   {
+    "title": "Python Workers redux: fast cold starts, packages, and a uv-first workflow",
+    "link": "https://blog.cloudflare.com/python-workers-advancements/",
+    "source": "Hacker News",
+    "published": "2025-12-08T14:42:01+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46192748\">Comments</a>"
+  },
+  {
     "title": "VCMI: An open-source engine for Heroes III",
     "link": "https://vcmi.eu/",
     "source": "Hacker News",
@@ -144,12 +144,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46150797\">Comments</a>"
   },
   {
-    "title": "Gundam is just the same as Jane Austen but happens to include giant mech suits",
-    "link": "https://eli.li/gundam-is-just-the-same-as-jane-austen-but-happens-to-include-giant-mech-suits",
+    "title": "3D-printed carotid artery-on-chips for personalized thrombosis investigation",
+    "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508890",
     "source": "Hacker News",
-    "published": "2025-12-02T16:55:36+00:00",
+    "published": "2025-12-03T21:40:55+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46123310\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46140554\">Comments</a>"
   },
   {
     "title": "Fossils reveal anacondas have been giants for over 12 million years",
