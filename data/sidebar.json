@@ -1,5 +1,13 @@
 [
   {
+    "title": "The Cost of a Closure in C",
+    "link": "https://thephd.dev/the-cost-of-a-closure-in-c-c2y",
+    "source": "Hacker News",
+    "published": "2025-12-11T07:21:33+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46228597\">Comments</a>"
+  },
+  {
     "title": "Incomplete list of mistakes in the design of CSS",
     "link": "https://wiki.csswg.org/ideas/mistakes",
     "source": "Hacker News",
@@ -16,14 +24,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46226483\">Comments</a>"
   },
   {
-    "title": "When would you ever want bubblesort? (2023)",
-    "link": "https://buttondown.com/hillelwayne/archive/when-would-you-ever-want-bubblesort/",
-    "source": "Hacker News",
-    "published": "2025-12-10T21:45:11+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46224311\">Comments</a>"
-  },
-  {
     "title": "Getting a Gemini API key is an exercise in frustration",
     "link": "https://ankursethi.com/blog/gemini-api-key-frustration/",
     "source": "Hacker News",
@@ -38,14 +38,6 @@
     "published": "2025-12-10T18:58:55+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46221925\">Comments</a>"
-  },
-  {
-    "title": "Terrain Diffusion: A Diffusion-Based Successor to Perlin Noise",
-    "link": "https://arxiv.org/abs/2512.08309",
-    "source": "Hacker News",
-    "published": "2025-12-10T18:37:27+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46221594\">Comments</a>"
   },
   {
     "title": "Show HN: Automated license plate reader coverage in the USA",
@@ -88,14 +80,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46218101\">Comments</a>"
   },
   {
-    "title": "Common Lisp, ASDF, and Quicklisp: packaging explained",
-    "link": "https://cdegroot.com/programming/commonlisp/2025/11/26/cl-ql-asdf.html",
-    "source": "Hacker News",
-    "published": "2025-12-10T11:10:58+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46216446\">Comments</a>"
-  },
-  {
     "title": "Rubio stages font coup: Times New Roman ousts Calibri",
     "link": "https://www.reuters.com/world/us/rubio-stages-font-coup-times-new-roman-ousts-calibri-2025-12-09/",
     "source": "Hacker News",
@@ -128,6 +112,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46192748\">Comments</a>"
   },
   {
+    "title": "How the Brain Parses Language",
+    "link": "https://www.quantamagazine.org/the-polyglot-neuroscientist-resolving-how-the-brain-parses-language-20251205/",
+    "source": "Hacker News",
+    "published": "2025-12-08T12:46:50+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191597\">Comments</a>"
+  },
+  {
     "title": "VCMI: An open-source engine for Heroes III",
     "link": "https://vcmi.eu/",
     "source": "Hacker News",
@@ -136,12 +128,20 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46174534\">Comments</a>"
   },
   {
-    "title": "Scientists create ultra fast memory using light",
-    "link": "https://www.isi.edu/news/81186/scientists-create-ultra-fast-memory-using-light/",
+    "title": "Flow Where You Want \u2013 Guidance for Flow Models",
+    "link": "https://drscotthawley.github.io/blog/posts/FlowWhereYouWant.html",
     "source": "Hacker News",
-    "published": "2025-12-04T18:11:21+00:00",
+    "published": "2025-12-06T04:46:14+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46150797\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46170784\">Comments</a>"
+  },
+  {
+    "title": "Booting Linux in QEMU and Writing PID 1 in Go to Illustrate Kernel as Program",
+    "link": "https://serversfor.dev/linux-inside-out/the-linux-kernel-is-just-a-program/",
+    "source": "Hacker News",
+    "published": "2025-12-04T14:25:38+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46147987\">Comments</a>"
   },
   {
     "title": "3D-printed carotid artery-on-chips for personalized thrombosis investigation",
