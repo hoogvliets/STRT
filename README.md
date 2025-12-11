@@ -1,6 +1,6 @@
-# STRT - Personal Newsfeed Aggregator
+# kito - Personal Newsfeed Aggregator
 
-STRT (formerly Onelife) is a minimalist, self-hosted personal newsfeed aggregator. It fetches content from Substack RSS feeds and Hacker News, presenting them in a clean, two-column layout. The project is designed to run entirely on GitHub Actions and GitHub Pages, requiring no external server infrastructure.
+kito is a minimalist, self-hosted personal newsfeed aggregator. It fetches content from Substack RSS feeds and Hacker News, presenting them in a clean, two-column layout. The project is designed to run entirely on GitHub Actions and GitHub Pages, requiring no external server infrastructure.
 
 ## Features
 

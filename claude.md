@@ -1,10 +1,10 @@
-# STRT - Claude Code Reference Document
+# kito - Claude Code Reference Document
 
 *Last updated: 2025-12-11*
 
 ## Project Overview
 
-**STRT** (formerly "Onelife") is a self-hosted personal newsfeed aggregator and customizable dashboard. It combines RSS feed reading with a widget-based home screen, all running client-side with data fetched via GitHub Actions.
+**kito** is a self-hosted personal newsfeed aggregator and customizable dashboard. It combines RSS feed reading with a widget-based home screen, all running client-side with data fetched via GitHub Actions.
 
 **Key Concept**: This is a zero-infrastructure personal dashboard that runs entirely on GitHub Pages, with automated data fetching via GitHub Actions. No backend server required.
 

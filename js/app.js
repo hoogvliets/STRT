@@ -1724,7 +1724,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `strt-config-${new Date().toISOString().split('T')[0]}.yaml`;
+        a.download = `kito-config-${new Date().toISOString().split('T')[0]}.yaml`;
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
