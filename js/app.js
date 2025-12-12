@@ -48,7 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const viewNews = document.getElementById('view-news');
     const viewBall = document.getElementById('view-ball');
 
-    const sourceFilter = document.getElementById('source-filter');
     const favoritesToggle = document.getElementById('favorites-toggle');
 
     const themeToggle = document.getElementById('theme-toggle');
@@ -104,10 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function setupEventListeners() {
-        sourceFilter.addEventListener('change', (e) => {
-            state.filters.source = e.target.value;
-            applyFilters();
-        });
         favoritesToggle.addEventListener('click', () => {
             state.filters.favoritesOnly = !state.filters.favoritesOnly;
             favoritesToggle.classList.toggle('active', state.filters.favoritesOnly);
@@ -317,18 +312,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Toggle source filter visibility
-        if (sourceFilter) {
-            if (isFeedPage) {
-                sourceFilter.style.display = 'inline-block';
-                // Reset and populate filter for the new view
-                state.filters.source = 'all';
-                sourceFilter.value = 'all';
-                populateSourceFilter();
-                applyFilters(); // Re-render feed when switching views
-            } else {
-                sourceFilter.style.display = 'none';
-            }
+        // Apply filters when switching to feed page
+        if (isFeedPage) {
+            state.filters.source = 'all';
+            applyFilters(); // Re-render feed when switching views
         }
     }
 
@@ -726,7 +713,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (state.currentView !== 'home') {
                 console.log('Initial render for view:', state.currentView);
                 applyFilters();
-                populateSourceFilter();
             } else {
                 console.log('Initial view is home, skipping feed render');
             }
@@ -957,20 +943,20 @@ document.addEventListener('DOMContentLoaded', () => {
         renderFeed(false);
     }
 
-    function populateSourceFilter() {
-        const sources = [...new Set(state.activeFeed.map(item => item.source))];
-        // Clear existing options except 'All'
-        while (sourceFilter.options.length > 1) {
-            sourceFilter.remove(1);
-        }
-
-        sources.forEach(source => {
-            const option = document.createElement('option');
-            option.value = source;
-            option.textContent = source;
-            sourceFilter.appendChild(option);
-        });
-    }
+    // Source filter removed - function no longer needed
+    // function populateSourceFilter() {
+    //     const sources = [...new Set(state.activeFeed.map(item => item.source))];
+    //     // Clear existing options except 'All'
+    //     while (sourceFilter.options.length > 1) {
+    //         sourceFilter.remove(1);
+    //     }
+    //     sources.forEach(source => {
+    //         const option = document.createElement('option');
+    //         option.value = source;
+    //         option.textContent = source;
+    //         sourceFilter.appendChild(option);
+    //     });
+    // }
 
     function formatDate(isoString) {
         if (!isoString) return '';
@@ -1791,9 +1777,36 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="feed-page-header">
                     <input class="feed-page-name" type="text" value="${page.name}" data-page-id="${page.id}" placeholder="Feed Name">
                     <div class="feed-page-actions">
-                        ${index > 0 ? '<button class="move-up-btn icon-btn-small" title="Move up">↑</button>' : '<button class="move-up-btn icon-btn-small disabled" disabled title="Already at top">↑</button>'}
-                        ${index < sortedPages.length - 1 ? '<button class="move-down-btn icon-btn-small" title="Move down">↓</button>' : '<button class="move-down-btn icon-btn-small disabled" disabled title="Already at bottom">↓</button>'}
-                        ${state.feedPages.length > 1 ? '<button class="delete-page-btn icon-btn-small danger" title="Delete page">×</button>' : '<button class="delete-page-btn icon-btn-small disabled" disabled title="Cannot delete last page">×</button>'}
+                        <button class="feed-menu-btn icon-btn-small" title="Options" data-page-id="${page.id}">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="1"></circle>
+                                <circle cx="12" cy="5" r="1"></circle>
+                                <circle cx="12" cy="19" r="1"></circle>
+                            </svg>
+                        </button>
+                        <div class="feed-menu-dropdown hidden" data-page-id="${page.id}">
+                            <button class="menu-item move-up-btn" ${index === 0 ? 'disabled' : ''} data-page-id="${page.id}">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="18 15 12 9 6 15"></polyline>
+                                </svg>
+                                Move Up
+                            </button>
+                            <button class="menu-item move-down-btn" ${index === sortedPages.length - 1 ? 'disabled' : ''} data-page-id="${page.id}">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                                Move Down
+                            </button>
+                            <button class="menu-item delete-page-btn danger" ${state.feedPages.length === 1 ? 'disabled' : ''} data-page-id="${page.id}">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="3 6 5 6 21 6"></polyline>
+                                    <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                                    <line x1="10" y1="11" x2="10" y2="17"></line>
+                                    <line x1="14" y1="11" x2="14" y2="17"></line>
+                                </svg>
+                                Delete
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div class="feed-card-section">
@@ -1829,7 +1842,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         <circle cx="5" cy="19" r="1"></circle>
                     </svg>
                     <span class="feed-url" title="${url}">${url}</span>
-                    <button class="remove-source-btn icon-btn-small danger" data-page-id="${page.id}" data-url="${url}" title="Remove feed">×</button>
+                    <button class="remove-source-btn icon-btn-small danger" data-page-id="${page.id}" data-url="${url}" title="Remove feed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="3 6 5 6 21 6"></polyline>
+                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                            <line x1="10" y1="11" x2="10" y2="17"></line>
+                            <line x1="14" y1="11" x2="14" y2="17"></line>
+                        </svg>
+                    </button>
                 `;
                 sourcesList.appendChild(sourceItem);
             });
@@ -1858,27 +1878,61 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-        // Move up
-        document.querySelectorAll('.move-up-btn:not(.disabled)').forEach(btn => {
+        // Toggle menu dropdown
+        document.querySelectorAll('.feed-menu-btn').forEach(btn => {
             btn.addEventListener('click', (e) => {
-                const pageId = e.target.closest('.feed-page-card').dataset.pageId;
+                e.stopPropagation();
+                const pageId = btn.dataset.pageId;
+                const dropdown = document.querySelector(`.feed-menu-dropdown[data-page-id="${pageId}"]`);
+
+                // Close all other dropdowns
+                document.querySelectorAll('.feed-menu-dropdown').forEach(d => {
+                    if (d !== dropdown) d.classList.add('hidden');
+                });
+
+                // Toggle current dropdown
+                dropdown.classList.toggle('hidden');
+            });
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', () => {
+            document.querySelectorAll('.feed-menu-dropdown').forEach(d => {
+                d.classList.add('hidden');
+            });
+        });
+
+        // Move up
+        document.querySelectorAll('.move-up-btn:not([disabled])').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const pageId = btn.dataset.pageId;
                 moveFeedPage(pageId, 'up');
+                // Close dropdown
+                document.querySelector(`.feed-menu-dropdown[data-page-id="${pageId}"]`).classList.add('hidden');
             });
         });
 
         // Move down
-        document.querySelectorAll('.move-down-btn:not(.disabled)').forEach(btn => {
+        document.querySelectorAll('.move-down-btn:not([disabled])').forEach(btn => {
             btn.addEventListener('click', (e) => {
-                const pageId = e.target.closest('.feed-page-card').dataset.pageId;
+                e.stopPropagation();
+                const pageId = btn.dataset.pageId;
                 moveFeedPage(pageId, 'down');
+                // Close dropdown
+                document.querySelector(`.feed-menu-dropdown[data-page-id="${pageId}"]`).classList.add('hidden');
             });
         });
 
         // Delete page
-        document.querySelectorAll('.delete-page-btn:not(.disabled)').forEach(btn => {
+        document.querySelectorAll('.delete-page-btn:not([disabled])').forEach(btn => {
             btn.addEventListener('click', (e) => {
-                const pageId = e.target.closest('.feed-page-card').dataset.pageId;
+                e.stopPropagation();
+                const pageId = btn.dataset.pageId;
                 deleteFeedPage(pageId);
+                // Close dropdown
+                const dropdown = document.querySelector(`.feed-menu-dropdown[data-page-id="${pageId}"]`);
+                if (dropdown) dropdown.classList.add('hidden');
             });
         });
 
@@ -2400,14 +2454,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Setup feeds manager listeners
-    const feedsManagerBtn = document.getElementById('feeds-manager-btn');
     const addFeedPageBtn = document.getElementById('add-feed-page-btn');
-
-    if (feedsManagerBtn) {
-        feedsManagerBtn.addEventListener('click', () => {
-            switchView('config');
-        });
-    }
 
     if (addFeedPageBtn) {
         addFeedPageBtn.addEventListener('click', () => {
