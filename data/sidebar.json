@@ -1,27 +1,59 @@
 [
   {
-    "title": "Show HN: tomcp.org \u2013 Turn any URL into an MCP server",
-    "link": "https://github.com/Ami3466/tomcp",
+    "title": "Motion (YC W20) Is Hiring Senior Staff Front End Engineers",
+    "link": "https://jobs.ashbyhq.com/motion/715d9646-27d4-44f6-9229-61eb0380ae39",
     "source": "Hacker News",
-    "published": "2025-12-12T17:10:16+00:00",
+    "published": "2025-12-12T21:00:54+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46246117\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46248892\">Comments</a>"
   },
   {
-    "title": "Oracle made a $300B bet on OpenAI. It's paying the price",
-    "link": "https://finance.yahoo.com/news/oracle-made-a-300-billion-bet-on-openai-its-paying-the-price-205441863.html",
+    "title": "GNU Unifont",
+    "link": "https://unifoundry.com/unifont/index.html",
     "source": "Hacker News",
-    "published": "2025-12-12T17:01:07+00:00",
+    "published": "2025-12-12T20:57:34+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46246031\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46248859\">Comments</a>"
   },
   {
-    "title": "Japan law opening phone app stores to go into effect dec.18th",
-    "link": "https://www3.nhk.or.jp/nhkworld/en/news/20251210_B1/",
+    "title": "Security issues with electronic invoices",
+    "link": "https://invoice.secvuln.info/",
     "source": "Hacker News",
-    "published": "2025-12-12T16:59:04+00:00",
+    "published": "2025-12-12T20:28:41+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46246006\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46248470\">Comments</a>"
+  },
+  {
+    "title": "New Kindle feature uses AI to answer questions about books",
+    "link": "https://reactormag.com/new-kindle-feature-ai-answer-questions-books-authors/",
+    "source": "Hacker News",
+    "published": "2025-12-12T20:24:04+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46248417\">Comments</a>"
+  },
+  {
+    "title": "The true story of the Windows 3.1 'Hot Dog Stand' color scheme",
+    "link": "https://www.pcgamer.com/software/windows/windows-3-1-included-a-red-and-yellow-hot-dog-stand-color-scheme-so-garish-it-was-long-assumed-to-be-a-joke-so-i-tracked-down-the-original-designer-to-get-the-true-story/",
+    "source": "Hacker News",
+    "published": "2025-12-12T19:13:35+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46247605\">Comments</a>"
+  },
+  {
+    "title": "Home Depot GitHub token exposed for a year, granted access to internal systems",
+    "link": "https://techcrunch.com/2025/12/12/home-depot-exposed-access-to-internal-systems-for-a-year-says-researcher/",
+    "source": "Hacker News",
+    "published": "2025-12-12T18:23:21+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46247000\">Comments</a>"
+  },
+  {
+    "title": "Google releases its new Google Sans Flex font as open source",
+    "link": "https://www.omgubuntu.co.uk/2025/11/google-sans-flex-font-ubuntu",
+    "source": "Hacker News",
+    "published": "2025-12-12T18:07:57+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46246802\">Comments</a>"
   },
   {
     "title": "Async DNS",
@@ -40,7 +72,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46245731\">Comments</a>"
   },
   {
-    "title": "String Theory Inspires a Brilliant, Baffling New Math Proof",
+    "title": "String theory inspires a brilliant, baffling new math proof",
     "link": "https://www.quantamagazine.org/string-theory-inspires-a-brilliant-baffling-new-math-proof-20251212/",
     "source": "Hacker News",
     "published": "2025-12-12T16:23:10+00:00",
@@ -56,23 +88,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46245398\">Comments</a>"
   },
   {
-    "title": "Framework Raises DDR5 Memory Prices by 50% for DIY Laptops",
-    "link": "https://www.phoronix.com/news/Framework-50p-DDR5-Memory",
-    "source": "Hacker News",
-    "published": "2025-12-12T15:58:10+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46245331\">Comments</a>"
-  },
-  {
-    "title": "Berlin Approves New Expansion of Police Surveillance Powers",
-    "link": "https://reclaimthenet.org/berlin-approves-new-expansion-of-police-surveillance-powers",
-    "source": "Hacker News",
-    "published": "2025-12-12T15:29:46+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46245041\">Comments</a>"
-  },
-  {
-    "title": "CM0 \u2013 a new Raspberry Pi you can't buy",
+    "title": "CM0 \u2013 A new Raspberry Pi you can't buy",
     "link": "https://www.jeffgeerling.com/blog/2025/cm0-new-raspberry-pi-you-cant-buy",
     "source": "Hacker News",
     "published": "2025-12-12T15:19:19+00:00",
@@ -80,15 +96,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46244922\">Comments</a>"
   },
   {
-    "title": "BpfJailer: eBPF Mandatory Access Control [pdf]",
-    "link": "https://lpc.events/event/19/contributions/2159/attachments/1833/3929/BpfJailer%20LPC%202025.pdf",
-    "source": "Hacker News",
-    "published": "2025-12-12T14:20:20+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46244378\">Comments</a>"
-  },
-  {
-    "title": "SQLite JSON at Full Index Speed Using Generated Columns",
+    "title": "SQLite JSON at full index speed using generated columns",
     "link": "https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing",
     "source": "Hacker News",
     "published": "2025-12-12T13:25:19+00:00",
@@ -104,22 +112,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46243883\">Comments</a>"
   },
   {
-    "title": "The tiniest yet real telescope I've built",
-    "link": "https://lucassifoni.info/blog/miniscope-tiny-telescope/",
-    "source": "Hacker News",
-    "published": "2025-12-12T07:35:49+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46241763\">Comments</a>"
-  },
-  {
-    "title": "Nokia N900 Necromancy",
-    "link": "https://yaky.dev/2025-12-11-nokia-n900-necromancy/",
-    "source": "Hacker News",
-    "published": "2025-12-12T00:04:29+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46239177\">Comments</a>"
-  },
-  {
     "title": "From text to token: How tokenization pipelines work",
     "link": "https://www.paradedb.com/blog/when-tokenization-becomes-token",
     "source": "Hacker News",
@@ -128,20 +120,28 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46232003\">Comments</a>"
   },
   {
-    "title": "Show HN: Tripwire: A new anti evil maid defense",
-    "link": "https://github.com/fr33-sh/Tripwire",
+    "title": "Pg_ClickHouse: A Postgres extension for querying ClickHouse",
+    "link": "https://clickhouse.com/blog/introducing-pg_clickhouse",
     "source": "Hacker News",
-    "published": "2025-12-11T09:46:56+00:00",
+    "published": "2025-12-10T17:14:39+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46229437\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46220411\">Comments</a>"
   },
   {
-    "title": "How to Articulate Yourself Intelligently",
-    "link": "https://letters.thedankoe.com/p/how-to-articulate-yourself-intelligently",
+    "title": "Bit flips: How cosmic rays grounded a fleet of aircraft",
+    "link": "https://www.bbc.com/future/article/20251201-how-cosmic-rays-grounded-thousands-of-aircraft",
     "source": "Hacker News",
-    "published": "2025-12-08T10:55:56+00:00",
+    "published": "2025-12-08T13:20:19+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46190877\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191890\">Comments</a>"
+  },
+  {
+    "title": "Good conversations have lots of doorknobs (2022)",
+    "link": "https://www.experimental-history.com/p/good-conversations-have-lots-of-doorknobs",
+    "source": "Hacker News",
+    "published": "2025-12-08T11:37:09+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191122\">Comments</a>"
   },
   {
     "title": "Microservices Should Form a Polytree",
