@@ -1,5 +1,21 @@
 [
   {
+    "title": "Guarding My Git Forge Against AI Scrapers",
+    "link": "https://vulpinecitrus.info/blog/guarding-git-forge-ai-scrapers/",
+    "source": "Hacker News",
+    "published": "2025-12-12T07:51:04+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46241849\">Comments</a>"
+  },
+  {
+    "title": "The tiniest yet real telescope I've built",
+    "link": "https://lucassifoni.info/blog/miniscope-tiny-telescope/",
+    "source": "Hacker News",
+    "published": "2025-12-12T07:35:49+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46241763\">Comments</a>"
+  },
+  {
     "title": "Cadmium Zinc Telluride: The wonder material powering a medical 'revolution'",
     "link": "https://www.bbc.com/news/articles/c24l223d9n7o",
     "source": "Hacker News",
@@ -8,7 +24,7 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46239895\">Comments</a>"
   },
   {
-    "title": "Google De-Indexed My Bear Blog and I Don't Know Why",
+    "title": "Google de-indexed Bear Blog and I don't know why",
     "link": "https://journal.james-zhan.com/google-de-indexed-my-entire-bear-blog-and-i-dont-know-why/",
     "source": "Hacker News",
     "published": "2025-12-12T01:20:05+00:00",
@@ -112,14 +128,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46231709\">Comments</a>"
   },
   {
-    "title": "Craft software that makes people feel something",
-    "link": "https://rapha.land/craft-software-that-makes-people-feel-something/",
-    "source": "Hacker News",
-    "published": "2025-12-11T13:45:08+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46231274\">Comments</a>"
-  },
-  {
     "title": "Auto-grading decade-old Hacker News discussions with hindsight",
     "link": "https://karpathy.bearblog.dev/auto-grade-hn/",
     "source": "Hacker News",
@@ -136,27 +144,19 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46197930\">Comments</a>"
   },
   {
+    "title": "Einstein: NewtonOS running on other operating systems",
+    "link": "https://github.com/pguyot/Einstein",
+    "source": "Hacker News",
+    "published": "2025-12-08T09:42:04+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46190324\">Comments</a>"
+  },
+  {
     "title": "He set out to walk around the world. After 27 years, his quest is nearly over",
     "link": "https://www.washingtonpost.com/lifestyle/2025/12/05/karl-bushby-walk-around-world/",
     "source": "Hacker News",
     "published": "2025-12-07T16:26:45+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46182874\">Comments</a>"
-  },
-  {
-    "title": "Pdsink: USB Power Delivery Sink library for embedded devices",
-    "link": "https://github.com/pdsink/pdsink",
-    "source": "Hacker News",
-    "published": "2025-12-07T04:14:03+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46179103\">Comments</a>"
-  },
-  {
-    "title": "Tile IR Specification",
-    "link": "https://docs.nvidia.com/cuda/tile-ir/",
-    "source": "Hacker News",
-    "published": "2025-12-04T22:41:21+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46154190\">Comments</a>"
   }
 ]
