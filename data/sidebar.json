@@ -1,27 +1,27 @@
 [
   {
-    "title": "Nokia N900 Necromancy \u2013 giving a new life to a classic Linux smartphone",
+    "title": "Stoolap: High-performance embedded SQL database in pure Rust",
+    "link": "https://github.com/stoolap/stoolap",
+    "source": "Hacker News",
+    "published": "2025-12-12T00:28:24+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46239372\">Comments</a>"
+  },
+  {
+    "title": "Laying out the 404 Media zine",
+    "link": "https://tedium.co/2025/12/10/404-media-zine-linux-affinity/",
+    "source": "Hacker News",
+    "published": "2025-12-12T00:05:36+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46239188\">Comments</a>"
+  },
+  {
+    "title": "Nokia N900 Necromancy",
     "link": "https://yaky.dev/2025-12-11-nokia-n900-necromancy/",
     "source": "Hacker News",
     "published": "2025-12-12T00:04:29+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46239177\">Comments</a>"
-  },
-  {
-    "title": "Powder and stone, or, why medieval rulers loved castles",
-    "link": "https://1517.substack.com/p/powder-and-stone-or-why-medieval",
-    "source": "Hacker News",
-    "published": "2025-12-11T21:35:52+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46237501\">Comments</a>"
-  },
-  {
-    "title": "RFC 6677 DNS Transport over TCP \u2013 Implementation Requirements (2016)",
-    "link": "https://www.ietf.org/rfc/rfc7766.txt",
-    "source": "Hacker News",
-    "published": "2025-12-11T21:18:49+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46237304\">Comments</a>"
   },
   {
     "title": "Almond (YC X25) Is Hiring SWEs and MechEs",
@@ -38,22 +38,6 @@
     "published": "2025-12-11T20:46:46+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46236924\">Comments</a>"
-  },
-  {
-    "title": "UK House of Lords attempting to ban use of VPNs by anyone under 16",
-    "link": "https://alecmuffett.com/article/134925",
-    "source": "Hacker News",
-    "published": "2025-12-11T20:32:22+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46236738\">Comments</a>"
-  },
-  {
-    "title": "My productivity app is a never-ending .txt file (2020)",
-    "link": "https://jeffhuang.com/productivity_text_file/",
-    "source": "Hacker News",
-    "published": "2025-12-11T19:30:58+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46236037\">Comments</a>"
   },
   {
     "title": "An SVG is all you need",
@@ -128,14 +112,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46231274\">Comments</a>"
   },
   {
-    "title": "French supermarket's Christmas advert is worldwide hit (without AI) [video]",
-    "link": "https://www.youtube.com/watch?v=Na9VmMNJvsA",
-    "source": "Hacker News",
-    "published": "2025-12-11T13:35:55+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46231187\">Comments</a>"
-  },
-  {
     "title": "Auto-grading decade-old Hacker News discussions with hindsight",
     "link": "https://karpathy.bearblog.dev/auto-grade-hn/",
     "source": "Hacker News",
@@ -152,11 +128,35 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46197930\">Comments</a>"
   },
   {
-    "title": "Prove It All Night: With no fame or fortune, what keeps a band onstage? (1999)",
-    "link": "https://chicagoreader.com/news/prove-it-all-night/",
+    "title": "Pdsink: USB Power Delivery Sink library for embedded devices",
+    "link": "https://github.com/pdsink/pdsink",
     "source": "Hacker News",
-    "published": "2025-12-02T21:36:22+00:00",
+    "published": "2025-12-07T04:14:03+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46127191\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46179103\">Comments</a>"
+  },
+  {
+    "title": "My Father's Instant Mashed Potatoes",
+    "link": "https://www.astralcodexten.com/p/your-review-my-fathers-instant-mashed",
+    "source": "Hacker News",
+    "published": "2025-12-05T19:18:53+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46165976\">Comments</a>"
+  },
+  {
+    "title": "Tile IR Specification",
+    "link": "https://docs.nvidia.com/cuda/tile-ir/",
+    "source": "Hacker News",
+    "published": "2025-12-04T22:41:21+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46154190\">Comments</a>"
+  },
+  {
+    "title": "The Invisible Cost: From Creator to Consumer",
+    "link": "https://edwardnoaland.substack.com/p/the-invisible-cost-from-creator-to",
+    "source": "Hacker News",
+    "published": "2025-12-03T19:04:09+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46138534\">Comments</a>"
   }
 ]
