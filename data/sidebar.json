@@ -72,6 +72,22 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46248323\">Comments</a>"
   },
   {
+    "title": "String theory inspires a brilliant, baffling new math proof",
+    "link": "https://www.quantamagazine.org/string-theory-inspires-a-brilliant-baffling-new-math-proof-20251212/",
+    "source": "Hacker News",
+    "published": "2025-12-12T16:23:10+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46245622\">Comments</a>"
+  },
+  {
+    "title": "CM0 \u2013 A new Raspberry Pi you can't buy",
+    "link": "https://www.jeffgeerling.com/blog/2025/cm0-new-raspberry-pi-you-cant-buy",
+    "source": "Hacker News",
+    "published": "2025-12-12T15:19:19+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46244922\">Comments</a>"
+  },
+  {
     "title": "SQLite JSON at full index speed using generated columns",
     "link": "https://www.dbpro.app/blog/sqlite-json-virtual-columns-indexing",
     "source": "Hacker News",
@@ -86,14 +102,6 @@
     "published": "2025-12-12T12:51:40+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46243655\">Comments</a>"
-  },
-  {
-    "title": "Building small Docker images faster",
-    "link": "https://sgt.hootr.club/blog/docker-protips/",
-    "source": "Hacker News",
-    "published": "2025-12-12T10:23:23+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46242700\">Comments</a>"
   },
   {
     "title": "Freeing a Xiaomi humidifier from the cloud",
@@ -128,6 +136,14 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46220411\">Comments</a>"
   },
   {
+    "title": "So What Should We Call This \u2013 A Grue Jay?",
+    "link": "https://cns.utexas.edu/news/research/so-what-should-we-call-grue-jay",
+    "source": "Hacker News",
+    "published": "2025-12-07T18:11:25+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46183688\">Comments</a>"
+  },
+  {
     "title": "Go is portable, until it isn't",
     "link": "https://simpleobservability.com/blog/go-portable-until-isnt",
     "source": "Hacker News",
@@ -136,27 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46180911\">Comments</a>"
   },
   {
-    "title": "C64 Maze Chomp.BAS",
-    "link": "https://basic-code.bearblog.dev/c64-maze-chompbas/",
+    "title": "Ferrari's Formula 1 Handovers: Handovers from Surgery to Intensive Care 2008;pdf",
+    "link": "https://gwern.net/doc/technology/2008-sower.pdf",
     "source": "Hacker News",
-    "published": "2025-12-07T11:01:07+00:00",
+    "published": "2025-12-06T19:21:50+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46180844\">Comments</a>"
-  },
-  {
-    "title": "4 billion if statements (2023)",
-    "link": "https://andreasjhkarlsson.github.io//jekyll/update/2023/12/27/4-billion-if-statements.html",
-    "source": "Hacker News",
-    "published": "2025-12-06T15:34:26+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46174114\">Comments</a>"
-  },
-  {
-    "title": "Fast Median Filter over arbitrary datatypes",
-    "link": "https://martianlantern.github.io/2025/09/median-filter-over-arbitrary-datatypes/",
-    "source": "Hacker News",
-    "published": "2025-12-06T15:08:09+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46173882\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46175888\">Comments</a>"
   }
 ]
