@@ -1,11 +1,19 @@
 [
   {
-    "title": "Apple has locked my Apple ID, and I have no recourse. A plea for help",
-    "link": "https://hey.paris/posts/appleid/",
+    "title": "Bookmark for CAD/2d/3D Useful links",
+    "link": "https://github.com/yogananda-muthaiah/SAP-CPQ/tree/main/Integrations/CAD-2d-3d",
     "source": "Hacker News",
-    "published": "2025-12-13T04:55:59+00:00",
+    "published": "2025-12-13T11:16:45+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46252114\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46253763\">Comments</a>"
+  },
+  {
+    "title": "Computer Animator and Amiga fanatic Dick Van Dyke turns 100",
+    "link": "https://news.ycombinator.com/item?id=46252993",
+    "source": "Hacker News",
+    "published": "2025-12-13T08:15:48+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46252993\">Comments</a>"
   },
   {
     "title": "1300 Still Images from the Animated Films of Hayao Miyazaki's Studio Ghibli (2023)",
@@ -72,14 +80,6 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46243655\">Comments</a>"
   },
   {
-    "title": "Koralm Railway",
-    "link": "https://infrastruktur.oebb.at/en/projects-for-austria/railway-lines/southern-line-vienna-villach/koralm-railway",
-    "source": "Hacker News",
-    "published": "2025-12-12T10:50:22+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46242871\">Comments</a>"
-  },
-  {
     "title": "Freeing a Xiaomi humidifier from the cloud",
     "link": "https://0l.de/blog/2025/11/xiaomi-humidifier/",
     "source": "Hacker News",
@@ -112,12 +112,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46210044\">Comments</a>"
   },
   {
-    "title": "Easel Now Has Stencils",
-    "link": "https://easel.games/blog/2025-dec-update",
+    "title": "Optical Context Compression Is Just (Bad) Autoencoding",
+    "link": "https://arxiv.org/abs/2512.03643",
     "source": "Hacker News",
-    "published": "2025-12-09T01:20:08+00:00",
+    "published": "2025-12-09T07:33:17+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46200157\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46202254\">Comments</a>"
   },
   {
     "title": "Gild Just One Lily",
@@ -128,12 +128,12 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46192212\">Comments</a>"
   },
   {
-    "title": "So What Should We Call This \u2013 A Grue Jay?",
-    "link": "https://cns.utexas.edu/news/research/so-what-should-we-call-grue-jay",
+    "title": "A 'toaster with a lens': The story behind the first handheld digital camera",
+    "link": "https://www.bbc.com/future/article/20251205-how-the-handheld-digital-camera-was-born",
     "source": "Hacker News",
-    "published": "2025-12-07T18:11:25+00:00",
+    "published": "2025-12-08T13:04:17+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46183688\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46191734\">Comments</a>"
   },
   {
     "title": "Go is portable, until it isn't",
