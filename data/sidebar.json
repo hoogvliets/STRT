@@ -1,27 +1,51 @@
 [
   {
-    "title": "AI is bringing old nuclear plants out of retirement",
-    "link": "https://www.wbur.org/hereandnow/2025/12/09/nuclear-power-ai",
+    "title": "Fast, Memory-Efficient Hash Table in Java: Borrowing the Best Ideas",
+    "link": "https://bluuewhale.github.io/posts/building-a-fast-and-memory-efficient-hash-table-in-java-by-borrowing-the-best-ideas/",
     "source": "Hacker News",
-    "published": "2025-12-13T13:08:36+00:00",
+    "published": "2025-12-13T17:41:32+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46254276\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46256325\">Comments</a>"
   },
   {
-    "title": "We built another object storage",
-    "link": "https://fractalbits.com/blog/why-we-built-another-object-storage/",
+    "title": "Analysis finds anytime electricity from solar available as battery costs plummet",
+    "link": "https://pv-magazine-usa.com/2025/12/12/analysis-finds-anytime-electricity-from-solar-available-as-battery-costs-plummet/",
     "source": "Hacker News",
-    "published": "2025-12-13T12:29:19+00:00",
+    "published": "2025-12-13T17:32:21+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46254087\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46256249\">Comments</a>"
   },
   {
-    "title": "Computer Animator and Amiga fanatic Dick Van Dyke turns 100",
-    "link": "https://news.ycombinator.com/item?id=46252993",
+    "title": "EasyPost (YC S13) Is Hiring",
+    "link": "https://www.easypost.com/careers",
     "source": "Hacker News",
-    "published": "2025-12-13T08:15:48+00:00",
+    "published": "2025-12-13T17:01:25+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46252993\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46256002\">Comments</a>"
+  },
+  {
+    "title": "I tried Gleam for Advent of Code",
+    "link": "https://blog.tymscar.com/posts/gleamaoc2025/",
+    "source": "Hacker News",
+    "published": "2025-12-13T17:00:14+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46255991\">Comments</a>"
+  },
+  {
+    "title": "Ask HN: How can I get better at using AI for programming?",
+    "link": "https://news.ycombinator.com/item?id=46255285",
+    "source": "Hacker News",
+    "published": "2025-12-13T15:37:16+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46255285\">Comments</a>"
+  },
+  {
+    "title": "Z8086: Rebuilding the 8086 from Original Microcode",
+    "link": "https://nand2mario.github.io/posts/2025/z8086/",
+    "source": "Hacker News",
+    "published": "2025-12-13T15:04:29+00:00",
+    "author": "Hacker News",
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46255007\">Comments</a>"
   },
   {
     "title": "Apple has locked my Apple ID, and I have no recourse. A plea for help",
@@ -30,22 +54,6 @@
     "published": "2025-12-13T04:55:59+00:00",
     "author": "Hacker News",
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46252114\">Comments</a>"
-  },
-  {
-    "title": "OpenAI are quietly adopting skills, now available in ChatGPT and Codex CLI",
-    "link": "https://simonwillison.net/2025/Dec/12/openai-skills/",
-    "source": "Hacker News",
-    "published": "2025-12-12T23:30:19+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46250332\">Comments</a>"
-  },
-  {
-    "title": "Show HN: Tiny VM sandbox in C with apps in Rust, C and Zig",
-    "link": "https://github.com/ringtailsoftware/uvm32",
-    "source": "Hacker News",
-    "published": "2025-12-12T22:02:14+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46249538\">Comments</a>"
   },
   {
     "title": "GNU Unifont",
@@ -64,52 +72,44 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46248644\">Comments</a>"
   },
   {
-    "title": "Rats Play DOOM",
-    "link": "https://ratsplaydoom.com/",
+    "title": "What is the nicest thing a stranger has ever done for you?",
+    "link": "https://louplummer.lol/nice-stranger/",
     "source": "Hacker News",
-    "published": "2025-12-12T20:15:58+00:00",
+    "published": "2025-12-11T19:28:40+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46248323\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46236001\">Comments</a>"
   },
   {
-    "title": "Sick of smart TVs? Here are your best options",
-    "link": "https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/",
+    "title": "Useful patterns for building HTML tools",
+    "link": "https://simonwillison.net/2025/Dec/10/html-tools/",
     "source": "Hacker News",
-    "published": "2025-12-12T12:51:40+00:00",
+    "published": "2025-12-10T21:08:41+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46243655\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46223882\">Comments</a>"
   },
   {
-    "title": "Freeing a Xiaomi humidifier from the cloud",
-    "link": "https://0l.de/blog/2025/11/xiaomi-humidifier/",
+    "title": "Researchers seeking better measures of cognitive fatigue",
+    "link": "https://www.nature.com/articles/d41586-025-03974-w",
     "source": "Hacker News",
-    "published": "2025-12-12T06:17:28+00:00",
+    "published": "2025-12-10T19:13:49+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46241368\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46222162\">Comments</a>"
   },
   {
-    "title": "Show HN: I made a spreadsheet where formulas also update backwards",
-    "link": "https://victorpoughon.github.io/bidicalc/",
+    "title": "Go Proposal: Secret Mode",
+    "link": "https://antonz.org/accepted/runtime-secret/",
     "source": "Hacker News",
-    "published": "2025-12-11T18:00:55+00:00",
+    "published": "2025-12-09T21:10:52+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46234734\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46210705\">Comments</a>"
   },
   {
-    "title": "Beautiful Abelian Sandpiles",
-    "link": "https://eavan.blog/posts/beautiful-sandpiles.html",
+    "title": "Indexing 100M vectors in 20 minutes on PostgreSQL with 12GB RAM",
+    "link": "https://blog.vectorchord.ai/how-we-made-100m-vector-indexing-in-20-minutes-possible-on-postgresql",
     "source": "Hacker News",
-    "published": "2025-12-09T20:16:15+00:00",
+    "published": "2025-12-08T17:30:15+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46210044\">Comments</a>"
-  },
-  {
-    "title": "Obscuring P2P Nodes with Dandelion",
-    "link": "https://www.johndcook.com/blog/2025/12/08/dandelion/",
-    "source": "Hacker News",
-    "published": "2025-12-08T16:27:29+00:00",
-    "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46194245\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46195068\">Comments</a>"
   },
   {
     "title": "How exchanges turn order books into distributed logs",
@@ -152,11 +152,11 @@
     "summary": "<a href=\"https://news.ycombinator.com/item?id=46176592\">Comments</a>"
   },
   {
-    "title": "Formula One Handovers and Handovers From Surgery to Intensive Care (2008) [pdf]",
-    "link": "https://gwern.net/doc/technology/2008-sower.pdf",
+    "title": "Cryptids",
+    "link": "https://wiki.bbchallenge.org/wiki/Cryptids",
     "source": "Hacker News",
-    "published": "2025-12-06T19:21:50+00:00",
+    "published": "2025-12-06T11:48:45+00:00",
     "author": "Hacker News",
-    "summary": "<a href=\"https://news.ycombinator.com/item?id=46175888\">Comments</a>"
+    "summary": "<a href=\"https://news.ycombinator.com/item?id=46172586\">Comments</a>"
   }
 ]
